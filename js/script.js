@@ -135,4 +135,5 @@
 
     $container.removeClass('mobile-nav-on');
   });
+  firework(<options>);
 })(jQuery);
