@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>换主题啦！</title>
+      <link href="/2024/10/07/%E6%8D%A2%E4%B8%BB%E9%A2%98%E5%95%A6%EF%BC%81/"/>
+      <url>/2024/10/07/%E6%8D%A2%E4%B8%BB%E9%A2%98%E5%95%A6%EF%BC%81/</url>
+      
+        <content type="html"><![CDATA[<p>之前用的是可爱的小猫Meow，其实还是挺喜欢的。主题的作者平时会写小说，是个特可爱的女生，所以主题很适合写作，平时码码字（当时冲着颜值和给oc写设定用的Meow）。巨无敌可爱小猫！！！已经对这个小橘猫主题有感情了呜呜呜。</p><p>之前是默认主题就经常看到butterfly主题，但是一直没用（很喜欢在hexo主题里乱逛）。现在换成butterfly，主要是为了想弄一个留言板，网上很多留言板教程都是Next和butterfly，而且现在挺想学着魔改主题的，butterfly用的人挺多，可以跟着试试魔改，应该比原来的主题好操作一点。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 赛博小屋装修手册 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>苍穹外卖day12成果</title>
+      <link href="/2024/10/02/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day12%E6%88%90%E6%9E%9C/"/>
+      <url>/2024/10/02/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day12%E6%88%90%E6%9E%9C/</url>
+      
+        <content type="html"><![CDATA[<p>完结撒花！！！</p><span id="more"></span><ul><li><p><input checked="" disabled="" type="checkbox"> 工作台</p></li><li><p><input checked="" disabled="" type="checkbox"> 导出运营数据Excel报表</p></li></ul><p>嘿嘿嘿完结撒花！！！</p><p>说真的我没有想到我能坚持学习这么久，到现在项目已经大致完成。</p><p>刚开始确实手忙脚乱好几次想要放弃，总是被各种配置或者报错打倒。那个Nginx就弄了半天，结果是因为80端口被占，只能换成8088。那个初始项目工程的资料也弄了半天，当时一度以为自己根本做不了这个项目。刚开始的前后端连桥和接口文档也弄了很久……哈哈哈哈哈哈还好没有放弃，当时老是觉得弄不出来心里想算了吧。看评论什么微信支付弄不了，什么阿里云OSS要花钱。但是还好去尝试了，那些我以为会卡住的地方都过来了，我现在自己会找报错，会测试，已经不像一开始一样找不出错误只能去百度，或者啥也找不到感到挫败想要放弃。</p><p>我还是挺棒的哈哈哈哈，比我想象的进度要快多了。之前也看了整套的java课程，但是比较倦怠，所以愣是看了一年半多（将近两年（也没有那么久哈哈））。这学期感觉自己很棒，现在离开学已经过了一个月，我记得大概在刚开学一周我把假期突发奇想的烂尾项目做出来了（其实只是简单的数据库查看和增加而已，可我当时真的不太会，开学发现问题出在请求路径写错了。。。）这次苍穹外卖项目历时半个月，啊哈哈哈哈哈真的好棒啊我！！！</p><p>抢出来更多时间去做别的项目和想做的事了！</p><p>（只剩下后面几集前端的知识点啦~~~）</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>苍穹外卖day10&amp;11成果</title>
+      <link href="/2024/10/01/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day10-11%E6%88%90%E6%9E%9C/"/>
+      <url>/2024/10/01/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day10-11%E6%88%90%E6%9E%9C/</url>
+      
+        <content type="html"><![CDATA[<p>加油！！💪</p><span id="more"></span><p>Spring Task</p><ul><li><input checked="" disabled="" type="checkbox"> ​订单状态定时处理</li></ul><p>WebSocket</p><ul><li><input disabled="" type="checkbox"> ​来单提醒</li><li><input disabled="" type="checkbox"> ​客户催单</li></ul><p>Apache Echarts</p><ul><li><input checked="" disabled="" type="checkbox"> ​营业额统计</li><li><input checked="" disabled="" type="checkbox"> ​用户统计</li><li><input checked="" disabled="" type="checkbox"> ​订单统计</li><li><input checked="" disabled="" type="checkbox"> ​销量排名统计</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>奇妙想法</title>
+      <link href="/2024/09/30/%E5%A5%87%E5%A6%99%E6%83%B3%E6%B3%95/"/>
+      <url>/2024/09/30/%E5%A5%87%E5%A6%99%E6%83%B3%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<p>idea~</p><span id="more"></span><ul><li><input disabled="" type="checkbox"> 魔改一个hexo主题&#x2F;自创博客主题（我是菜狗八成不太行，难度五星）</li><li><input disabled="" type="checkbox"> 猫的树四部曲（难度一星）</li><li><input disabled="" type="checkbox"> 弹幕流星雨（我学成了能嵌到赛博小屋的话，难度五星）</li><li><input disabled="" type="checkbox"> 装修我的“赛博小屋”（现在的赛博小屋有点简陋，难度四星）</li><li><input disabled="" type="checkbox"> 养成刷力扣的习惯（难度一星）</li><li><input disabled="" type="checkbox"> 学习Java基础、数据结构、算法（难度一星）</li><li><input disabled="" type="checkbox"> 要成为轮滑高手！！！（难度三星）</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> target! </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>苍穹外卖day08&amp;09成果</title>
+      <link href="/2024/09/29/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day08-09%E6%88%90%E6%9E%9C/"/>
+      <url>/2024/09/29/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day08-09%E6%88%90%E6%9E%9C/</url>
+      
+        <content type="html"><![CDATA[<p>power!!!</p><span id="more"></span><ul><li><input checked="" disabled="" type="checkbox"> 模拟微信支付（因为不是企业，所以没法完成支付功能只能模拟了）</li></ul><p>用户端：</p><ul><li><input checked="" disabled="" type="checkbox"> ​导入地址簿</li><li><input checked="" disabled="" type="checkbox"> ​下单</li><li><input checked="" disabled="" type="checkbox"> ​查询历史订单</li><li><input checked="" disabled="" type="checkbox"> ​查询订单详情</li><li><input checked="" disabled="" type="checkbox"> ​取消订单</li><li><input checked="" disabled="" type="checkbox"> ​再来一单</li></ul><p>管理端</p><ul><li><input checked="" disabled="" type="checkbox"> ​订单搜索</li><li><input checked="" disabled="" type="checkbox"> ​订单状态数量统计</li><li><input checked="" disabled="" type="checkbox"> ​查询订单详情</li><li><input checked="" disabled="" type="checkbox"> ​接单</li><li><input checked="" disabled="" type="checkbox"> ​拒单</li><li><input checked="" disabled="" type="checkbox"> ​取消订单</li><li><input checked="" disabled="" type="checkbox"> ​派送订单</li><li><input checked="" disabled="" type="checkbox"> ​完成订单</li><li><input disabled="" type="checkbox"> ​校验收货地址是否超出配送范围（用到百度服务，接入百度地图，跳过）</li></ul><p>参考博客：<a href="https://danchar.top/posts/d2fdc735">苍穹外卖-day09 | Danchar’s Blog</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>梦中梦中梦</title>
+      <link href="/2024/09/27/%E6%A2%A6%E4%B8%AD%E6%A2%A6%E4%B8%AD%E6%A2%A6/"/>
+      <url>/2024/09/27/%E6%A2%A6%E4%B8%AD%E6%A2%A6%E4%B8%AD%E6%A2%A6/</url>
+      
+        <content type="html"><![CDATA[<p>刚刚刷到一个帖子，内容是关于离奇的事。我看到一个网友的评论，突然想起来高中那一年多的鬼压床经历。<br>那个时候估计是换了宿舍和床位不久后，刚刚搬到五楼。不知道什么时候起，我开始很难正常的睡觉。每天晚上的梦的题材大致一样，被紧紧束缚，被人追赶然后被抓住，有人总是像个变态一样追着我，那些梦总是恐怖有时略带血腥的，让人不舒服的，难以挣扎的。<br>我记得有一次梦是杀人。我疯狂的逃，最后在一个旋转的狭小的楼梯（像似灯塔里的楼梯）被一个恐怖的人堵住，一个蒙面的全身黑衣的男人，忘记了他是谁，我只记得当时我很害怕。<br>我记得有很多次梦是被魇住。很快睡着，然后睁眼看见了屋顶的白墙，有时这样的梦里会有奇怪的声音，比如异常激烈的鼓声，比如很多很多人一起祈祷时嘴里发出的声音。有时会有一个人爬上我的床，然后她的脸从正常变得狰狞，变成一副像鬼一样的脸（于是我有一段时间很害怕一个室友，因为梦到的是她爬上我的床）。基本上所有这种梦，我动不了，我可以清晰的看见我的手，胳膊，我的脚，我的腿，但是控制不了我的身体，我动也动不了，无论我怎么喊寝室其他人的名字，她们都听不见，因为我好像只是在梦里，并没有发出声音，可是我清晰的意思到，我已经醒了！这是一种很恐怖的感觉。我的脑子先于我的身体醒了。<br>那段时间我很害怕睡觉，因为睡觉就是一种煎熬。我把上床的时间延到十二点左右（因为寝室里其他人在下面，我睡不着），我会等到和寝室里最晚睡的人一起上床，然后去等待噩梦的到来。睡意强烈的时候是最害怕的，因为梦就要来了，果不其然，眼睛闭上恐怖的感觉就会找上门来，然后奋力挣扎，努力让自己醒了来，努力半天好不容易醒了又困得不行，刚刚从梦里出来又进到了梦里。然后在若干次的忍不住睡着和拼命惊醒之间来回折腾，熬到第二天。<br>这样的梦不仅在每个晚上困扰我，午睡或者课间休息的十分钟甚至也会不自觉的魇。我记得很多次，睡着之后，却意外的看到周围经过我的同学，但是我动不了，我清醒的好像我根本没有睡，只是睁着眼看着她们。可我确实在睡，而且是被困住了，因为我的身体没醒。<br>尽管尝试了各种方法，我查各种控梦的视频，在梦里高唱共产主义接班人，甚至念叨南无阿弥陀佛，但都是有点效果但不多。两年前高考的晚上，我也做了这些梦。<br>现在已经两年没有做过这样的梦了。别说是梦中梦或是鬼压床，连一个普普通通的梦也很少做了。<br>当我写了这么多，说明这些事已经离我很远了，甚至基本上不会想起来了。<br>写于2024年9月27日，国庆假期到来的前一晚。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>消失的图片</title>
+      <link href="/2024/09/27/%E6%B6%88%E5%A4%B1%E7%9A%84%E5%9B%BE%E7%89%87/"/>
+      <url>/2024/09/27/%E6%B6%88%E5%A4%B1%E7%9A%84%E5%9B%BE%E7%89%87/</url>
+      
+        <content type="html"><![CDATA[<p>最近发现在免费图床上传的图片，现在全都不存在了。</p><span id="more"></span><p>突然意识到不一样把那么多照片传到图床，虽然显示效果比放在img文件夹里面好，加载速度也比较快，一张质量不错的照片可比文字占的空间大多了…但是现在图片都没法显示了（倒不是什么重要图片，不过还是会很可惜）。</p><p>所以有些东西最好还是不要放在免费图床上，感觉没什么安全感，说没就没。看来还是要多打点字，不能图省事净放图片。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>定点数运算</title>
+      <link href="/2024/09/27/%E5%AE%9A%E7%82%B9%E6%95%B0%E8%BF%90%E7%AE%97/"/>
+      <url>/2024/09/27/%E5%AE%9A%E7%82%B9%E6%95%B0%E8%BF%90%E7%AE%97/</url>
+      
+        <content type="html"><![CDATA[<p>笔记</p><span id="more"></span><p><strong>补码加减法</strong></p><p><strong>以及判断溢出方法</strong></p><p><img src="https://i.hd-r.cn/3c090000e4b1cc257f9ba191b6fcb83e.jpg"></p><p><strong>原码乘法</strong></p><p>下图是手算乘法</p><p><img src="https://i.hd-r.cn/bef79488d7d95f2c90fecf3103c09567.jpg"></p><p><strong>下图是原码乘法</strong></p><p><img src="https://i.hd-r.cn/7959850c80169b084cc968240317f002.jpg"></p><p>因为[Y]原&#x3D;1.10111，所以Y0从低位开取，分别是1，1，1，0，1。（或者说C里面存的原来渐渐被挤掉的[Y]原的低位）</p><p>如果Y0&#x3D;0，不用加[X]原，因为这一位0与[X]原一定等于0，0*任何数&#x3D;0。</p><p><strong>补码乘法</strong></p><p><img src="https://i.hd-r.cn/5e580d2ff9de5228349ecf3e4336ac8e.jpg"></p><p>乘数 y 首先在末尾添加一个辅助位 0 ，每次讨论都是取 y 的最后<strong>两位，</strong>但每次移动仅移动<strong>一位</strong>。</p><p>判断 y 的最后两位是规则如下：</p><ul><li><strong>00</strong> 或者 <strong>11</strong> 时，直接<strong>右移</strong>一位；</li><li><strong>01</strong> 时，先加 <strong>x</strong> 的补，然后右移一位；</li><li><strong>10</strong> 时，先加 <strong>-x</strong> 的补，然后右移一位。</li></ul><p><strong>参考资料</strong></p><p>[<a href="https://www.cnblogs.com/LeoCathyFelix/p/11022465.html">计算机组成原理] Booth算法 —— 补码一位乘法 - 中年二班 - 博客园 (cnblogs.com)</a></p><p><strong>关于双符号位</strong></p><p>1.‌<strong>溢出检测</strong>‌：双符号位能够容易地检查加、减运算中的溢出情况。</p><p>‌2.<strong>符号表示</strong>‌：双符号位还用于表示数值的符号。例如，00表示正号，11表示负号。</p><p>3.<strong>上溢与下溢的判别</strong>‌：上溢发生在两个同符号的数相加（或相异符号数相减）时，运算结果超出所能表示的数据范围。</p><p>这里题目[X]原&#x3D;1.01001，负数从原来的1.变成11.。</p><p><img src="https://i.hd-r.cn/a42618cf0128419c7652a172ecc959d3.jpg"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 计组 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>苍穹外卖day07成果</title>
+      <link href="/2024/09/26/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day07%E6%88%90%E6%9E%9C/"/>
+      <url>/2024/09/26/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day07%E6%88%90%E6%9E%9C/</url>
+      
+        <content type="html"><![CDATA[<ul><li><p><input checked="" disabled="" type="checkbox"> 利用Redis缓存数据</p></li><li><p><input checked="" disabled="" type="checkbox"> 购物车相关接口</p></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>苍穹外卖day06成果</title>
+      <link href="/2024/09/25/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day06%E6%88%90%E6%9E%9C/"/>
+      <url>/2024/09/25/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day06%E6%88%90%E6%9E%9C/</url>
+      
+        <content type="html"><![CDATA[<ul><li><p><input checked="" disabled="" type="checkbox"> 尝试微信小程序开发</p></li><li><p><input checked="" disabled="" type="checkbox"> 微信登陆功能</p></li><li><p><input checked="" disabled="" type="checkbox"> 商品浏览功能代码</p></li></ul><p><img src="https://i.hd-r.cn/6a418e5fa1ce5401a24260c04acaabf8.png"></p><span id="more"></span><p>（因为没有money使用阿里云oss，自己改成了本地存储，所以图片没法显示）</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>奇怪的一天</title>
+      <link href="/2024/09/22/%E5%A5%87%E6%80%AA%E7%9A%84%E4%B8%80%E5%A4%A9/"/>
+      <url>/2024/09/22/%E5%A5%87%E6%80%AA%E7%9A%84%E4%B8%80%E5%A4%A9/</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="42993d1b5be96af8a243ed1943923e449b21a2b783abb8262bef2987a40acc90">ee949b5fef51d49cf0d42a3a262d41125d9132cb92e8dad36463022cfcf08983485c0c6ae633b06d8c107942dbc1c1f066de58f93cd54ad88032d25b719c6574bf539718680ff02a89aa64a7b92f31e95034e048ce234cf5ddab2c211a656d402d3d248b5c364c65ef1e14f6d528bd128683cea67e032c3aa7a99d46ebc27c58ebde6280a25d6fa10be5099bb16c03ea3c52e483c3c110ba7c42f63c8fb2932c3fdf6f8e0ced56b4ff18d76dc3f53c640504d4b139a2c1006afe7f2213082aaef0727e450dbfd128c7d4f5712f6613e71770b00c266d5722a21278e413b9c4f653cefc1aea6f323c87e3580e716fb9f8d2a8a86b5cd7c536cb59321a3f3dc2a95fc23d8e98f21a0eecffffef4187c380faa7ab9508bd8290017a19f40b5954d1944c6946457dbfcba011c51fa7a6ce65fc3b1acd506ee0f95599dffb8be2e47c624715875a43c3c015a2726e9a1fafe94ceee6711a3c922d386b2034b502b1f7796dd650e8ef4f43904f715b8118cb2070e5ac6db83e57b3598aef949087dc8b032c493b3114488e97bbcccfb2234a812081b39a84d6fd8064bf3e610a5a3ead32be38a5e353b3498228d380fb28ff83f1c799368528f301be1153a49e87ef39d393af33a2578c94f870925a2d0c03360e9ee328c0469b05f4b9349e4383b349b8ac19868a0304f87571142968e34df10694f6ad99769a3bb299503ec76f83b83811c94a1b574b1b4d9bac7b59768424ea20e2497cd01eb55abfb53bba841d2bead2fe1da6b8fe23193888930019bc4bc51dd03376be95cbab67dacb9706fc187fe343ce37145e99669a0e86da436640462dec29895f7ce0bb7367cb0f597b783e853084c2ae6dbe83fb4315146b35ceb7150110144c8ecc0a0cdcd42b08809800efce3f0d18eb91c91dd07efe950843677eeacdf620b3f0cc5510b809f6f24ce42bf0d0edcd402314afd24827798963a1652e9e9eec70125a44733a12951008aafd8b47b38ebfd50c8383717f6214daaef32c26c7213a6e6cf724178bfea14949722328421f65fe4e4b84f72b46014d0dd9185e52375cd770a5e8f833855e9e2ae4c8ea0b7fad290e70bfe0ea88f4c617a57b50b71d5c64d193ac024249b67249fb49ffdd73d7fe2729b1a4e20ca13be087be77e5812852d6642fec15b6c5a67deee6e9980b19d4c1b7659bcf57c9b90cb2a9141ed7feb9ddd5c8e4167e8b79ff193f79d35c927fb7e39fa8a2589a9facd08e8648029512064024bf7a7985763a0e784f37ae32e751b9c68b31914cf04533f530a816c5adc69c8e3a02908bd22cc653a7f195f4d2d86b8f7d2dacda744394548ae501b55d3f35d616c984a3f0a47707b0e7941d793e1f59ef56eece9590bb66be9fadc9a497372cc3571675063c626c6c002b65267b24a7cc48a690e6f183ef105038c486ea931fd4657f74824d675e04397f9e16801ee3c83ff167241c9e4282975336afab74f9008a4f537b0d3cf9a921b012dbbae0d01779210032f04cba29dbf82571a38b77ea0459cc30b45e03b9fee485ce4f88ba009a1514ee591623f338c161a51c4d881d9b3f29be486f3a070a5eee3de23bcb80426fc8a54b1752d780588422014e7df3ba37aaed929291af8674e257c6eeb81dca4eff0104a127889225a64b7c181e2067787c8930b37a3c1ff809c12edd1da8cb1b7d5f6583ea8f545528c84e9d1d70c242d038286882735153a46ee03608a63cd55c6bbc3a2a11d58eaa244c2abd25b6e788d30b419350753141ac1d80bac51bf711c8c8645801efd5804addf23ef6c253fd7e26129ca25298abfe5f997192700e98578de5507577701e221f9e58c3632bab0ace090865f6aeea27cb884aebd5dc972a21452a069fefc75c1963a4575a35e3fdf42f08b076d2e3a2a64073c57ed7fdd95830193eec21f977e68f05bf90a20826d254ba544f2bc49cce75ee4a96fee9795a6212ce077e691e13f3cfcda48b3d85c8af1f1578caca1e99522d4d1d7b5a99f37d4edd7b8270829f56798e7a218b2584235da1571e03c02407b8a067fc40b508863d6cb05993ddfb8376cef91f765f4db1b6a51e58730b82c0720ee6a4f95badc87a973819e75929393223356370f3bc096ad61e8e31969eb7bf3688647dd4c07cfae8cd9d20ca26049b27bf8c76950fb1a6bfff46b8f9cc62f673768ea9641f5d67d85f6c32f801379e46c56dc5e2d1519ddaead117d7eefc7eaab4a251a9734e361d56d9a0371d26554f6b7eccf4</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">你应该知道密码吧</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> mood </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>苍穹外卖day05成果</title>
+      <link href="/2024/09/22/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day05%E6%88%90%E6%9E%9C/"/>
+      <url>/2024/09/22/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day05%E6%88%90%E6%9E%9C/</url>
+      
+        <content type="html"><![CDATA[<ul><li><p><input checked="" disabled="" type="checkbox"> Redis基本操作</p></li><li><p><input checked="" disabled="" type="checkbox"> 店铺营业状态设置</p></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>苍穹外卖day04成果</title>
+      <link href="/2024/09/22/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day04%E6%88%90%E6%9E%9C/"/>
+      <url>/2024/09/22/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day04%E6%88%90%E6%9E%9C/</url>
+      
+        <content type="html"><![CDATA[<ul><li><input checked="" disabled="" type="checkbox"> 套餐管理相关接口</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>苍穹外卖day03成果</title>
+      <link href="/2024/09/22/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day03%E6%88%90%E6%9E%9C/"/>
+      <url>/2024/09/22/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day03%E6%88%90%E6%9E%9C/</url>
+      
+        <content type="html"><![CDATA[<ul><li><input checked="" disabled="" type="checkbox"> 菜品管理相关接口</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于张爱玲</title>
+      <link href="/2024/09/20/%E5%85%B3%E4%BA%8E%E5%BC%A0%E7%88%B1%E7%8E%B2/"/>
+      <url>/2024/09/20/%E5%85%B3%E4%BA%8E%E5%BC%A0%E7%88%B1%E7%8E%B2/</url>
+      
+        <content type="html"><![CDATA[<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=292375358&bvid=BV1qf4y1375c&cid=391009639&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe><span id="more"></span><p>突然很想看看张爱玲笔下的故事，这样孤独的、遗世独立的、有个性的人写出的文字是是什么样的。生于那个时代，她经历过那么多。之前读过关于她的传记，那个作者写的也很好，很细腻，但我也只看到她与初恋相识的部分，或许只有读过张爱玲的书，才能真正的感受她。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>数据校验码</title>
+      <link href="/2024/09/20/%E6%95%B0%E6%8D%AE%E6%A0%A1%E9%AA%8C%E7%A0%81/"/>
+      <url>/2024/09/20/%E6%95%B0%E6%8D%AE%E6%A0%A1%E9%AA%8C%E7%A0%81/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://i.hd-r.cn/89c8f95e518ef4dbd0a3a65c55db69b7.jpg"></p><span id="more"></span><p><strong>概念</strong></p><p>数据在计算机内部进行计算、存取和传送过程中，由于元器件故障或噪音干扰等原因会出现差错。</p><p>冗余校验思想：除原数据信息外，还增加若干位编码，这些新增的代码称为校验位。</p><p>两个合法代码对应位上编码不同的位数称为码距，又称<em>海明距离</em>。</p><p>任意两个码字的海明距离的最小值称为该编码集的海明距离。</p><table><thead><tr><th>检查纠错位数</th><th>码距</th></tr></thead><tbody><tr><td>检e位</td><td>d&gt;&#x3D;e+1</td></tr><tr><td>纠e位</td><td>d&gt;&#x3D;2e+1</td></tr><tr><td>纠e1位、检e2位</td><td>d&gt;&#x3D;2*e1+e2+1</td></tr></tbody></table><p><strong>奇偶校验码</strong></p><p>通过增加冗余位使得码字中1的个数恒为奇数或偶数的编码方法，是一种检错码。</p><p>码距&#x3D;2</p><p><strong>海明校验码</strong></p><p>将有效信息按某种规律分成若干组，每组安排一个校验位，做奇偶测试，就能提供多位检错信息，以指出最大可能是哪位出错，从而将其纠正。实质上，海明校验是一种多重校验。</p><blockquote><p>规则：</p><ol><li>如果故障字各位都是0，无故障。</li><li>如果故障字有且仅有一位1，校验位有一位错了，不用纠正。</li><li>如果故障字有多位1，数据位出错，由故障字数值确定出错位，然后取反就可以纠错。</li></ol></blockquote><p>下图为校验位数的确定</p><p><img src="https://i.hd-r.cn/52ac41f44b0702e4416b74dc5ee301e3.jpg"></p><p>下图为分组方式（n&#x3D;8、k&#x3D;4）</p><p><img src="https://i.hd-r.cn/9a633c65471cf16ddf4671bbb78c1996.jpg"></p><p>由表可知，每个数据位至少要参与两组奇偶校验码的生成。如M5与第一组（P1）和第四组（P4）有关。</p><p><strong>循环冗余校验码</strong>（CRC码）</p><p>M(x)为n位二进制数据，将M(x)左移k位，用约定的生成多项式G(x)相除（G(x)是一个k+1位的二进制数），相除得到的k位余数就是校验位。</p><p><strong>检验</strong>：如果接收到的数据和校验码位用同样的生成多项式G(x)相除，若正好除尽，没有错误；除不尽，有错误。</p><p><strong>二进制的计算</strong></p><p><img src="https://i.hd-r.cn/06343f361f463752ab0ac5230ea78ba2.jpg"></p><p><strong>求CRC码</strong></p><p><img src="https://i.hd-r.cn/87a193f2b6cb0b8734d7dfa6792b74b6.jpg"></p><p><strong>CRC码检错例题</strong></p><p><img src="https://i.hd-r.cn/dd452324958b5899b23020895a823bfe.jpg"></p><p><strong>CRC码出错模式</strong>（n&#x3D;11,k&#x3D;4为例）余数右加0再除多项式二进制取余数</p><p><img src="https://i.hd-r.cn/c68ff9071348ba2b2e58ca824e5cc9cb.jpg"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 计组 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>加法器</title>
+      <link href="/2024/09/20/%E5%8A%A0%E6%B3%95%E5%99%A8/"/>
+      <url>/2024/09/20/%E5%8A%A0%E6%B3%95%E5%99%A8/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://i.hd-r.cn/89c8f95e518ef4dbd0a3a65c55db69b7.jpg"></p><span id="more"></span><p>笔记</p><p><img src="https://i.hd-r.cn/4ad857f67bda458f02600ba17e82d8ef.jpg"></p><p><img src="https://i.hd-r.cn/b1cd02f517bac0324c909e6657c0d272.jpg"></p><p>下图为1位全加器逻辑电路图</p><p><img src="https://i.hd-r.cn/937f6a173f51951f9c934687b22e816e.jpg"></p><p>下图为n位串行进位加法器</p><p><img src="https://i.hd-r.cn/f744692de62e41c20927426330ee25de.jpg"></p><p>下图为并行进位全加器FA1~FA4的逻辑电路图</p><p><img src="https://i.hd-r.cn/15e76cd01601886e5813cfdedeeedfaf.jpg"></p><p>总结</p><blockquote><p>串行进位加法器</p><p>并行进位加法器（两种）</p><ol><li>​组内并行组间串行</li><li>​组内并行组间并行</li></ol></blockquote><p><strong>延迟时间：组内并行组间并行&lt;组内并行组间串行&lt;串行进位加法器</strong></p><p><strong>复杂程度：组内并行组间并行&gt;组内并行组间串行&gt;串行进位加法器</strong></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 计组 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>十二星座篇</title>
+      <link href="/2024/09/19/%E5%8D%81%E4%BA%8C%E6%98%9F%E5%BA%A7%E7%AF%87/"/>
+      <url>/2024/09/19/%E5%8D%81%E4%BA%8C%E6%98%9F%E5%BA%A7%E7%AF%87/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://i.hd-r.cn/df5fdc8f13bcc176d78858fd16e0086e.png"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> oc </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>一年前的信？</title>
+      <link href="/2024/09/19/%E4%B8%80%E5%B9%B4%E5%89%8D%E7%9A%84%E4%BF%A1%EF%BC%9F/"/>
+      <url>/2024/09/19/%E4%B8%80%E5%B9%B4%E5%89%8D%E7%9A%84%E4%BF%A1%EF%BC%9F/</url>
+      
+        <content type="html"><![CDATA[<p>来自2023年期末周。</p><span id="more"></span><h1 id="第1章-写给亲爱de桐的第一封信"><a href="#第1章-写给亲爱de桐的第一封信" class="headerlink" title="第1章 写给亲爱de桐的第一封信"></a>第1章 写给亲爱de桐的第一封信</h1><p>　　我将来一定会挣大钱！<br>　　今天的任务是把java考试题弄完。　　<br>　　用了两天时间终于弄完了35题。<br>　　刚刚又做了25道啊哈哈开心！</p><h1 id="第2章-写给亲爱de桐的第二封信"><a href="#第2章-写给亲爱de桐的第二封信" class="headerlink" title="第2章 写给亲爱de桐的第二封信"></a>第2章 写给亲爱de桐的第二封信</h1><p>　　2023&#x2F;12&#x2F;19<br>　　今天又熬夜了，以后别再熬了。<br>　　要继续弄java题，争取明天就整完。　　</p><h1 id="第3章-写给亲爱de桐的第三封信"><a href="#第3章-写给亲爱de桐的第三封信" class="headerlink" title="第3章 写给亲爱de桐的第三封信"></a>第3章 写给亲爱de桐的第三封信</h1><p>　　今天把java都弄完了。<br>　　让我来浅看一下考试。<br>　　<br>　　12.22 java<br>　　12.27 英语<br>　　1.2 数电和新思想<br>　　1.5 模电和数据库</p><h1 id="第4章-写给亲爱de桐的第四封信"><a href="#第4章-写给亲爱de桐的第四封信" class="headerlink" title="第4章 写给亲爱de桐的第四封信"></a>第4章 写给亲爱de桐的第四封信</h1><p>今天是2023年12月30日，还有一天就是新的一年了。<br>　　加油，争取复习完模电。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>利用github搭建图床</title>
+      <link href="/2024/09/19/%E5%88%A9%E7%94%A8github%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/"/>
+      <url>/2024/09/19/%E5%88%A9%E7%94%A8github%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/</url>
+      
+        <content type="html"><![CDATA[<p>又有了一个想法，做一个属于自己的图床！根据百度，这个想法是可行的。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>苍穹外卖day02成果</title>
+      <link href="/2024/09/18/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day02%E6%88%90%E6%9E%9C/"/>
+      <url>/2024/09/18/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day02%E6%88%90%E6%9E%9C/</url>
+      
+        <content type="html"><![CDATA[<p>关于Category的接口都敲出来了，好有成就感！！！</p><p><img src="https://i.hd-r.cn/7df3ff0fba8f5ca0d2c6031ec9b994a2.png"></p><span id="more"></span><ul><li>CategoryController</li></ul><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.sky.controller.admin;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.sky.dto.CategoryDTO;</span><br><span class="line"><span class="keyword">import</span> com.sky.dto.CategoryPageQueryDTO;</span><br><span class="line"><span class="keyword">import</span> com.sky.entity.Category;</span><br><span class="line"><span class="keyword">import</span> com.sky.result.PageResult;</span><br><span class="line"><span class="keyword">import</span> com.sky.result.Result;</span><br><span class="line"><span class="keyword">import</span> com.sky.service.CategoryService;</span><br><span class="line"><span class="keyword">import</span> io.swagger.annotations.Api;</span><br><span class="line"><span class="keyword">import</span> io.swagger.annotations.ApiOperation;</span><br><span class="line"><span class="keyword">import</span> lombok.extern.slf4j.Slf4j;</span><br><span class="line"><span class="keyword">import</span> org.springframework.beans.factory.annotation.Autowired;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 分类管理</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"></span><br><span class="line"><span class="meta">@RestController</span><span class="comment">//@RestController 是 @Controller 和 @ResponseBody 的组合注解，用于创建 RESTful 风格的 API。</span></span><br><span class="line"><span class="meta">@RequestMapping(&quot;/admin/category&quot;)</span><span class="comment">//用于类上，表示类中的所有响应请求的方法都是以该地址作为父路径。</span></span><br><span class="line"><span class="meta">@Slf4j</span><span class="comment">//日志</span></span><br><span class="line"><span class="meta">@Api(tags = &quot;分类相关接口&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">CategoryController</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Autowired</span><span class="comment">//注入依赖</span></span><br><span class="line">    <span class="keyword">private</span> CategoryService categoryService;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 新增分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> categoryDTO</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="meta">@PostMapping</span></span><br><span class="line">    <span class="meta">@ApiOperation(&quot;新增分类&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> Result&lt;String&gt; <span class="title function_">save</span><span class="params">(<span class="meta">@RequestBody</span> CategoryDTO categoryDTO)</span>&#123;</span><br><span class="line">        categoryService.save(categoryDTO);</span><br><span class="line">        <span class="keyword">return</span> Result.success();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 分类分页查询</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> categoryPageQueryDTO</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="meta">@GetMapping(&quot;/page&quot;)</span></span><br><span class="line">    <span class="meta">@ApiOperation(&quot;分类分页查询&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> Result&lt;PageResult&gt; <span class="title function_">page</span><span class="params">(CategoryPageQueryDTO categoryPageQueryDTO)</span>&#123;</span><br><span class="line">        PageResult pageResult=categoryService.pageQuery(categoryPageQueryDTO);</span><br><span class="line">        <span class="keyword">return</span> Result.success(pageResult);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 删除分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> id</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="meta">@DeleteMapping</span></span><br><span class="line">    <span class="meta">@ApiOperation(&quot;删除分类&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> Result&lt;String&gt; <span class="title function_">deleteById</span><span class="params">(Long id)</span>&#123;</span><br><span class="line">        categoryService.deleteById(id);</span><br><span class="line">        <span class="keyword">return</span> Result.success();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@PutMapping</span></span><br><span class="line">    <span class="meta">@ApiOperation(&quot;修改分类&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> Result&lt;String&gt; <span class="title function_">update</span><span class="params">(<span class="meta">@RequestBody</span> CategoryDTO categoryDTO)</span>&#123;</span><br><span class="line">        categoryService.update(categoryDTO);</span><br><span class="line">        <span class="keyword">return</span> Result.success();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 启用、禁用分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> status</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> id</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="meta">@PostMapping(&quot;/status/&#123;status&#125;&quot;)</span></span><br><span class="line">    <span class="meta">@ApiOperation(&quot;启用禁用分类&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> Result&lt;String&gt; <span class="title function_">startOrStop</span><span class="params">(<span class="meta">@PathVariable(&quot;status&quot;)</span>Integer status,Long id)</span>&#123;</span><br><span class="line">        categoryService.startOrStop(status,id);</span><br><span class="line">        <span class="keyword">return</span> Result.success();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 根据类型查询分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> type</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="meta">@GetMapping(&quot;/list&quot;)</span></span><br><span class="line">    <span class="meta">@ApiOperation(&quot;根据类型查询分类&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> Result&lt;List&lt;Category&gt;&gt; <span class="title function_">list</span><span class="params">(Integer type)</span>&#123;</span><br><span class="line">        List&lt;Category&gt; list = categoryService.list(type);</span><br><span class="line">        <span class="keyword">return</span> Result.success(list);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li>CategoryMapper</li></ul><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.sky.mapper;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.github.pagehelper.Page;</span><br><span class="line"><span class="keyword">import</span> com.sky.dto.CategoryPageQueryDTO;</span><br><span class="line"><span class="keyword">import</span> com.sky.entity.Category;</span><br><span class="line"><span class="keyword">import</span> org.apache.ibatis.annotations.Delete;</span><br><span class="line"><span class="keyword">import</span> org.apache.ibatis.annotations.Insert;</span><br><span class="line"><span class="keyword">import</span> org.apache.ibatis.annotations.Mapper;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Mapper</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">CategoryMapper</span> &#123;</span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 插入数据</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> category</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="meta">@Insert(&quot;insert into sky_take_out.category(type, name, sort, status, create_time, update_time, create_user, update_user) &quot; +</span></span><br><span class="line"><span class="meta">            &quot;values &quot; +</span></span><br><span class="line"><span class="meta">            &quot;(#&#123;type&#125;,#&#123;name&#125;,#&#123;sort&#125;,#&#123;status&#125;,#&#123;createTime&#125;,#&#123;updateTime&#125;,#&#123;createUser&#125;,#&#123;updateUser&#125;)&quot;)</span></span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">insert</span><span class="params">(Category category)</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 分页查询</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> categoryPageQueryDTO</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    Page&lt;Category&gt; <span class="title function_">pageQuery</span><span class="params">(CategoryPageQueryDTO categoryPageQueryDTO)</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 根据菜品id分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> id</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="meta">@Delete(&quot;delete from sky_take_out.category where id=#&#123;id&#125;&quot;)</span></span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">deleteById</span><span class="params">(Long id)</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 根据id修改分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> category</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">update</span><span class="params">(Category category)</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 根据类型查询分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> type</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    List&lt;Category&gt; <span class="title function_">list</span><span class="params">(Integer type)</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li>DishMapper</li></ul><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.sky.mapper;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> org.apache.ibatis.annotations.Mapper;</span><br><span class="line"><span class="keyword">import</span> org.apache.ibatis.annotations.Select;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Mapper</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">DishMapper</span> &#123;</span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 根据分类id查询菜品数量</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> id</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="meta">@Select(&quot;select count(id) from sky_take_out.dish where category_id=#&#123;categoryId&#125;&quot;)</span></span><br><span class="line">    Integer <span class="title function_">countByCategoryId</span><span class="params">(Long id)</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li>SetmealMapper</li></ul><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.sky.mapper;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> org.apache.ibatis.annotations.Mapper;</span><br><span class="line"><span class="keyword">import</span> org.apache.ibatis.annotations.Select;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Mapper</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">SetmealMapper</span> &#123;</span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 根据分类id查询套餐的数量</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> id</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="meta">@Select(&quot;select count(id) from sky_take_out.setmeal where category_id=#&#123;categoryId&#125;&quot;)</span></span><br><span class="line">    Integer <span class="title function_">countByCategoryId</span><span class="params">(Long id)</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li>CategoryServiceImpl</li></ul><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.sky.service.impl;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.github.pagehelper.Page;</span><br><span class="line"><span class="keyword">import</span> com.github.pagehelper.PageHelper;</span><br><span class="line"><span class="keyword">import</span> com.sky.constant.MessageConstant;</span><br><span class="line"><span class="keyword">import</span> com.sky.constant.StatusConstant;</span><br><span class="line"><span class="keyword">import</span> com.sky.context.BaseContext;</span><br><span class="line"><span class="keyword">import</span> com.sky.dto.CategoryDTO;</span><br><span class="line"><span class="keyword">import</span> com.sky.dto.CategoryPageQueryDTO;</span><br><span class="line"><span class="keyword">import</span> com.sky.entity.Category;</span><br><span class="line"><span class="keyword">import</span> com.sky.exception.DeletionNotAllowedException;</span><br><span class="line"><span class="keyword">import</span> com.sky.mapper.CategoryMapper;</span><br><span class="line"><span class="keyword">import</span> com.sky.mapper.DishMapper;</span><br><span class="line"><span class="keyword">import</span> com.sky.mapper.SetmealMapper;</span><br><span class="line"><span class="keyword">import</span> com.sky.result.PageResult;</span><br><span class="line"><span class="keyword">import</span> com.sky.service.CategoryService;</span><br><span class="line"><span class="keyword">import</span> org.springframework.beans.BeanUtils;</span><br><span class="line"><span class="keyword">import</span> org.springframework.beans.factory.annotation.Autowired;</span><br><span class="line"><span class="keyword">import</span> org.springframework.stereotype.Service;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.time.LocalDateTime;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Service</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">CategoryServiceImpl</span> <span class="keyword">implements</span> <span class="title class_">CategoryService</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> CategoryMapper categoryMapper;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> DishMapper dishMapper;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> SetmealMapper setmealMapper;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 新增分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> categoryDTO</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">save</span><span class="params">(CategoryDTO categoryDTO)</span> &#123;</span><br><span class="line">        Category category=<span class="keyword">new</span> <span class="title class_">Category</span>();</span><br><span class="line">        <span class="comment">//属性拷贝</span></span><br><span class="line">        BeanUtils.copyProperties(categoryDTO,category);</span><br><span class="line"></span><br><span class="line">        category.setStatus(StatusConstant.DISABLE);</span><br><span class="line"></span><br><span class="line">        category.setCreateTime(LocalDateTime.now());</span><br><span class="line">        category.setUpdateTime(LocalDateTime.now());</span><br><span class="line">        category.setCreateUser(BaseContext.getCurrentId());</span><br><span class="line">        category.setUpdateUser(BaseContext.getCurrentId());</span><br><span class="line"></span><br><span class="line">        categoryMapper.insert(category);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 分类分页查询</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> categoryPageQueryDTO</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> PageResult <span class="title function_">pageQuery</span><span class="params">(CategoryPageQueryDTO categoryPageQueryDTO)</span> &#123;</span><br><span class="line">        PageHelper.startPage(categoryPageQueryDTO.getPage(),categoryPageQueryDTO.getPageSize());</span><br><span class="line">        Page&lt;Category&gt; page=categoryMapper.pageQuery(categoryPageQueryDTO);</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">PageResult</span>(page.getTotal(),page.getResult());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 删除分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> id</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">deleteById</span><span class="params">(Long id)</span> &#123;</span><br><span class="line">        <span class="comment">//查询当前分类是否关联了菜品，如果关联了就抛出业务异常</span></span><br><span class="line">        Integer count=dishMapper.countByCategoryId(id);</span><br><span class="line">        <span class="keyword">if</span> (count&gt;<span class="number">0</span>)&#123;</span><br><span class="line">            <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">DeletionNotAllowedException</span>(MessageConstant.CATEGORY_BE_RELATED_BY_DISH);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//查询当前分类是否关联了套餐，如果关联了就抛出业务异常</span></span><br><span class="line">        count=setmealMapper.countByCategoryId(id);</span><br><span class="line">        <span class="keyword">if</span> (count&gt;<span class="number">0</span>)&#123;</span><br><span class="line">            <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">DeletionNotAllowedException</span>(MessageConstant.CATEGORY_BE_RELATED_BY_SETMEAL);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        categoryMapper.deleteById(id);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 修改分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> categoryDTO</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">update</span><span class="params">(CategoryDTO categoryDTO)</span> &#123;</span><br><span class="line">        Category category=<span class="keyword">new</span> <span class="title class_">Category</span>();</span><br><span class="line">        BeanUtils.copyProperties(categoryDTO,category);</span><br><span class="line"></span><br><span class="line">        category.setUpdateTime(LocalDateTime.now());</span><br><span class="line">        category.setUpdateUser(BaseContext.getCurrentId());</span><br><span class="line"></span><br><span class="line">        categoryMapper.update(category);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 启用、禁用分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> status</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> id</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">startOrStop</span><span class="params">(Integer status, Long id)</span> &#123;</span><br><span class="line">        Category category=Category.builder()</span><br><span class="line">                .id(id)</span><br><span class="line">                .status(status)</span><br><span class="line">                .updateTime(LocalDateTime.now())</span><br><span class="line">                .updateUser(BaseContext.getCurrentId())</span><br><span class="line">                .build();</span><br><span class="line">        categoryMapper.update(category);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 根据类型查询分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> type</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> List&lt;Category&gt; <span class="title function_">list</span><span class="params">(Integer type)</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> categoryMapper.list(type);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li>CategoryService</li></ul><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.sky.service;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.sky.dto.CategoryDTO;</span><br><span class="line"><span class="keyword">import</span> com.sky.dto.CategoryPageQueryDTO;</span><br><span class="line"><span class="keyword">import</span> com.sky.entity.Category;</span><br><span class="line"><span class="keyword">import</span> com.sky.result.PageResult;</span><br><span class="line"><span class="keyword">import</span> io.swagger.annotations.ApiOperation;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.GetMapping;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">CategoryService</span> &#123;</span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 新增分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> categoryDTO</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">save</span><span class="params">(CategoryDTO categoryDTO)</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 分类分页查询</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> categoryPageQueryDTO</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    PageResult <span class="title function_">pageQuery</span><span class="params">(CategoryPageQueryDTO categoryPageQueryDTO)</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 删除分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> id</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">deleteById</span><span class="params">(Long id)</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 修改分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> categoryDTO</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">update</span><span class="params">(CategoryDTO categoryDTO)</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 启用、禁用分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> status</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> id</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">startOrStop</span><span class="params">(Integer status, Long id)</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 根据类型查询分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> type</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    List&lt;Category&gt; <span class="title function_">list</span><span class="params">(Integer type)</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li>CategoryMapper.xml</li></ul><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version=<span class="string">&quot;1.0&quot;</span> encoding=<span class="string">&quot;utf-8&quot;</span> ?&gt;</span></span><br><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">mapper</span> <span class="keyword">PUBLIC</span> <span class="string">&quot;-//mybatis.org//DTD Mapper 3.0//EN&quot;</span></span></span><br><span class="line"><span class="meta">        <span class="string">&quot;http://mybatis.org/dtd/mybatis-3-mapper.dtd&quot;</span> &gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">mapper</span> <span class="attr">namespace</span>=<span class="string">&quot;com.sky.mapper.CategoryMapper&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">select</span> <span class="attr">id</span>=<span class="string">&quot;pageQuery&quot;</span> <span class="attr">resultType</span>=<span class="string">&quot;com.sky.entity.Category&quot;</span>&gt;</span></span><br><span class="line">        select * from sky_take_out.category</span><br><span class="line">        <span class="tag">&lt;<span class="name">where</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">if</span> <span class="attr">test</span>=<span class="string">&quot;name!=null and name!=&#x27;&#x27;&quot;</span>&gt;</span></span><br><span class="line">                and name like concat(&#x27;%&#x27;,#&#123;name&#125;,&#x27;%&#x27;)</span><br><span class="line">            <span class="tag">&lt;/<span class="name">if</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">if</span> <span class="attr">test</span>=<span class="string">&quot;type!=null&quot;</span>&gt;</span></span><br><span class="line">                and type=#&#123;type&#125;</span><br><span class="line">            <span class="tag">&lt;/<span class="name">if</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">where</span>&gt;</span></span><br><span class="line">        order by sort asc,create_time desc</span><br><span class="line">    <span class="tag">&lt;/<span class="name">select</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">update</span> <span class="attr">id</span>=<span class="string">&quot;update&quot;</span> <span class="attr">parameterType</span>=<span class="string">&quot;Category&quot;</span>&gt;</span></span><br><span class="line">        update sky_take_out.category</span><br><span class="line">        <span class="tag">&lt;<span class="name">set</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">if</span> <span class="attr">test</span>=<span class="string">&quot;type != null&quot;</span>&gt;</span></span><br><span class="line">                type = #&#123;type&#125;,</span><br><span class="line">            <span class="tag">&lt;/<span class="name">if</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">if</span> <span class="attr">test</span>=<span class="string">&quot;name != null&quot;</span>&gt;</span></span><br><span class="line">                name = #&#123;name&#125;,</span><br><span class="line">            <span class="tag">&lt;/<span class="name">if</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">if</span> <span class="attr">test</span>=<span class="string">&quot;sort != null&quot;</span>&gt;</span></span><br><span class="line">                sort = #&#123;sort&#125;,</span><br><span class="line">            <span class="tag">&lt;/<span class="name">if</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">if</span> <span class="attr">test</span>=<span class="string">&quot;status != null&quot;</span>&gt;</span></span><br><span class="line">                status = #&#123;status&#125;,</span><br><span class="line">            <span class="tag">&lt;/<span class="name">if</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">if</span> <span class="attr">test</span>=<span class="string">&quot;updateTime != null&quot;</span>&gt;</span></span><br><span class="line">                update_time = #&#123;updateTime&#125;,</span><br><span class="line">            <span class="tag">&lt;/<span class="name">if</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">if</span> <span class="attr">test</span>=<span class="string">&quot;updateUser != null&quot;</span>&gt;</span></span><br><span class="line">                update_user = #&#123;updateUser&#125;</span><br><span class="line">            <span class="tag">&lt;/<span class="name">if</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">set</span>&gt;</span></span><br><span class="line">        where id = #&#123;id&#125;</span><br><span class="line">    <span class="tag">&lt;/<span class="name">update</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">select</span> <span class="attr">id</span>=<span class="string">&quot;list&quot;</span> <span class="attr">resultType</span>=<span class="string">&quot;com.sky.entity.Category&quot;</span>&gt;</span></span><br><span class="line">        select * from sky_take_out.category</span><br><span class="line">        where status=1</span><br><span class="line">        <span class="tag">&lt;<span class="name">if</span> <span class="attr">test</span>=<span class="string">&quot;type!=null&quot;</span>&gt;</span></span><br><span class="line">            and type=#&#123;type&#125;</span><br><span class="line">        <span class="tag">&lt;/<span class="name">if</span>&gt;</span></span><br><span class="line">        order by sort asc ,create_time desc</span><br><span class="line">    <span class="tag">&lt;/<span class="name">select</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">mapper</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>赚钱的想法</title>
+      <link href="/2024/09/18/%E8%B5%9A%E9%92%B1%E7%9A%84%E6%83%B3%E6%B3%95/"/>
+      <url>/2024/09/18/%E8%B5%9A%E9%92%B1%E7%9A%84%E6%83%B3%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<p>现在在图书馆，突然冒出来好多想法。</p><ul><li><input disabled="" type="checkbox"> boss直聘（但是我现在还要上课）</li><li><input disabled="" type="checkbox"> 卖课程设计（这个可以）</li></ul><p>那就要找一下那些平台了，小红书还是啥的，开个微信公众号？csdn或许也可以试试。</p><p><img src="https://i.hd-r.cn/1d05b008e0f3cd18bbffa0a4d57d6a29.png"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>一些配置文件</title>
+      <link href="/2024/09/18/%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/"/>
+      <url>/2024/09/18/%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://i.hd-r.cn/9396877af8cfa93a4c19909659333266.png"></p><p>研究了好久，哈哈哈哈原来是这个，感觉对hexo了解的更多了！！</p><p>（翻遍了各种配置文件的成果，关于页面终于变成了我喜欢的样子）</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>新主题！！</title>
+      <link href="/2024/09/16/%E6%96%B0%E4%B8%BB%E9%A2%98%EF%BC%81%EF%BC%81/"/>
+      <url>/2024/09/16/%E6%96%B0%E4%B8%BB%E9%A2%98%EF%BC%81%EF%BC%81/</url>
+      
+        <content type="html"><![CDATA[<p>感觉好像原来的主题更有感觉，但是新主题又确实精致可爱。</p><p>landscape 我会永远记得你的！！！</p><p><img src="https://i.hd-r.cn/ab5eb4fa45c75ae37c8fb994ea3465ab.png"></p><span id="more"></span><p>与过去say goodbye</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>中秋假期第二天</title>
+      <link href="/2024/09/15/%E4%B8%AD%E7%A7%8B%E5%81%87%E6%9C%9F%E7%AC%AC%E4%BA%8C%E5%A4%A9/"/>
+      <url>/2024/09/15/%E4%B8%AD%E7%A7%8B%E5%81%87%E6%9C%9F%E7%AC%AC%E4%BA%8C%E5%A4%A9/</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="93d01472e0b9d52090c2f050875c1b3d1403ead4af2a5af2d829284c241edc09">ee949b5fef51d49cf0d42a3a262d411289d2ddeb3bf9f9aaf2ea490a306d68a7082469858b4945f1b573cc91b0703c2133f6ca8158cbfa40f93f0dfd72960aea46a6166bf246d03e8b108d2a2e3026e693fb63075f22f8f41a67781f44300f75bed391245d703107b1316ba09926aee4e32d49db426304a0e3892f954d9d4c827f57b3b2426ce647fce33e15b3f8a4b1ded8de9da1a456f94e73e19317c30a7ccf66b64389905fec98021be4dccb30b16c8857b96cb4881aa9b14aa9a3f144c29f9ce3d6063bfb03eaf489911a3914c7464e430bb31e5fbfc4e5d04c93c785b1a3e17c7c80979a3ea8a54f7957717b31cb6d8352c3366e451255ccc64550754b29720a805bd0807af4cfa8ba024705bb9e1b5b4abd8466e6e788507f55178b16915e2d2d0e33a5abed101ccd181cf9950d9b7832e59a112dab8812cd8a80cb4112022627c518331def2e1cafb5db76a417006fa9399ff7c097ce132d8326512fa95eaef189292bbad3c4cdd92e24b3d9bce145f5c0fbb007778cce8e486c13d101adb514bc994f20db44defa92b954e52a3f810648a20f3ca54d3bc5230a66fba1822a67e90af87fabf6d1d0ce4252d879254f260ed0de9a17fec513b33d0d52cd1f1da4c9eae8d20bac003b1d9410a1acc670186372c79f5f4effdb91c41c7177d6b78463de5983a3ffbf956a955a804804552c44cc423b3cbfb2ef012a8c6e932f3bd1d315d796c8e6744a4e20c578184d3f717f10ec57da3d5ba3fb7ed582d9c703472bc10a1e70f3dd8c5290371701445bc9e696101385b590681945837c716077cfede47314156639f81f5274614f09ec25f6938c44e8a0be0600d088095f22bf5e548be9b0b1a5771e8732173e80d08b07fe13e696b4b08907a3d560ca831d8207693c93ad5171b4c9bd2216cc5ec5c9b5bcfae066c07e0c03ea5486ade1783cf6a0c56b50384c83da5cbb5d8486ab8b63b150dc2cec7237f98f9b38f00c46d4ce9dce6fbfab10e8a670cf6d415bf28cf03d2e5515243d9bf2879d5f4492e40f62a89db05f3362cd48429b09eb9ba8a4b56dd9e494f5bfb6bdf29eb73b455698e07e841caf90ffcc9ad2fa5023f106ebb64347b117c8eface4e24e2d07984600c067cbe58faed8ff9db6bf8b355d3f96e8ae3bf76e2f5826fa4cc5fd7e4c15701c4c988df702ad36879306e57f</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">你应该知道密码吧</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> mood </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>时间之矢与自由意志</title>
+      <link href="/2024/09/14/%E6%97%B6%E9%97%B4%E4%B9%8B%E7%9F%A2%E4%B8%8E%E8%87%AA%E7%94%B1%E6%84%8F%E5%BF%97/"/>
+      <url>/2024/09/14/%E6%97%B6%E9%97%B4%E4%B9%8B%E7%9F%A2%E4%B8%8E%E8%87%AA%E7%94%B1%E6%84%8F%E5%BF%97/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>正是因为你爱的人在这里，宇宙才有了意义。</p></blockquote><span id="more"></span><p>记得高中学物理时，总是在思考时间如何倒退，熵增越来越混乱到极致是什么样子，还有量子力学。</p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=669801019&bvid=BV1ha4y157tg&cid=242052980&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>苍穹外卖day01成果</title>
+      <link href="/2024/09/14/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day01%E6%88%90%E6%9E%9C/"/>
+      <url>/2024/09/14/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day01%E6%88%90%E6%9E%9C/</url>
+      
+        <content type="html"><![CDATA[<ul><li><input checked="" disabled="" type="checkbox"> 前后端环境搭建</li><li><input checked="" disabled="" type="checkbox"> Swagger使用</li></ul><span id="more"></span><p><img src="https://i.hd-r.cn/374482fb536d216c4bd830921995b2fe.png"></p><p><img src="https://i.hd-r.cn/f32daf9c990e45151e2c3c637459bad9.png"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>原来你在这里</title>
+      <link href="/2024/09/14/%E5%8E%9F%E6%9D%A5%E4%BD%A0%E5%9C%A8%E8%BF%99%E9%87%8C/"/>
+      <url>/2024/09/14/%E5%8E%9F%E6%9D%A5%E4%BD%A0%E5%9C%A8%E8%BF%99%E9%87%8C/</url>
+      
+        <content type="html"><![CDATA[<p>关于ssm的书原来在操作系统那边的架子上。</p><span id="more"></span><p><img src="https://i.hd-r.cn/e26858b98ce75755f3df2b9e09b07302.jpg" alt="很不错的书"></p><p><img src="https://i.hd-r.cn/f41f1d6545d0872ee8fe9e05ab3d6499.jpg"></p><p><img src="https://i.hd-r.cn/b5280820cfd5c17a0ae3fbeefc70f402.jpg"></p><p><img src="https://i.hd-r.cn/fc7e9652b54a784c355ab8d29b84d659.jpg"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2024/9/12</title>
+      <link href="/2024/09/12/2024-9-12/"/>
+      <url>/2024/09/12/2024-9-12/</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="889137269161f3077de17941c0586d197bb11b8ac7e4e16a7a277ca528964ad4">ee949b5fef51d49cf0d42a3a262d41123b79471337f643182a4617c764c3ab627b5fa89e057f9f6e64b8076fe775793b9a3cadd160bce8d97757b146ebec71648b3779df890b33c8c3d95b0d4dfc8b8d78a67c9b84f6c2adab44300f5f4c81efe51084d1c84c5b4310af1d61245d9f8ed08baaf389f7f24564b1edc1319883726bd3d312a1e8cdeb60be21d90b0121344df880bd7ccd4249db40313197372e1eebd7f95693dc41dd9ba581dc86db1608a9b545e52223e0bded9789a09d1ba457f314dd6aa198032ce810e99c82893f08427bef1c6f734b8cddab2002c5e92548e3b9a5b9932ce8c51e71ccc195d297661694e3def612716de6e6fdeb654d12fe26dd2093d6e6e9d6fb71d20787f130b513c74c9f6ad1236e9f5431a51c415125f41d767a895afc9f51b937f0d5410cda54c8a6d71ed3c0ebbc65a95b7a69c3fef44dae684e4fdf7f4d368859c965c23d8200ff9560ebabc929a8ad22a5bc4d11ff4ba47f86ed21a7c93f5fdcb942d72a57f54be342eaa7a64b1e5515014e06713bccf2a582b6bfdd18bd6d72be1dea1e942e266080657077d409d654f2c002597e81379b0d0957b80e52eae12f8d06e96b8bc766999740b93941e6428e73d41fc10cec193e63f9e8f3a7e207ae617fe237d6d7dcaa59576d7d83b9b123dbd1637f4f47fc9a3ec6668e888fa660eb45fc387f600e05445189d4cbb6e97f3c2c79d934e9823b87e86a3e00d3da6895a5063e1ec0162fda10f77cfac43cc9a6ca85a6e1a2f5e5306428966f44fa94b3799efbe2405a1c6a9e34d7823983aaaefe47d10b3194bbb09bb42b0cd52028f9cf0ab06c9bb7c1f1eca33dd29f2a2614258fc685e4c3fb2dcf2772335cf90fb085d34bae9f60952a59300326bf06ba058a20f335aaf91202d9b0578fa311e71c7e028cd183be31ec7b012641d489051eee0570cceac9d516605702c73f3b22124205c5d92c78906adad53a3acf761b7f9634158a93a12a11f9b37c22b7eb6e212d3dd72aa82925bcf0a20ff076e419c8d1969e27617f2898aedf46f841562d4b4931d44eb5a9df8bde246a4763edca2c3163ef3485c827f6a34d15777b9f5157a627a01ab93155ef8e308cde8791e7e3eb51e9c8ec7f0cf162ff9e0852d983d82871ccd71979be0410008b7a45a1f4870ba7bae5c4662837a1f3e7c259dc18dd2570776daaa56f1212d89c9e0f7e66318ef9b0b70ab918327b7bc04b03d1e3c835c9bbc983e673ac000e3f3c65e8b9cebedcd81c072e8f7940b5a6a9b00cf13ed6f9648635f8d196d78b39263f3d9b2705b987a16982b7c71e5585affee0dfe77f2481b49bfae415fac68cb643d78533b48d572eb1ea23c6157fb749b2fe22b23fb68b6bf554278de40890c0cd9c8273ecb38218fab8cef23ed38cd6078814f32705c0d09acbe706f994a570db5ba094fb83747726adb23605256c396bb48218299c2bd90295c83d3a34d7f3fbc768d1e49475336f00a580b12ace7c13a681f858e9e84cbd6ce5c5e3f76bcba86a6d64a08307125bb995c6b02b3a3a8128c1d3422a5a8342318cbf3f97f0018e0f6eb40324c152b8a6111819300f4c70ae7e3994e810fc00fd961be4656a33d21da43d03844251709b5ddefa3f2bbd3681a5536060ba08782542bbc4ae95583bdac31ed5d75c180fe96e0fbc1c13e2b6eb836d7eacf1836b69a901f9e5b0b79d1f4c478229d2b2f21b2abc70eb0492ed46af4377ceb252e07e656bd7aab126c2b3364068c3d8bf139529a35def1ac2c730a9430484ea0f39ae586f780f9954ad21917d4c89993740acb798f80368c2dac2e5d85bac277992a7ce85259f1b49558d41b03e4c64c4b06cab5345401136537d0215546d177d87ac0feaf0ee5f6cf051a385100a771e3c3662ff753728238872044949ece5ee65da87af032b2036830aae50476db2f8b63a67822b3d23cddfd79f1c79ec126f39df08ff35ebdf4c53ed57955fdd87db4bfbfb52bab973afa00346ec4efa1bff9638243dbf5e782bba2d560e546104ab10a79fdf19435df60c346ec8837f00c2b368d1e6b17625e9cbc87253a45493c4fddad8c75ac7cd7f4bb2acbc4bdd4c1123c893e98a41b2078f98f19921613cd914c3eeca092b787bb7f9a859620ca5c215581681b54ba995209fe079e27c890dee1ae5ac6a9f4ba7f0ee276a3aca9b231e8a4951a0cc283e68abffd8b98c</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">你应该知道密码吧</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> mood </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>地震</title>
+      <link href="/2024/09/11/%E5%9C%B0%E9%9C%87/"/>
+      <url>/2024/09/11/%E5%9C%B0%E9%9C%87/</url>
+      
+        <content type="html"><![CDATA[<p>地震来了，有点害怕，有的不知所措。大家面面相觑，不知道该不该下楼，有点好笑。</p><p>震得时候很懵逼，然后手机的警报就开始响。我们在五楼，可以看见外面走廊旁边的人犹豫着下不下楼。</p><p>震完了，平时很安静的寝室楼层响起了大家的议论声，全都在笑哈哈哈哈哈哈哈哈哈，还有拿平板下楼的哈哈哈哈哈。</p><p>去阳台看下面好多人，楼底下说话声跟烧开水似的哈哈哈哈哈哈哈哈哈，大家都心挺大的。</p><span id="more"></span><p><img src="https://i.hd-r.cn/2d6bdad29cdfc3a72217fc705d34f512.jpg"></p><p><img src="https://i.hd-r.cn/6003988a90650b7cf4c8503967bad48c.jpg"></p><p><img src="https://i.hd-r.cn/2611e903e4758f1d148aa06cbe8da8eb.jpg"></p><p><img src="https://i.hd-r.cn/c9f6cf875322621a3fb11f40da796264.jpg"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>心语信箱效果展示</title>
+      <link href="/2024/09/11/%E5%BF%83%E8%AF%AD%E4%BF%A1%E7%AE%B1%E6%95%88%E6%9E%9C%E5%B1%95%E7%A4%BA/"/>
+      <url>/2024/09/11/%E5%BF%83%E8%AF%AD%E4%BF%A1%E7%AE%B1%E6%95%88%E6%9E%9C%E5%B1%95%E7%A4%BA/</url>
+      
+        <content type="html"><![CDATA[<p>暑假的简单尝试 javaweb篇 (jsp+servlet…)</p><p><img src="https://i.hd-r.cn/9a34e50500464748c12f355b02331e40.png"></p><p><img src="https://i.hd-r.cn/674a410d9dd9ce4d9fed176e0a50dd5b.png"></p><p><img src="https://i.hd-r.cn/07bfedc843b22fd9d1d196ee7acee08d.png"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 学习记录 </tag>
+            
+            <tag> web </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>相离莫相忘，且行且珍惜</title>
+      <link href="/2024/09/11/%E7%9B%B8%E7%A6%BB%E8%8E%AB%E7%9B%B8%E5%BF%98%EF%BC%8C%E4%B8%94%E8%A1%8C%E4%B8%94%E7%8F%8D%E6%83%9C/"/>
+      <url>/2024/09/11/%E7%9B%B8%E7%A6%BB%E8%8E%AB%E7%9B%B8%E5%BF%98%EF%BC%8C%E4%B8%94%E8%A1%8C%E4%B8%94%E7%8F%8D%E6%83%9C/</url>
+      
+        <content type="html"><![CDATA[<blockquote><h1 id="钗头凤·红酥手"><a href="#钗头凤·红酥手" class="headerlink" title="钗头凤·红酥手"></a>钗头凤·红酥手</h1><p><a href="https://hanyu.baidu.com/s?wd=%E9%99%86%E6%B8%B8">【作者】陆游 </a>【朝代】宋</p><p>红酥手。黄縢酒。满城春色宫墙柳。东风恶。欢情薄。一怀愁绪，几年离索。错错错。</p><p>春如旧。人空瘦。泪痕红浥鲛绡透。桃花落。闲池阁。山盟虽在，锦书难托。莫莫莫。</p></blockquote><blockquote><h1 id="钗头凤·世情薄"><a href="#钗头凤·世情薄" class="headerlink" title="钗头凤·世情薄"></a>钗头凤·世情薄</h1><p><a href="https://hanyu.baidu.com/s?wd=%E5%94%90%E5%A9%89">【作者】唐婉 </a>【朝代】宋</p><p>世情薄，人情恶，雨送黄昏花易落。晓风干，泪痕残。欲笺心事，独语斜阑。难，难，难！</p><p>人成各，今非昨，病魂常似秋千索。角声寒，夜阑珊。怕人寻问，咽泪装欢。瞒，瞒，瞒！</p></blockquote><span id="more"></span><p><img src="https://i.hd-r.cn/89f0bfa6f4d682617634e264fbf85f1e.jpg"></p><blockquote><p>那时枫开得正酣 心如火煎</p><p>那时烈火烧几遍 回忆落枫</p></blockquote>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Power!</title>
+      <link href="/2024/09/09/Power/"/>
+      <url>/2024/09/09/Power/</url>
+      
+        <content type="html"><![CDATA[<p>Redis简单入门</p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=444898573&bvid=BV1Jj411D7oG&cid=1169344809&p=11" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe><p>Docker简单入门</p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=996795888&bvid=BV14s4y1i7Vf&cid=1150750049&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe><p>Linux简单入门</p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1452604508&bvid=BV1cq421w72c&cid=1494041725&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe><p>Shell简单入门</p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1903342555&bvid=BV17m411U7cC&cid=1513619117&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe><span id="more"></span>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 学习记录 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>新的目标！</title>
+      <link href="/2024/09/09/%E6%96%B0%E7%9A%84%E7%9B%AE%E6%A0%87%EF%BC%81/"/>
+      <url>/2024/09/09/%E6%96%B0%E7%9A%84%E7%9B%AE%E6%A0%87%EF%BC%81/</url>
+      
+        <content type="html"><![CDATA[<ul><li><input disabled="" type="checkbox"> 苍穹外卖（并不知道能不能坚持下来）</li></ul><p><img src="https://i.hd-r.cn/2df74b728b000963e9f21db0bbd2f782.png"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 学习记录 </tag>
+            
+            <tag> target! </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>美好的周六以看完12集跃动青春结束~</title>
+      <link href="/2024/09/07/%E7%BE%8E%E5%A5%BD%E7%9A%84%E5%91%A8%E5%85%AD%E4%BB%A5%E7%9C%8B%E5%AE%8C12%E9%9B%86%E8%B7%83%E5%8A%A8%E9%9D%92%E6%98%A5%E7%BB%93%E6%9D%9F/"/>
+      <url>/2024/09/07/%E7%BE%8E%E5%A5%BD%E7%9A%84%E5%91%A8%E5%85%AD%E4%BB%A5%E7%9C%8B%E5%AE%8C12%E9%9B%86%E8%B7%83%E5%8A%A8%E9%9D%92%E6%98%A5%E7%BB%93%E6%9D%9F/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://i.hd-r.cn/8cdb2fdac35bd94d66df0203a889a71e.jpg"></p><p>看完之后很难形容这种感觉，温暖，感动，好幸福~</p><p>每个人都很可爱，大家都好好啊。纯爱无敌！青春无敌！！！</p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=782251852&bvid=BV1P24y1w7Le&cid=1091740487&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe><span id="more"></span><p>车没坐明白遇见好心的同校学生、开学典礼迟到跑着去学校、开学当天吐在老师一身名牌上、因为自我介绍睡不着觉结果第二天憔悴的简直恐怖、冷笑话”成为人上人”、会第一时间看出小美难过的发小兼闺蜜、高岭学姐每天做赶不上公交车的噩梦、雏鸭入水般第一次尝试星巴克、回家后的惬意、美佳的记仇小本本、和朋友们一起睡衣派对、志摩伸手拉小美跳舞、大家一起为校庆活动准备……</p><p>好幸福！！！！！！</p><p>可爱的小美</p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=619949991&bvid=BV1G84y1o76m&cid=1307526591&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe><p>快乐星猫x跃动青春</p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=404229656&bvid=BV1GV411G7Bc&cid=1219903490&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe><p>这个姐姐的翻唱也好听</p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=783535884&bvid=BV1t24y1M7w6&cid=1162817484&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe><p>突然发现没看过完整的OP诶~</p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=782064526&bvid=BV1H24y15748&cid=1127034488&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe><p>偶对了，这学期才开学两天的时候就已经学完web啦！</p><ul><li><input checked="" disabled="" type="checkbox"> web</li><li><input checked="" disabled="" type="checkbox"> springboot</li><li><input checked="" disabled="" type="checkbox"> ssm</li></ul><p>然后还写了一个心事罐，最开始是叫心情信箱来着，等想起来截个图吧</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 跃动青春 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>誓言虽美却常伴泪花</title>
+      <link href="/2024/09/07/%E8%AA%93%E8%A8%80%E8%99%BD%E7%BE%8E%E5%8D%B4%E5%B8%B8%E4%BC%B4%E6%B3%AA%E8%8A%B1/"/>
+      <url>/2024/09/07/%E8%AA%93%E8%A8%80%E8%99%BD%E7%BE%8E%E5%8D%B4%E5%B8%B8%E4%BC%B4%E6%B3%AA%E8%8A%B1/</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="e6f42f8ec0ea25270f0c5b167e0de7248892bf42d796f69064ebfc766d2548e1">ee949b5fef51d49cf0d42a3a262d4112ea42dc1df5a0df427ed3da5c5941a4511fedc8379befeb26d4fcc03fc3962ac0fd95649754c536ff97ecae4a4bd12f16cb2bdd9ce721e54590bd63a094468d8533f03a33bd3210c3be6e869a211e5ce6d5d59084f6252bbd1a68d85be7b856cd16554c156e6d6fa9ebda69469a8066cb041af6fe38583d84a4761dd74193a455aa17a3763eef3cd3f70cb2407d795649a6612b5688cb95ad55aadf7290ebf2aef6be0d1fda9c431d7818b743484d7e6fbf08d55bd2600d44b5cc8c61ebb59b08747c8240fd9cf63fa39507d6789e6e8c0b9ec97cc92c94e5eaa85e6cb82f565433443547df0fb8bcdd119b1f7c8d1fdf69dd8a3829a51b898bc63f50b1a7e6777b238669251b7c18a87aefb516e3b145b6d24c393508b51a1cfd370cd962fe70a01ada4f2da176a4fdc67e7e5de779cd329d8396b426b0d0b4056d6d0384c5a5beb5ebccab6cb03860405aeb800f651c75e87671dbfef32532b06cead33b51a0befd67cf8b4790f44565f969025ccac28f9de3e51fbab8df01f624a2bba81662edce4de4711a2a806b7e239cda650ae15e4a10b29191432ed1886ba34ec47d277462d948d8fbbc2a11808ad60eec3a015065a68ee7459f69c6c4d0396c89cef43f3e7b5d0ed491a24a84e7ea533c001e608e4a03b6b144e62e586af3e6d3fe26913249257ee4d36327dc7de5388021b9a788d9483ce18925f224ce4430ed202292eb96286b8d2e47be0c964d404b4ab0a8409fae74cac88308dfbe01b3d039d04bd402d967ef8f81c120586d612ee7a8b8169724d755975f3e5ff968b365314c669bf8995aa2275206c998df6021225908b5cfd0782a3e76d54280f8abcb0148762df6240ef9aa3232a63c11f594ce0e8dbabdd6f6188241321733620713712953ecdb49fa8a721c728607602dd5f98ef95e4faa1053f2adc25d8514b5a31fc006ebdca169565206476dc70759357fde6ffef0bf392c13ca6f34c8a941eeee17c3d4526c710236fdbf9b5312ac57f5b585bd714fafb183857a2b144d14303d2181eb2c3c02e729332498707eff7450a7b8bcd61f6b27a88102dc9b16a499430f8b0dcff3e610140e5647bfd6fc072209afe5361f981b51d8eb4dccaf139f0c76f64572af6fdd3830f12aab0e49fdbdb8f28951b23598f52bf752d03d51bb2e2a42c77f71e135158699a5a52364ef82add775f393eb6c5b0751de6f4695587d053dfaa13dcb9d665b3c46a11020283f8dfd94282ff442602600fb51aeb3d3f2f66e914589098759c79fe0b9c3cd787082475288852d8f44846efd87909c2b093a0598b780970e0db780cac2cf91207062c503e6ca087fd7513897219f779e24c64444b29f678ce5a30b32bd902ad13d380aa2fda4a9b60f03cca37cd03bd03fcb2d9ca263246f27aa4945fd5dd14c4b010ba72f65c68d1ebbc71c96918860c5b287b3021fdc31b89062ab3f67a41777ed10f5bbbafd63300fd1db4686516060aaa57fc373b857806ef7bc3e1be733c9ce790502e514197da47f6c75bda1ba7b193c88cb4c2a314a8aae32b56c2139fbd5f887bbc0c9a3df96cd431f12201169846a7b7d84e3702b252fdeefdaf11b3ca23e8e94134df0e580615772d3bc6c737670a30ea85234158b712dacb9cee8e07c63615ae6582294fa4f80c688f29130ecdb1de6c47abf3cd3b60e7623dcc6d2b5bde232f2aab9fafb7264167dc6974059fa4ec1dba9436e870e56a3ff3f7957093937b1b46e676c935b9c2ee1964121d4f34d30a45723211fec657d82ef509f88fbb2330d55a3b398c6359e1e787c09786ea32c552025608453478e90e71f6fdec85392005a9dd67477489dabc5b017f4319292783e173f6dad318491c364cf77911d36dfcf66ac543f8a2a12be3c1abb2f7d8d46ac2c41f871f06084d8e3728727671b29f23a34fc9d52841dcab012bf31659ef0c304e403231f361b07c4db006cdf347081d81158f887e0078dff6723f63fe6ed018f20a07f13b4a79afccdb6e27b8e3cebce026c2a03d927eb3d219ce275d5b4170312617406c30ae39a20d4707eb6027f559581f5659f9f99092b5bd2fbd0e0b528d3115c25c218a54650593abeca06aaac0b6d1f2fca75e2a7ab66257d4143d952c64fbb14020ae934d6464f05a7153da8c648b7cdd3f8e3dc56b48432cf4608a47c420ba1a4a8c6bad8eb9d1d39515c8128cd8dc6310b7e59b774803ed284ec2b5378a1554997b39593de6c5dc41173a712def6857d044aadf4c471a61934aa711718cbe2a58825659a4e9f130edfc001efdba7ff6d3cd5c5fc279aa1d5cc40773c6c88d537701109d61b1c5442a6b8f218c7a1df7610dc5f3072cc7234dc76395e3078c32901603a9af13720f2588fc2a737637b67b7bd613c815ec97a6a34465bf6385c32ecdbc405a2704bda2406be01377512681659c6d92d2050653055796485a93c52af52a05bce83fbe1b4364f2c89c8769b8dc1108441cefc2d8991aa6263f40467fa1c0e4a91c844e07a9bef04e0095e2fd74685e6bf0cdd6cc0a707d5c36cfeda7f86d0163a796acb4c2a7f080e5877d2e006370f02bc093f957b9518c132ec9272dec45268d71ef3cffcc96384e75bfad153143e88c352f79b772f7c0cc1ad22d87906ee0f32e744d974fa739e721e7e6a7f77331cca06f1540065ac0ba1c777e7c2dbcd93aab9cb79efeda0f97e82f68b04b170728f5bebe2eeede3d88edd65f4cbae1ad20be041776c9f6d196eff2bf906fefb4f94d4ea3ca3d5bbfc436bd5b49cc7da0653cf98129d786dba06548210fb837f50954f9fc1521a9089025260cdd6cdf934df9d731e294b18fc7ff5cd69166d02e8428b9bed9d4be46261cd5cb2b0f9c882b1a8287d56d28d0b032ef86a3c2c0bb41ffbe4517ef75b51f23b607f45c070d838708ea92c2813c15560d42f1264a510efcb6d6903de7a610437facc122e71ca7fa52c167c7a7a0e2c2efdd4c70d997ae81fba03a180d3f7d23c8e1406fda5aa</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">你应该知道密码吧</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>跃动青春</title>
+      <link href="/2024/09/06/%E8%B7%83%E5%8A%A8%E9%9D%92%E6%98%A5/"/>
+      <url>/2024/09/06/%E8%B7%83%E5%8A%A8%E9%9D%92%E6%98%A5/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://image.baidu.com/search/down?tn=download&ipn=dwnl&word=download&ie=utf8&fr=result&url=https://i1.hdslb.com/bfs/archive/ac3b86d58f2528def0322b087d3fc78c9ffad4b6.jpg&thumburl=https://img0.baidu.com/it/u=1883673164,1185923625&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=500" alt="Edge Image Viewer (baidu.com)"></p><p>好可爱！</p><p>感觉好温暖，主角是小太阳一样的女孩子，我也被治愈了嗷嗷嗷！</p><p><img src="https://image.baidu.com/search/down?tn=download&ipn=dwnl&word=download&ie=utf8&fr=result&url=https://ww4.sinaimg.cn/mw690/008eSnchly1hqlridl8g7j30u00u0mza.jpg&thumburl=https://img2.baidu.com/it/u=4260972059,3697702505&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=500" alt="Edge Image Viewer (baidu.com)"></p><p><img src="https://image.baidu.com/search/down?tn=download&ipn=dwnl&word=download&ie=utf8&fr=result&url=https://ww2.sinaimg.cn/mw690/0065hLbagy1hipfbabm3aj31402eohdt.jpg&thumburl=https://img0.baidu.com/it/u=563181573,3121595984&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=1083" alt="Edge Image Viewer (baidu.com)"></p><p><img src="https://image.baidu.com/search/down?tn=download&ipn=dwnl&word=download&ie=utf8&fr=result&url=https://ww2.sinaimg.cn/mw690/0065hLbagy1hipfbdg2bpj31402eo4ja.jpg&thumburl=https://img1.baidu.com/it/u=8357227,2992407876&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=1083" alt="Edge Image Viewer (baidu.com)"></p><p><img src="https://image.baidu.com/search/down?tn=download&ipn=dwnl&word=download&ie=utf8&fr=result&url=https://ww1.sinaimg.cn/mw690/005wNpoBgy1hs52u7pd6gj316n1kwwo3.jpg&thumburl=https://img0.baidu.com/it/u=1168695329,1258841043&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=667" alt="Edge Image Viewer (baidu.com)"></p><span id="more"></span>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>摘录</title>
+      <link href="/2024/09/05/%E6%91%98%E5%BD%95/"/>
+      <url>/2024/09/05/%E6%91%98%E5%BD%95/</url>
+      
+        <content type="html"><![CDATA[<p>此去今年，山是山我是我，明知不可为而为之是我最大的诚意。</p><p>生命中总有那么一个人，能陪你一程，却陪不了你一生，誓言虽美却常伴泪花，白头并非雪可替，相逢已是上上签，余生即便不是你，此生一程已足矣。</p><span id="more"></span>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>醍醐灌顶</title>
+      <link href="/2024/09/04/%E9%86%8D%E9%86%90%E7%81%8C%E9%A1%B6/"/>
+      <url>/2024/09/04/%E9%86%8D%E9%86%90%E7%81%8C%E9%A1%B6/</url>
+      
+        <content type="html"><![CDATA[<p>语言在精不在多。学会一门语言，搞透它传达的思想，然后让它的思想应用到其他语言或技术的学习中。</p><p>（操作系统老师说的，感觉好有道理）</p><p>我又悟了！</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2024/6/27</title>
+      <link href="/2024/09/03/2024-6-27/"/>
+      <url>/2024/09/03/2024-6-27/</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="d5b0e56394e88faf0e9ee45525a0be804b73fecc1f561e4e1aad860ae4b17860">ee949b5fef51d49cf0d42a3a262d4112531a99251d9db9a18fc712aa741c69c85e66b81b3c77a6dc02a600a989e6b0c0c1a1b28f391392b302baf19b537319145e034f332f78eb80e74d9318669234d28978265930c7f0c5cd11334f0f22ba37066233a307dbe395ad7da5b7878dd31ff290401e832ebc3e0171339d94bca55182b9432755c9c842b43672497a6f4dc5fc1f39d47de649fa0adb72d3bc4f64cae096da14becefdaa996d5a452326fc2df2445bc9d0e26671ebf1fed181c7de8e60021eee7e8143fe023d2bb4e21ea9ba490590725722602675cf4196e2c4429fb3794108b206434314284d3c2941c523a178d44bbf8d11a7af5a87007fae95128ed0d62310dec4ae8affa7427754d9ff5a08531d96466298f6d4637ae529950e</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">你应该知道密码吧</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2024/9/3</title>
+      <link href="/2024/09/03/2024-9-3/"/>
+      <url>/2024/09/03/2024-9-3/</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="ac9be7249ee51b47375ebe263f741b0c29a83dc06bb64fff4cd3b59d1c50225c">ee949b5fef51d49cf0d42a3a262d4112161935c9801d05b4c79d29c0235c7c0c53873d5b55df28a8d002cf1aa495835482668951b69ef6afecf4c5e290b09658046539034ec64e7fb6eb9a26b159603cc6d4b28527677c7698d2df7b607bde7c498313126a67d53409e6a500ee0e289554c59d6911d3ae3e0adbf5be46fc0e4974fe21fe4dfa4cf03365d7c09943ca82e878ac21d48ea3defa7bba287ea902a69785ddb181acaffc08b1fa458fbc9b134f92045f5692a492abc4aef6ae81618186ece0b04ef7d038e004f1a9fe5f4bd571b94c58bcfbed682a2ca0f43d56bb7b43361cbdd2001a4263eb4759b913cf129d58de953a43df38a3d8b7adeef72b5ea0637767c622ea080e2966da7aaeec740dc3b70a9322fd25d1edb7179755502c268a006cafe95358b37ef549816ed881e7d46a42ebccc4a7c928b167068471cc3d46b91d9f5d118eb6f5c4fb88927b68c2936692ce29e4668113262a5182779181daa49bc242744aa177fdc0a9c3b2fe8be38f7f3b6f963729b56718ddfec61a1f634ac9303e229c4966eeb3cd2b69c4083d065434414b994d0b0e01e67d4a9f4292634b5bfd8785b454fd67fdca949c792c37b0f2543d83bf648a26a6b9777e128e1b49c5af9e0435fc544247bbefe16182a4258eb37a0be7ab090ca54b2b71aa6108091e9335bb34aa5f5185f2f44a2e29451284796ee80a7770b651e2798c8f0b1b64763ff7e6c600248a6f10a97eed9afa5e4992277150c71be1cbb40cf194d92f6befbc800eb70999030e7db8929bdd6c1caec0d4702c341579d1ff9b3f30f26091c7751d77116bfe4e39a2588b718fb16943d342cabcfc9034d676a4a041892e6e7a71071a3b3cecc8a1a8414cf4da4d6812e90a21df0b5bdd79ccc36634320b90f95be9e7a0d9df68f1142c6cb9d66290b7f8dc6b9ef3034f030a6b50e581b89c3640d59f3f6dbb0377ed7819463538a9b99715a260d80ad9ce8da8ae9bc79b462f97408ccd07c654156ba54f227e1130082764144a32c8474cf1c7949d3b728ae0b258c60855708ec8d89c69371310aaad14eef5c3f709b3d70064a76856f5d09d05a5cddaf9c04b38fedc5520d1893b9a41f4803fea68779ce69d97519d6a9ca685d572183cad3680d85038ec23fbe4501b47d244eb6e5c7158dc710a64838b625300f74ecc5092b54e9494a1b2b6e39cc46ae4a699668a9cd40aad6226154aa01bfaa06094b927ce8b8e4b2a6af2a319218a4b7097db59c9e3a779740235a44fc12c0704ef6869b3f7fb22907077542fab4dce90bdccdacd8bd2204a0cd5dca5c17ed9b4d1fa35606c7d217534b241992986b13d0559cf086f37354915388e38a303d33d3ebf17e8872293e842cd8908ca356e826c5de5f2e1385b42c51bb4f5b09985b9ca0c76a57406beb7f90cb8bb2e4025b382981226b56c249f6af09f5587010e4b4322d84d02ad1a27eb2f6deb0a4bae37ce6abbd85a971ec611490c350c78a086422ea2fcab818a4455a289a94742ad173753002cc922ab7c3e8b2892f284f47f19942b678acba3beeb0d5f154c904b50a57c32ed146f3169a0700ccda72ca7caf829d25ad3b365b94ecdf9c441af04ec4426844e09c0d7d0c64c2dc58ac91a83b407536e070c45fd546d1c446a8956de07b197a410b15f</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">你应该知道密码吧</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2024/5/1---2024/9/1</title>
+      <link href="/2024/09/01/mood/"/>
+      <url>/2024/09/01/mood/</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="3c9c6089e64d442fc4141497ae3ea0f62dc082ae4a126c2d910e56f13d3f1a33">ee949b5fef51d49cf0d42a3a262d4112282df0b0fe8721c970bd02b728c81a8e78e03e7d1a9c1452eb8947007181aa6338ec1a1f31077be56b3fee83c5981703954b0d03f87f99e1cf58fa736682b3443f3114fa3cbf3bfcae7ef029721507f625959ab97dcc39f69197412b44c9ea74a9683a2e054d9362504c639366a554340095e37f19d9661e2208274cc51614dd9499bf99461ec50582987e1ab6553b51602fa95fda7ff854a7c6b44c1bb398ca3dcea72c8c5a040655bed1aa74bf39d032325290ac9e3fe41d925537ebe8ff592a482c920ba90584bbef06460e9e8fd13eeba432dc0f4f26609a788801572b1309e63dcc853a32e4efef7ad684116fb96ecb5b146831736b66624c6d669b0a259ff0e191eb6f89f66994b4d630a92564d9edca2214aca7929c0e252e87fc75cfd86db3758aa554887dbf63d7d4612319887bd5e3ef25ec3a2b5941a846d6d9aeb865530b471f9a21cf5066ab491696e7487298c48b3bdc2a1eec165efcb0100ea5e661d0432c58f5793dcfac389ba6ae603ae2c5ef9c8fd0ea3a212ec0fa705b7f2cee830a230f66140f2f0b648bb8139a60c9bb4fdb237fbf78da56eff032e06683305383998e4efb5dd6ec05429d2f8c168b9ecd80c81bc411afb32b948f544c3a16a984947a88f0855b1eb59e0970981b464bb0a7d29d9977645c9f8d2952f5cffb9734ec46447caa1863f15ff29bbd22696e36a184350273413106575233dbed00b36f90207dc359bb3c86dbcbde71a21df4eaf833e13e05206635582eea78ffa8ef02b5d010aa2b075c0f75194f949ce86ab6e67bf5ea02030973c87857cdbbef65b4735aa4e3e1625f2d7040d26b79f1014baa140cfcef8cd4e0ec4ad6a6705679527e8f06930b680b9cac6bb263a222ecf2f74d506875d591dd2d9fbc8bd3d2c838e5e91a4c4396a066b207cd7ac4822ad8716629463dc5d34fc2238920ec894d1272f6962c6eb1fae4a39ba04d11392f70e675a287b385dd2ec96de71fc7717469550ea15a96a12d295c893726635876d4b797842bc9d9fd5246e83fc82c81139b51a1edb0c270cbab07b87fc489ddb9e6cf3c399d0276e317635895f62bffce56e7354cdf158f844175ccd6236b82fa17355ac6669d3a0ad6b74114fd62b3f39f1c79ff01ad146f3badb86d636a2742eae8a744dac3726f9aa56c8a66233c68b47cd91dee6f2497ad43e94928c2c65d26596f91adc2dac884ce61878620a0b63765108238c52bb38775785ba8218648e5caf4bbc48fa1fc6467a4e43c9ed858f7fb87a29051a5ec0c73adcc911ceaf45ff84ddac531da99a8244828bf7d0b53917e5afa956a8aa1333c85d52a4b9d6e4384bb69558069be93117a09e57d1351e535e9de333e8aaf5474a2edee686ce4a0be009bfeac1b3afa6bb2f0ade891cd2a3cca377fa85afae110c15d62fc8eb22f6bd29192bbc0f6a4d1bab5c655309b6b1cee590dec9b718541367e8b156382fb112f68ff83c309eac63bc8f48c5c76dfd657f024b8b18487ef7d75c7705a240b94ee0661563e4f27336e18227943e4ceda837ecd46c3b85715ee1aae0160c0145331131a4f11de3e3037653c6eacb3cc7cab2fb235f1709343e8c70c5a43ea2fe59fbd3b26389c47b53c3a3ac7eacbd26dfbaeb5135ac04ba9bbfba89b3f624d1e8bbbc908a5021cdad9b3297f3053f9b786a6e16724a26a013158cbcba29a4753231c0f6fb4d4c4f5e4b61fefbf4767608aa3c228378dd3f0370b2a2daf2ea501c8c71f001fd4f31e248065f35434602531734ec5400531d8dc587680ba54522c5c7f6f32eafa6a3debfa81e987606017e801a9c88af3ef3dfbbfa699f02933bd88860c11f78a86f52a7f0f8aa71abf3daf581dbed0fc5c8ecb8c1ead5e19423815b2dd05094f0ef31107b41f6061f671ac05d4ada3a2d6e384ca973c372de8260f6317fb996d7e43a47b7e53bd69ab0ef31e05d8b459de792394ac01fef1c390822b665102d92a823e417b0c0f494e160cd55b61c7887a374639ce6440e8063b179b29124b36917f1efc7c1543665fb95355afbd1bc027c0a83759cffa5b97676d28a96477d15d7586bb5f83df418d38be648ce8710aa8b226600cb9ffa53532e01e27611cf6caf62d5f732456b0530d90d8414af453daf564afe7f79414f38a94111c44f94c21c53a7ef935099be32b38af752465ab786eeedf50d170a40edf2d45ce1a5e9df71102092283e91360bc7dfa0179de6311ac3eb8e4581a3db0c2834d77b28c6540f145b9386fb6036f386754542f961e7d5c7e3913fd3574f77d40b59688288210b79dad747da28af2195f725ec82aca9e5601ba2016e63c5099e0fc9865592215a0ba61e70db2f765380a28fc8faa0c622a16417c79e9f2cd961be25ba67c0c7d483c84b94ee7bffdb2a32f3ebffc3ab51d671ade8624086b35bfe0a7f8325eb63cd917ee43e75ac8f08679e309269b52579ef9d3f6a8109d77862bee585328dfc6f599853c6680c919f634c3b804ccffdc4887175e0edb52996869a0ce7083989449899aa51c3f735424698da7143593dec771ed414920cfe8d191f77fffad6eded8c5e3cb40e649a8519e43a16ca23bf1d0e1e7802004a2e8a8c8d70fbdd12d8332e11441c1ece3208a338736c07226930088bfb2f4b93719d2476a0ed5b058e1e93329df4d0a60bc86b12b3e691e5713a8145130b6070b35d5e600fa4c461577f5e370d2fc4eccf873ffaec05be4ef298a8acb7b21f107d1b6cc61447844c59d38d97826966b21a8053fb9ec4573984ee7d3c2f12400d8e12abe482f174bf87e580824723206cfa35b58933f066c4103f16ac4ff70159aa452e862762896ad3e68c4768b91fa68f42ae6f9f73d3653f09bb9cc5bdb96419091d74813df52f5f8efbdd2bec0e8e1e6f603d3cbce288de716542dbaf590eb1be271775c1729aed0ed465a2a1d5392b277b1996bff0ab680dcd85c49eaf84602a3e0bb7797f11c774a767c87cd6d6cde0dedc4fc80bf32edb88e1137cfe64f33f09120626dbace24733d7e0c0718b902961c2be9847063b5253dbb77ab77540a2186391ce35499c8f9dd8520fb8090d9d5793c6ece4ac416eab849742080ff51101f8f1eb335c2944abcda9d63a1cfef712b8da6e2d77b82224e22a874d5628bfba7bbdfe3a15249155c800279a32e1057ba90702d48920621ac030c047f1f06550ae72f25430c4c9e95075d322715192d4ecefed296e96a1c33c27497aa2b02b75b6bef4bba354ac7223d74a351161b49f516c79d6e1ed32cd9c261bea950e7fcc2ea82a5b87c832eac035a340bc0636adac98974d713ad9098661d87eeb3288e970dbe743c480f224b681e6d646840f3e1dca5a7ebf2f9eaf5c2911cb7e4dfcaea109e197c268d33e49eac9d9e461b1028380da92e86e228619ccfb9040fc07911bbb47d1efe6a264bda8f329d0d9448d547aad965bd6dcb9ff2b9a8f1ceb677cd22b9b96d3bd29698372ea83a6ded967a8c333664c98c4d54a63c7b4a6a77ea231611cab030610312437a29874e0d3d7ce28a12f48aabf0e8494deca18aa71e385e14987cb1b67b7652401fd5eba931ca636a3aee104a3038b781e7e9437a3cbeacc1818ec0cb15c2fe6d4bf2696c12fccb1e030e32c73af0e4c42d2bc766c4aa8ab01c420da00856f9bad5e7595c87552574a18c9c866b772e4bb403b49bd493c8f711de32aedb144863fe2fd862ef74a90744d795ea7d4c01a71782ea7663a21a321ae26b3c22b371cdbc197a633b16fb0cf2100bed6c4902a3fce5d0dcfa7a9df5df135e2467ad01b661b5f04d414283bafad20fe41e013eaf53a2b2be6ebc40d13efdd007115b39b7c1d5417cfe8737524abe0867a7a8c2e404138a1129fb28e04bcb582097e549715e60aed35a03dc8a837c00e3c9ddca48d1e54f4356c42152c1c1f58213e3b480ece341a313ff2c4e987cc2a68e83c9381b1ea03de55ecd967cf08c470111a9d2885e48856aa88782687aaa3d86f9c46330e5cf4bbbd64e6a07218eec402ca9b3963f60db91ba14e799756aef4ffef8cf6ef6585f8115e801835b6fee9885c2e7298e3c2e09383b01cfb1cd3b1904a65bd03eda8fb3827ac6001f281e92c216a2d939121e6c4ebaf5c9d98f73b4c83d235346bde7506b6b382a6eb4ee063b7581ca66728906a269a7687f3e333131426f64880783c4efb86711e08758040b31dece8c406bd741f0905cdf2603c44427f14e49ddf3873fa83586245525fcde80aa656663529ec6b0510e026bfa88f31bda5ae5c3a0ee2e2a23113df55d08a20eff998f99ae2addcffb5caf29f94bcb697387d89331fe6c809f311d85520745e6cfcf65c86e3a4e985581926554e24ff52ba229faef013ce2b7767f6bd751ed0353aa58c5d7311d0ead701cef9ad63ca1fbc1cc8501499c536ef3366fad9f58158e124054993c942e71abc3d149a50ec15bec3b8bf1cb2e0daf09886854f11c6ff7f8c00b6d3b1abaa497de6656c9df83de08192ad0123a2f3b3c7507517d385555fde94e6f0071cc29c12ad9e34db24318e97d9eccbb179b4633e21aa0e0446cb7e01fbcddfc5849d9c8d4f105bce705ff68a20a94cba49f4efc2a2697073440347cee7612c694a69c716e31b80cf461ebd6be545e97bc16ab9bb934d33622f96c9592e9fb5c0e8e6b819cda1c66c97a376fb62f30d38c740fd74778b0f559bc398e062e7e2f1686d2287e58f0e2ea5f69dd6c53f4915900bb191e1d94d7b880ee128c3ed18d24441dd61fd1f4e8824304a2c887a55d109ece3b0b69fc34403d582df60a5255a13b72577dfee625a6d801e63796cf16ce91f682c5c5513267f6ca8cb3857bddd35b0c6e273c849046f424da164857b7c0fdb29cad5aa05d4053a3843b6de34658a8b2b571f6e5b6460ccd05b97c290b5ac34d49bd15421e3e80748c0247ce975f1406f2659c4de78b45432499c3e1b97a5b652995bb5cf2acd8a1f18d120290dcb2fa802668e60ddb68cbc2ce779e38c36afd1649a5ca3a363f1f71341dda13a5ac4111c68d62d9984a857bcd99e7c523a87466fb26bb592475d1dc2127fe245fb05cb4ee633d088421382bf72b1242096147e4139343e09b3e1851634294adbc76d46ab1f39b15abcc5399b99cde41cdc252d5fb766d68b328df1aecb0f693aa8c2e70f9d754f73a5b83d98055c4853c81c9f7e1ce0989736aede5ba44ca4dd87591bb268ee636cb185934deb9cf9fa5fb5cf61edb930d1675860854bc90b0cf7a51428adbe7f6a75e5fdf6be915fdf4bd7d76f20e4429a0f1e59286a43dbb8d6eda54b064604e4ae2b3c65bd1b8d26f933405fdfe762e3a902344d1be0325b7cb0ec1c5ca2d243975b0852545d81e90ef64077938db13069c6236373dc912114e0c025ef86586c1a28348286ad82dce3961d1508430e2bf4cb6737a2365145fff7ec1374534c2097bd8f06007c3923edbe71640cf84e28759a1d63cb53a89c261dadc86d1875a99b67df3cd72efaca94a4dc7abfafb7a01c9944c57f412bf998a9c2b9d97ed27c3c144ce487c7e5017efa571f99c2530ac0c701946e0443ca64cdeb2b426adbd111aace28603b72c94dd07cf2bcd170397d9a93e27f4539ad839b65778d6afe4ab6bdaae9d410c5dcb7a611c36186adec7ad73995a6606385915cdf760d152e8c7e20fa67c72cd62c56b6e95071802ecdcfaa225e15624f0331200003a7694b2cfd85803048d9df8ccbb5a0f119553d1a9c432cbcc5489e3c8aeee924ba27f7ad9d834b64b9285599cc2fa275b0c397af1d7e9ad148061309f9a6cadb6deb52084d7c0136452a8260a6570d2d6c612e3370d76c24af2130183be748080bb3be4c54bad7c532806afb49f2aaf3e753f26613c04dfa856553ae9f739d62c28b19cf21bfe7743a6cdf32047267090d1f3d75a56e8bac900e5a3d868565d227784c7bf7be2dbec0be61256db7cd4c924548ed57d2582ce994c32ff9eb681544d7522d39ec3386ea8c2ea1fdf33d14cbd09dc0689e1e1912d7bae6b95d0ec17db17452ca8aa336a303e99fd00937377c7cf8296dc9b34ac5650e39d29ef1685319a45028cb9ae62961b85d8fbd5ea7c7116825c09311b2c683636b5d61ee5c2e171fc39d959a85b4016b1807fc47f1587fe73706bf6b5985e468bfe5019b911bfa3077465028ecc48a2255cb2e3086e492da0a5fd6453a154b92ee4586f56339c8ab84ff56be79ae9512fd88fcac5c764e96a73f99094fa328b3caabe5b0b5de964f7a6ae69ad94ae53f11bbd0aaff1c9dda1bd28218d99fdd99223cf746160f69b3c27b3b40f678f37c64064486fad63a3b46ac926d98b530f600ffc5d01f82041d6401ab597d9e56dca863b084a2cb0dff871f4a8c82cbe21cf7f571efc3cc6b1b98458d77c27cacb99251fcae80a6578a8e09423ccf6b9678d3c29e54711cd94059fd8f81b8ca738c16b8c1e2df34926eefb072e5bfb7f8683c90a107576da9b25febbaa216e667e10ecdae2d1e195acc1ad430776ff61e66c33ac287cc65fdd4caf220a5f00302e475881901cbd8f8660e9a628eb5793cebe58c9083d423f9810917d0309beb3a97eaf51ddaa55dcef850242522343b8895a9d988e86ddb981be269ca4e09883e84a15075d2ec7653f87775a09bc12bc66d60bc7d3d8283efb309b282974211ef5a7f266ef77384c9f8efa1e8dc8e8fee22f04d502a7a23e4b444e96e65d15d9b9c11601cd9b1c7524b5237f69da5da91921fcf68ccac70bd64d6fcfa2139c21449c9ed19687df07755bbe8bb32ddc040c36547161e3dc6484188d027bf144fc3433bb852ec49c889fa70223a0d2241db9bbae22c9fc1fb74aef1864bdc43d76daacaa6370bad4977ab2f6e0de1af85440b88f0d05a1126ac03d443dbee35c46ec777bafec75f8310118fec18244586dd1be644d440bb293a3801612bd9000e1ddc2b0c8d3f586e3a2dd0b793e95d20891e6b2ffcb7f1819157351ecf419f07fef27a89857e6470cd5fa45d6ba203a545074218a4655fb192d40d166b4d0bd56b4c79ddeeddabee42329524fede40b2e55392ff317c670a24e0f781fbaf7dca5ec14acb4c2bb848f183842b6f142a7ffdf1fee15622fb3f03447dbb24822080640d64c62b1beb060eeaa90797739135aa6cf9d8f22f49ec28f1a0d993e34dffdcc431b2a97278cd2363114297d9d255d1dd146ab53f55782b327b057d8e17372346a98c4a8e2d596f852f28c7b913a051265dc3b935ae2886bb63cff2b88696aef602aa6be78ff755c7b5a1dab5bd2c7a44136bfe465af5638556341e9925f87e1e02b579246829c7c64d23ab3e68c0088fadb72319ba25711897c244586e113e1b2d10a387bb89de8b8b6f77a8a41d7d32b4a8086738b227dc3b9703eee0f9eead234b308a4a4f8debcf5c13b3fd552391c7d49a05faf11176097b4fa822a5080bae62a97abdbc77e0ae8c685359b86b03efb25d8cd7f19d1c7536b34b07094e6fadcf32fdc3b7efee2210791b7b2e9514eff9c4a5d84c7ab5e351c1d0d2522aca8e793553e09bffab98cf10ae7e92d8ac7ae2e5d98dfc2bd6a2a583616e7e31801d4932c0357c18a2e01d6834ccd0a702bfdd773855605d25937c210e626ded1141e5d3f6d2bc5dbdebbb9e70f01960775f01c463b898c2cc741efe811ed95fd00572b40db866f26d0a6d6d45e2c697a1589a5414d86da1614a2b1c0ab616bea6eb5a32c952a9b91e55c5ca567336e27fe0c8f886bb0f8293606d1608248fbf57c2163e1d81ae28019063bd2e534be4d41be1b526a1d082f838bdb67843c29a3fced9cecb488c44d4b307d26f2ec12e4f9d9cff1efa0f69e57c6a19fc5e0fe55fd5a483bac99c47b8aca00b38605971565fa4d46faed9f471dcaf153785a78c68dc096526904162c1b009ccb80d67a0e7fb10e7085dd60a9711fe8ed9c2e86c1798b3b20aa28d82233b2835583b615d6a4317919ae7d4140888a47b63f0039316fc65822e2e8a04d88b965f38603a8edff1f6682b32c383c6b006fe5f200284a94288967bfc290aac575bc66623f2fa9aa03d87ce488b4844ac3bca00f451cd86bf2f63d7d98ddd896866d18822609ffb5548984d7287de87eed84e54879120c2a020ee6998db2b96351b40238586eda8be865b0303b3b77d54a8603402f401a8cabe5167edd08b97545d9c91c0eb5edd5c7f50ebf2337601fbd11f72f41047aaa179264028dadcfe91cc7243a3f86ec80581b2520c3106a12aa6b7d68fdfc46882a1698157437f167e50d98132cbf27622b95fd2df06e04d0e9d451a58b30c68316a923de338725312c5103ca561eb0724dba65762444fda5c3b920caffe4b6ce21a5c87555249b04ecf8969b128a7588f9d1b301f3a0eceb55fdbfaf47906daee7aee75068dd687b4ec9aeca92f2b1dea754833190962504e9fb2b8551ac5141be81fd9ca1ccfc9683a9c8ad51b8b10da4408b38e8a9eabe3df1e358697e2df3d6ad1e3c9049a4d8b4e8605b35266744903af5aabd583ce869824fd82fe2b5e83f8c15e300360820f8e3ff82c387c042bf91e982326bf01ada520945ea2fe39f3cc6947c24396a32cb9738f4c4a6e57ab6988b369ad2172b9f76a68055e7c3eda3fd35c32c449a877aab514d72a5aae2336277fead1d2854d2de97adb468a94c3607319b211e299c1a6728d072639c20997b06273be5d8fb2f6cd2053d3fae354d123d4fa2d5087080866a222c10bb32cf08614cd249fa95364e10905a9d03ba888e4fb3f042ea221c4b8b9476ef72e27029271acf165c7812207f6100fb138f2b62b77cefc2c9d3491b26f2bf2e1ade98046fcb07bc8487085674e7b0cc6764ca58d7826c269b6c721a75f6767c856e07c4d6df056940bbf31dc6fccf569edbf10493e14ea06107d8b6503534a39add467089ca1b81048c71eb8a20fd6405ceb12b1d366fe74db024f1d3411de152ed293d443c46fae9a357f7baf9586568f03e52b2ee85a5e1627b1642bfaba5ce69ced0f7b895d4ba783c9e83b4b658e710a0c8ad57f510d63f25ffdb259129493593c3981108baf4f4a810eb02801d1f4ce172258268fea9c3679c118e8e5f22ae57ac24326457b02a86619a537634aa6528d3fcbe411687e17766e0c37c68c7a86816b6b982e5f5f64c3d8d0a95408043202b0b48f5e642ab96c7e4f6ad9d44ecfd38ca08a22f9137ae8bd8ede3be2b16d207330a460a3d442994c5cb590ed30f9eee8af07ba3baa097ba9d6e42810f9c54d3afdaeceb7d9fe08ee3c83812ef831b0f9e055e502ae45f5c8b1804da01bf6dc2b946a320784796a04ac0aa580c6b74aef797e3c792739a255ec08a30cb9aa91f1b6366f0a735f0d7493294ae9de7902648091b26d648dcf3f24b7147e7d3c2493805fe5abc7982b55e9373fb54e6e592444435866dab23210765c9c1d3c3201f670741f5589a03d9b97dd18df4438a8f79ea67894e27b9bbb7b1082404f3abf2677bdd0e9a479ba26b7f8186c9838244a1c37c36147445718bb6bcfa10e6bd08f18d6486ad0236595a267f8e2b71c91a39028d600801de5617501e321acb3f230c73e76cdda32920ca7d1d6973299c827ecc4c598703ad95af5c5435d80b44c02b26580b6af73d43689394934b4b78ef5a457becc4d64a4b9dae6abac29b86f1d1de54f5282e56125cb6ff01437ee91560c4b1c58920c46dd687b48b8e81fb0db49299f7de35558d03bca0de375492fb05a8e3ece6e7af0bbea907804c84f43945e382e23d0a8677abf4368cdca223cb311c07e87cfc24a77e79df09956a7146a55a95a9242c5241fa230d2f9ab73d7e0a5c8c9818f4664174c4f05126b90b149252ff51d082e494a96d22b31a6c1d53400318017f9e91619e5ee102f09dfc1f2291ffe246c1d516c962d1e48e66f879c49b01edffec18ec952bfe15f87cf1908db73b7fb5b0a1d49affd5d7d84043d4da55c813ec032bacee6088d1b01f7c07756dca815fefbd27b6b9312547662786df9d9bbb3de5189836d0c32534a36c3ed79f3ccc9e7dbbddaaedc831e0bc7e0d38b5b65aa368b4bf26c2041ce9e2f79969891b4632aa2de3df1419678815d39bad793be34942306cc9e70fcdd16e432fe6db0809f11eb0a6dd481072d554c68e497a74acd390bbb3c7460500ffceda6a078d3b26cdeffafb91f1028a323cf16aa5e7c7e9409e3211904722df6c0475703bc77121179230735da20eaed744a433c2aa08331782926da882b67b1f24b118e0b817fd99d149842e2005e2dbad45a9fa0907cf751623c7013fb0cfc13365e8cd41011c6f188c9ec3bddf81453f677f514068374d298f1bab642eb0e7c3355bd537e1261508d1cdc7f25b0676368dcfc937f0a96f1cc4e51a60c3c1c1c4d260b4d81bbed911af78bb2d540d02d77e8622969954fa38d2e11df2dcdd93ca718562b7dda5d243d2596fcea4324d1e64753cc07f4cba162a34ea37f70eb7ad961dc687e33022cd45417569e49418b6adba8c0536d580e3b7ba34c1fd39ce153e1b4d6119a76f78d2be85f106dc6fc4130e9eeb9d8f164cc20baf27f833a189dc073b5e78c4c8b3c81b45cffae429e917371a77aa8fe770d10b0bb69084381b012a3c30c23adc2e4f8790f875711cfed9216162bd4eab772d30b815989e5b440d99a29a3a8ac69843eb32322b4d186e380a07f9f9f91593cd98c56ee1fcfccc6d82ae3aa4def979f48571a1293768ad16bcbd1fc6848e201063185d02224e542d7b5c5eb139d3c2e218cbc2de480025e18b9921204616e375bb55ce8a1e20c795f39907a6b667c6b96bb9cb15d55259f4f1260586de22ffbe61a2f9debaf2d91db7d5dc00e05c3e37416edba602696f83699717f7ae13fce7693e5c07feb20dc08604208e6e53c3e0dbf6029d0766498c73639fd196271c7256a7acc5a7155f66f7651da9b7781ae60e3321b2178e5516b51f617bb0938caeeb2f783ae7edeb0b8bb87e57af92f5e566963444917dccc6e9005cd5f143205302e28a29177282ee285785cb19913bea9163c540ae478f878241079001edbdf2670e3ff8cf1e6c16a7280c541cc0ccac92155cbb4b108d13ee7fd254765a16d3e0c6af37defb37345219809ffc0042c8a164afcd67f93e861066f8085f64b7fcaa94fdb8adc18bf09e2500aec79f5a47c80accf3db6aa638a7b8263eaf2d6904ba85fece734b4b3a5d09d5b55cff5df199472c71c9c41784d88296389d8469039099c5d9fe387e55b4e863e0fdadb35069fd4a5a92b77a66c5950922dce42040e459355bc0b58de7cc6957d2dffc1650bd7bb87d6a777cf0be593bc459ca907a42fec282e2eddae055b5d2dd0b67318585ac295a59fc697cf184996aac3161fe9197026468b3b4ab8ef977b2bfc06b7e966c0b0bda684f9a1ff3dc632883974bfcbef38b8860d402c421c6ab930e38693bbba563984d1bd585c03b326f464e6d2695ee0f60a6740f9a1e8860fa072c867c864e35898edef2a749220b238c901b8af758a67bd24b35fffb5b96036ae6c3b5aca1f0aea6a6baa478b8fc5ffcbfc7c5ef50b75e812da5aee03726d7425d153309d593b6ee2404d286ee89d7dcdd1f9610d73d34b5caca00bee47112900c30efb2e645dcd4ddff095ae15c8810ad1f7ac38d32f5561ebdc824bc837eadbd03c7d335f7abebba0eaa95d9ebd6d09be5085655f52d6ef1cf711fe557acd407d25b32950829f33c7f3ba549f0a080f205864a6a0f2ec88bea270b8f796d07ecd29a74ab258ea46c14318d1777acdbf633045682fd3bd491271e0f9c0b8a22932e9ce03b81c1bdac54209bbd956e9fb2d4769b23444650fcdc9ef9098c2a5a961a1b5b0380121f692e1e3e99edd6be756f2ef4aeddd54dd8ec3ba401a708234c24bcda5693a6203d323f5a616a82e3361860be2a264fdc9aaa13152581bd75efdb0e6d1edd9bab318861e4438b7ea04de9e1d89b11c336e02815e03b68d4f0081850d4a7e5a1fd4dc806da7d145eb82b1fd43c4a4a0f3f14444f8e7b7c6309ac97a73434bc431cd368acacea8804c549828183956ab1df8b18055f726fd671bf35f95a3bff7301ce39e3bbaaefc3e46217abf13708cfbcf2b383d56591c4d0006932fa65a0614a8a3df5ce6f5b3d6b75922913e5c7338e280ac7c97fc6a17b0f2740625509493c1adc783027ea51dcb15068553926418c9d407123781aaf4411802e32e6f8b15d4be85b846c519d215636e5b4fc6bee8835d02002279babb131885d5e4af8fe6d997517cdcbc648da0e8e4fab44b2b21f56eb47f07eff1d9e200324a8a91555bfcf606ebec494521ca4921277eab943e7ae5743c622f109a755a822df530aafce1916faf4adf7d67c62d70df978681dedbf015af0fa72fa53284e0a682cea32165dabbf8503ac76f054f8549363687eb2be87c9efec302a73b9fe7dbf2dca7ced0c994bc0216f4858d7a51594a6bbfebd3bcd2e860bd79f414d1256335827484699dbdeafcfcc9129b0e611701bdf6d645f628d7dfc0208f2afce51b7a9364a8e447f9ae677944d54dd1dacaaafdaeca680f67c8c1c7e27544480c93c8c69e9d2ce5278bb06eee877defdbede4263ba7c558eb9154acf6f11aa4528fea319b826f4cbe34e9378ab83ecd98665c616976a930131abf0fe28405b858b5467c8d529e726658fef17727850e707eca8361ad0c478c76fa4578ac4d109944b30545425f8d2ab00bf8b3e9c2aff8664bf655caec40e290dfcc07bf79bf9766ca5c123d19baa7f4da297bb760ff5940ba5f62c1cd59e55d5ab5859144ac6ad41c1b121a12a6273c296e5cdf4b4eed853e59bef9cd64c1fe5d2b6d4c9a83610c527da9b8c933a98731bdade123f3d63cbe629ba140a3e113b7c0dd9a22d2c3b7a8e342bde96542b17fa8f866d50283f6364f9ad3a593f3c992095a4d12bf23d7a4dad2af956a9df01c1b422aa79ca485b8355d0c16929ed79a67e05ee5700f2182545193e5056c86a7110719c02f4aa5776bb38aee40106429b98ca9346ce36d5b91c6d297b2a28890c3748b83ad4e67984b1f96ff1f67a0cab5c36eeb22eeb8d49f72328084da3f440abe591f6bd11ce2d7540a226da5fd579d9afb22239a5833352a7f5f08ab32c5eb557d921cfa90ae65aa714a0612cfddb3d4ba7511f2fe6dfce4f8c82076c38030935ed0142debc35d9569ee645f329fdcdd290ebbcb8ad0e9bad077e3e620d5c7b1e2e4f17972e9f2aa696acdc9ac37238469ab334786df4670d64c68f44c00f424ab3cf26d77c6f49c030e32ced3f055a360183409eedbfe47d96dad11eeccf1aa01d29d8e3d6f58ffe359db5494ece5b71a5ecd8350cf7bba6f457760adebd09498151000e86db74c420cd597f1c1871571a5d3380ff6735f187ca8758a9ff3eba3136551a6f10c98b0aa982e9ae7f847fd91fd14dc0c8e149ad817656b1512240b58111ed159b34f86336a2802218805e1639206c53f24993bc16ae13b91af079c46b6fd7c22d568d508ec760ab147c82b347077560d5454e8c7bde0e4390da5f919035cfc860a79960ccb65a77bbc3f4a89506a4e6a1629a70f043ae32098378a462790af73b904e35b9e08e1d61388f2ba1af33544fab7d82c86658c799bec48078062fb8e0b9f06095e05f3746f769e2ffdba3c8c91fda2d9891c5f572db5bcfe3bb05dbfcebc88fc6b24d2d7c9944a2baa9147e57b8456d72b883273e130cdc693a4361fcec485121b9e8bc89510a905eecd0a94d3fb19a293b95906ee70a635db2d7bb717179a3f5ec7bd326ddd5d7fe312cc64fe4f0e4c42148c0e7c75815d4662dcc4f350b0516e15d7613fd22ea439b7ce83d3405f28703a3d68cb6dab956cd7f2f2a0b93ebcb44f971a9ead6d1263daa55121e4ffdd70b3bcf48551e0c1112451105b922da941980414d7a21d2e11e86610365172e1035b7a8d8df1449f29667df71e2cbb9b5bfe3226de9f89cb16ed354de18d28ee82906309627a359f42be3889fbb608f63d7d82c3d5f057943db9a5edf64a37372ee7daab0538f47997bb70f71f859e74b1379e242b25fa383d9c898b998005117cc63018dffb9cc8ded7f67ebe2422c021d63dbf82c0e7ed6ede82536528186d1a307da091dfd5e2786b598eceedf721b2f595390761fb89b99fd2c1fa12588a2ed1ea810cdb63a5731bb23800746b7f3b34f04152f1bcfb2e8af3debbc9a1e4e6230ef0b42aa7a5386ea5a480b15eaa4c4aad722d39f6adb88bf2205dc78ccad64025dacc370809afec4af8c34e7184883b305546b188af2df24096e4d8958ee5659b7b3532f584436a588164879c7ddab99a8c47530080e07453ab0421b79698286c9acfed45f73e520eed2607589810a48c4619efc681f13ecc6bff74a73208292462f4745fefbb8f3aa34ee9c336969cd16f5a114702dbe77a60326e36bc09858ee29744a957464472279fff53e7e55c11b8c5a709b6570644d8de55d1364cd53d8ab4340510b23d1264ba11aaae09c0d3be9db2e1eabbe8b5d2f3e8e5ee85d70351f4d146808275a7af4953178d9ede5ccd75e3753dd813e0112a23769b4eaf8ee9d764b4ae278d181c6db88f993fe00f1875bf0220052cc45673f04fac2c15d27dc81f42b98519f426630381449c9a8e6460d381a6475f1784e50d51e852ab1b60e625b4c39c28912c59364a44a402c4360c0e28b89a2387157fb98b04c0e281c76c3abc83f2d2647393c40ecb4f51b69a1c08ce2531e568ffa905d8caecd275d39d074d39f47db8cd554b46c1a97b499f4f62f43285f61a1f3b8a54e170567b5694c9cfa89825b2a33753b092d394caa9c6b707bba4ba183fe86b13390519a432c0ab5d90903fe35449cf792bae82c14637272d5c08446c1cad89a452621cf7291ccbd967330ad1e83646cd6857f4519d7868fe21239dc77e3520be1e039e43f355b88aa179f12b4945df059f792a77ca71f96153b750f7f84beead755477be4ff89748c7b22104377bb357ab5a063c56ade4f3cfafcd3889b46215132639a028e91aa199d614fa77023fbf4a4b44fe6ca14c20c2627eb732fd970661c9cb40244c1909b4e976937f5b26bec1deffa9eced58952ddde17f876cacae2554e54a68cf0b87b9244cc4352007250cb34c6445e68d50738e70899bc69a183de79043b36fa6dda42b1cb841a4e7cd20579ceef80a445f92ee94e4a5ad40a099980daecc7de7093012d7be70567a2b2ec4a8e1a1ec5b561d2f8e1df10ce2881a1260c625034fe78ca4b3847eb3ed3d5a85ba8cc73f46505f6514bb452ec24980cb84b2b0592eea8b875850a04fd61677b2238204b62cff6912cc68e8b04a91da166aeeafb9582ecd3bed2bc1836f21518a98beab48f4d6bdd2adb6e0a483fb82de46f49f8a872b3e5d46485c7f554e128bfe82010925638795b0b0d3e89c24c026ad9ce42feb2e64079662d74753e2e046423b96b8bbbd0cbad5882f960fe9d953abf1c66b7de6c47a8f0afb8e1cfb824a588e17550d6f44e8e4ffabbf7440fc8fd1e07da068db54ea832884da1b7f5486ef5a8a29635ec949a69e5a53fb5768c12e2f7b14e06e7ac4dfc4ccc7c4f529d3a4324831a21f177c8e960e4b378f66140fa35b4189059b0cad15ac51df080c1500f2033305c74c927f5fae02cad4c7772886a25c6bcf7fa0b7ec4c9e123e31828126152512f9a4a09a8c9ccf19cd80f0936a5f44d0f29522196d20bef4f73d67efa251b9cd7a7c2a0b15b490afa53519121b58ed4aa98142403582eb25e3184f1e0b9d89fe7da440aebb2543d0d6f6c0ea945688a4d49ca8ff9fae4b89a960ce57d93992731e02cea0986ba3223d4b161b82589d71b3bbbc0d22d90601cb60d2f29f1aa547e2ade47b44fa12bf682dfb1d8783af4f4c4ea40143e94ad7a5e98032b49bb033778da304d0d3a94b8ff770e87fd899ac8e0cfb8c5e6a1dbf221a96e012b85c697b5ae85feb724b8c9d67c4df414fcfdb4ffa04d8ef13ee95114cd23b051a71b277828480e3b21175f9791921164a396002c5f1035352e66edac1bef7267342dc0338cecf6699284bcdd73d740e61fce12bcebcbe526c06a0bc0ded205b93263be0e09d8bf0572db67a7e00199adc9cb3f0ec995d49d4e8a03a53a5f6317828448321e7410d86682764003957e7f0432e2fba72dec88b575e5c721756a9482a2058a6d786bfdaca10bfdb11540ff624fb772f59782ab4e3c4cfa4576428b9232825746a9050a07bb0b9284e966633264a769880aed1b589f843773c594ac23784854571d28e4fc80ffd4e87913aed70796a5082a98480f07fdeddb2fd3d824f12c898a7cdb8949faa2f19bcbdd5e73738fe89d11466ba37f6366e8f1844c1a6e38c713a685eecb5631b70e4aa2a8f6a73e01a74e80efc482221c1af8fa80c441cb06466e296b70f8480cfa19c959bcc94c1aed9c6a2fd594fd88c55a668909697badac1a532d141558724f714e5d71af509e104152f872f56299eadd0782f45dd88338b36fc26081b685a8b5bcb9312dbf0363926b55cb308edaf68f4641d5801b2640ab0307a39381106efa7e7a67a46885e9edd6d005277ed2c7fe53d8eb3005b1c3c75765158db9d745fc84f4cb8cd2c9cfa1700c8d031a6ee6461020c209902063b9dcbd74f678e79fbd8fd39b007f1498b5e83c470161f927952628dfc9107297551db13e11b608c41ecc66138ec76a112bcf32a66d9f3aa1a5cbad87c641900bcada06521682a8203e53914da6d2c6cce8efd9eb67b2e2314c5ec062dd41ff63e0bb447108adf9b5465059c9c416f5ead1bafe614079c85a40f2f45e2d4158710eef60d12321d1dcad13a81da903846df7865a744cea782c50ce2a40667ab703b759a5f4365802ac07c864ae5be0e585ac3c7ade07c0d89d600e50876f807f8f600bf4e476dd8a6a19711c19d695ddff95edf4abf42877aa465c6a5da33d0217f6b15b38010baff9124d6eb0cd4c52af17dcce57582049944178998d25c496223ce1d7f59f89591d32e6a758d701f06f9dcf556b5d62e4375fa27c7dc61f8ac9023699b79c4e97f724032375efde6673efb8be1290fba3535519aa8a0fbd946881e384a99f9d6f200163853dc2c0a1ca5d676bfa5c28df1c0e588fef364c6fa7fd231ce46f9c91f44661a9bafaef618cd3231d4f458640c853bfd10de50b6c80379103a70dbf2e51d8fe7ea8109032ef029f81a8e57da9dcc8928c6cb1f343f89211ee3b604cb72fa05053ad1c61ade9d9c7834389db1ab99376ec5ab63ad9a45e37324aac0f4d69812d37b06e45a6d6f7acb411813ae011d8cd60993d5d93a4b77205caae8ce0564ef41bf54cf2eb4ab9911d27caac079c7235bd05a5050c87c5c013bdcdc5acfe31a089d4d54babf6de5eac301c9853121d446f022b527f2ab2a61a7b2cf717dd65784072b58c776631a7ae1dfe343e145cb2ba44e70d11d410c9d555fb0519485a7173ff645814d2f0e664eee09a2f5fe82b88a41e735a4783bdf6f12c28fe0b9c62e9745d516c267785c92752f0c2d04554950aca0e551b6eed8d74144a6e93ffa4ced42f72242749afc769065079734f75f680446a95759f3093d4f7d5cc2b06e684f1052cb194cce1207bed5cdb77d865c706dc2febefb9bae4b8b8dc2c951c285d39b941a274fb18daca1e6a4a1be14151e52d20b6c9a59b3183df7d9259ef08547d3428f02b0c82163068354f9f0833cfa31a7fa3e0f567f2eeabf75842ee27da8370bc4e03eae4f8e9495f0caad387e02350d05055b1700cb35d698e98e33b2678e13a87df5db9c34f1e0c23e754b6f2fd82bcbbc7f8267c4b29ce57f0323c675306c760aebf4e22a3ee594992a5cf6337feca8efb13d55ddd89a3395bc3b2a7569fb0361693866cf8d48c5abb7374d24decdffe3911241f5e6893246405bea34a47983167c8b419a8604753c1c0a6e265e2e89cd7a0bb7dd5f34606f697b43d3dbb38fcf44951bc9ebb692d3ea7af29aa9af55e0ddd21b620a7ba7ba95ecd19d3fdb0542973135d906163642fae1aae92e780d0ffa6816ca0da3fa9053bb8154e20e95100fd69b6833b9d5a821d7596a43f3f792679939dee6881b8b0e5c330a747cac9279f817f4a12b7973b0bcb0d5c7cb983925fe33ab5eb9696344646083f08327c860208f8dfabd6243a19a3843be8b2d86585accda136baab0c54cde405f47976679b8c3a90e07deaabea3591e89fb8f7b99550e7d18de6e4b7b104ba9bc85473730633d4f4e3e0f98bb8b4e29bc7dd2067147e96f637f7c1d7a3170c35d74adf1716ba3ebe0a31fe605a6942ea513acafb644d1463dca2922d8ec93912b905b45f109ea1ce4bdc69852064a92d512301fe2c8e5d85898ddd44076e50a31e2f46bbc0b377f627c52fad0f9922b18952f682cc12faa1d3f4c363dcdbe12039305ca5a5ddc7f4bf89a76c42c277491602cdc26339edd01ba30e154c093ef0843d56d6282ded11fb1f3544ca5ba9ff1fb4e321dfdb0a578656d829a31e0fc0b42dc6cb9043fef9dfe23c5a2d1afc7f3a3f61ef95107525b143b33adf1d28d8d2cb15ac6ed26577f65b07dfa0e748746024f5f3d7ee2aa1aa6487fd563ffb7466c21721709b2316792b6157ba036b2e067958c2eae8646908b924e47c59a836b3aba9e0bb2b7e42eb90fc55c922b1537c7327447fd8f411dd52548fbf929cb3088d79a6dae9f049ab3bf42791b00e14e7f093edc5ddcb9d01c81677c7ed0014e163e9fe29b18bd89d1ef1cc8a5e4fce3cfadf602450ebe70e4f239c137673f973019fd1b3dcfb8c4b58deabe785a51bb6fd640fe9dd7357f7c005584a9885ff08db4377978e1fbe715f1cf9bcb4262b98661ad685c7dae5f06ffbdfed99308a61dea1dd9fc6935e8259137a2b4bedda8f328469c76970e32f0612c598dcf23825c6f0b4849b85d86d37b96e6b6c4a3ff65df282a0a361a6627c3c22ab75bc53d6480fc28e7c81c220f450db75bec123a8e650cd4e2cf248faea3f92370a0d4403506c2733000e3da767b04fc0686b1bb2c58aaaf4fa78dd7439fcdeab90f27fc5df1dfc570d04278aef45cc9a797e29ad8310e6497cd98f3c30be5845169188a05c6e7fc6a4ef77ee5702326e94f01005cd1be9d98700d125383328e556ac889bd5a6b58fc055350d2e37734a7a55a748d761ff6a80e3ac896724a47df63f8255d631ca531b4668a563a1fb8c13ca38caea37bf310fe3ac69541a536b17c461af0b4d8c5eabf24b7af0dc11995c64d379bc8e4556272c291a697e58162e85fc46038af2a0b8083de5942af416264e8bc25a64ced02ae804e5607638a5421b8289266c0a8285e6514a2480d199b4792a2fcd70d6b04e01115eedff24cbe7ada8e3f05fe01a058eca09cd1cc9f17be42f2c7c363b516ea74fa9a99dc1a65a4d64c677c9b7ba153924316402924ade196c9826e31db9eed4292879b49137cc398da2c9d8313533db2c7fecaff01b6d994c78895bf1103a4c3193e37ff5de7af1fe9b56f3b92b34a812d1ff092905d0a0bf631beea3971101f31919632b2fd10a615cf577d4de1a246898b32b34b9a8fedd6546c22aba460c7bf5797fb8390af59196886ccd3d9abaa1eae4f4235f74f8b1b4c561a506aff88004d7eeba4cd8449bf321845d5c71d3262b9b4fe2b45e05180eab1f0c4d75c2b90fec84e36b2fb5a889ee8ca2c126d7c22fea396aba260287521942670fafe9a29f2a24b007dfed37febc519b4ff24b09cafc1afe90f249b21b14a8949a68fe23a305933c3c16b28a9cc002f815b208a9c8aaa281c1fd11165a291556588327de1e4bfc4c1b72106edfdd719b5f57474918cc6569e08265edf16afa5f1b</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">你应该知道密码吧</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 珊瑚海 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>silly</title>
+      <link href="/2024/09/01/silly/"/>
+      <url>/2024/09/01/silly/</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="482e306b148dc4d1b0dac0421869029b0a2e91b29f7cf354da4e2988026d22b7">ee949b5fef51d49cf0d42a3a262d4112161935c9801d05b4c79d29c0235c7c0c173e54815bad372dc1cbc1dd6493861e0f63d904bd2fd0bb2e6d44f6dca30f7bb888032590f0e4e6fc0ed7faf33265d28678da501a07fabaf268c687fb739409b2fc8a12120b3f7dbbcd60bd03544a7e4a0145fe2001b9d3959ed1dabd7794cee490efc88b896e18f11b167381a00aa1c2f45c9a66ee7f8cf59d1232333eced9b5ea2c2a6752bf1d8d03c9cc43fa453406e78ba14c407bc8f7c0f20ddc0b313659846033a74e0aa62644b44deb48f0af787e95706a76206ffbbd77e1a43fb7656af2c4d90b729a08aef7d20964e2e7121d0dd3b237f2e3cf15fa682f61614468b2b49111d070968daa2fab6e65caae65f8769edb7ff338fd01b0b27b3c8414a1b44d9f04b89474e167573abc1c447ad884f4fcac6ad9de6f95a2898b937a6213fa04f2f49e658e5e6fdc3a7defc063d8c24bb4582ff198cc138eb179224a4abc49877cec3ea40338de954877dee37d36993f02155ed8f354fdeb3af2b43286e0ccb6c102920f35f4878cfb95cf124bb62822d9472a8f53bc9fefece6c35c649ca85fe4772d69d7edc37e06403db1e80949642ad65175d01107c729184fb674cf6b450ab35ac6b4a7b08b3b2029f29d01b6d0dccea8fa6d8584167a9e33fd6692dcc949c8f507cf8e42ea95cc84760002505cfc507327897c086b8587894446cbbce18c34df74507aa54445f385e381eab79a1bb55ffb5edfda39ae0f89778a9eb921d28fe977c3c29feb29acf1296daca588f6b4ec1993400d79421515b5b2ca26a94e0c6b5805724b744a6f0c62fb28d063f85988232605433a57abf6c4b6a7b148740641a7c1fdd263e4d06c37f8da83f1717236d732512a506289793ad79d</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">你应该知道密码吧</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我才不要和你做朋友呢</title>
+      <link href="/2024/05/13/%E6%88%91%E6%89%8D%E4%B8%8D%E8%A6%81%E5%92%8C%E4%BD%A0%E5%81%9A%E6%9C%8B%E5%8F%8B%E5%91%A2/"/>
+      <url>/2024/05/13/%E6%88%91%E6%89%8D%E4%B8%8D%E8%A6%81%E5%92%8C%E4%BD%A0%E5%81%9A%E6%9C%8B%E5%8F%8B%E5%91%A2/</url>
+      
+        <content type="html"><![CDATA[<p>昨天是母亲节，把我才不要和你做朋友呢看完了。主角们的青春故事真的很好笑，结果下一秒就笑不出来了。</p><p><img src="/../img/fc809317908ef4e31234067b1620e3e.jpg"></p><p>分享一个美好的下午~</p><p><img src="/../img/fbd4ab8ae28a82728c5658000761a13.jpg"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>备忘录</title>
+      <link href="/2024/04/18/%E5%A4%87%E5%BF%98%E5%BD%95/"/>
+      <url>/2024/04/18/%E5%A4%87%E5%BF%98%E5%BD%95/</url>
+      
+        <content type="html"><![CDATA[<p>红豆生南国，是很遥远的事情。</p><span id="more"></span><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">新建一篇名为：</span><br><span class="line">chenge-first-blog的博客</span><br><span class="line"></span><br><span class="line">命令：</span><br><span class="line">hexo new &#x27;chenge-first-blog&#x27;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">1.生成html文件</span><br><span class="line"></span><br><span class="line">hexo g</span><br><span class="line"></span><br><span class="line">2.上传到github</span><br><span class="line"></span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tong-first-blog</title>
+      <link href="/2024/04/16/tong-first-blog/"/>
+      <url>/2024/04/16/tong-first-blog/</url>
+      
+        <content type="html"><![CDATA[<p><img src="/../img/iii.jpg"></p><p>hello!</p><p>今天是2024年4月16日，终于弄好了！</p><p>也蛮顺利的嘛( •̀ ω •́ )y</p><ul><li><input checked="" disabled="" type="checkbox"> hexo+GitHub 搭建静态博客</li></ul><p>那么接下来是( •̀ ω •́ )y</p><ul><li><input disabled="" type="checkbox"> web！！！！！！！！！！！</li></ul><span id="more"></span>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2024/04/15/hello-world/"/>
+      <url>/2024/04/15/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><span id="more"></span><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
