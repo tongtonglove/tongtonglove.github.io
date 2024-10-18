@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>换主题啦！</title>
+      <link href="/2024/10/07/%E6%8D%A2%E4%B8%BB%E9%A2%98%E5%95%A6%EF%BC%81/"/>
+      <url>/2024/10/07/%E6%8D%A2%E4%B8%BB%E9%A2%98%E5%95%A6%EF%BC%81/</url>
+      
+        <content type="html"><![CDATA[<p>之前用的是可爱的小猫Meow，其实还是挺喜欢的。主题的作者平时会写小说，是个特可爱的女生，所以主题很适合写作，平时码码字（当时冲着颜值和给oc写设定用的Meow）。巨无敌可爱小猫！！！已经对这个小橘猫主题有感情了呜呜呜。</p><p><img src="https://s21.ax1x.com/2024/10/08/pAG4Ar8.png"></p><p>之前是默认主题就经常看到butterfly主题，但是一直没用（很喜欢在hexo主题里乱逛）。现在换成butterfly，主要是为了想弄一个留言板，网上很多留言板教程都是Next和butterfly，而且现在挺想学着魔改主题的，butterfly用的人挺多，可以跟着试试魔改，应该比原来的主题好操作一点。</p><p><img src="https://s21.ax1x.com/2024/10/08/pAGhOKK.png" alt="pAGhOKK.png"><img src="https://s21.ax1x.com/2024/10/08/pAGhbgx.png" alt="pAGhbgx.png"></p><p>（可惜换了主题之后原先写的所有文章都没有封面，现在有了，默认大蓝底很丑，现在只有主页的形象可以勉强接受。。。）（才发现原来有默认全局top背景！）</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 赛博小屋装修手册 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>苍穹外卖day12成果</title>
+      <link href="/2024/10/02/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day12%E6%88%90%E6%9E%9C/"/>
+      <url>/2024/10/02/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day12%E6%88%90%E6%9E%9C/</url>
+      
+        <content type="html"><![CDATA[<p>完结撒花！！！</p><span id="more"></span><ul><li><p><input checked="" disabled="" type="checkbox"> 工作台</p></li><li><p><input checked="" disabled="" type="checkbox"> 导出运营数据Excel报表</p></li></ul><p>嘿嘿嘿完结撒花！！！</p><p>说真的我没有想到我能坚持学习这么久，到现在项目已经大致完成。</p><p>刚开始确实手忙脚乱好几次想要放弃，总是被各种配置或者报错打倒。那个Nginx就弄了半天，结果是因为80端口被占，只能换成8088。那个初始项目工程的资料也弄了半天，当时一度以为自己根本做不了这个项目。刚开始的前后端连桥和接口文档也弄了很久……哈哈哈哈哈哈还好没有放弃，当时老是觉得弄不出来心里想算了吧。看评论什么微信支付弄不了，什么阿里云OSS要花钱。但是还好去尝试了，那些我以为会卡住的地方都过来了，我现在自己会找报错，会测试，已经不像一开始一样找不出错误只能去百度，或者啥也找不到感到挫败想要放弃。</p><p>我还是挺棒的哈哈哈哈，比我想象的进度要快多了。之前也看了整套的java课程，但是比较倦怠，所以愣是看了一年半多（将近两年（也没有那么久哈哈））。这学期感觉自己很棒，现在离开学已经过了一个月，我记得大概在刚开学一周我把假期突发奇想的烂尾项目做出来了（其实只是简单的数据库查看和增加而已，可我当时真的不太会，开学发现问题出在请求路径写错了。。。）这次苍穹外卖项目历时半个月，啊哈哈哈哈哈真的好棒啊我！！！</p><p>抢出来更多时间去做别的项目和想做的事了！</p><p>（只剩下后面几集前端的知识点啦~~~）</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>苍穹外卖day10&amp;11成果</title>
+      <link href="/2024/10/01/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day10-11%E6%88%90%E6%9E%9C/"/>
+      <url>/2024/10/01/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day10-11%E6%88%90%E6%9E%9C/</url>
+      
+        <content type="html"><![CDATA[<p>加油！！💪</p><span id="more"></span><p>Spring Task</p><ul><li><input checked="" disabled="" type="checkbox"> ​订单状态定时处理</li></ul><p>WebSocket</p><ul><li><input disabled="" type="checkbox"> ​来单提醒</li><li><input disabled="" type="checkbox"> ​客户催单</li></ul><p>Apache Echarts</p><ul><li><input checked="" disabled="" type="checkbox"> ​营业额统计</li><li><input checked="" disabled="" type="checkbox"> ​用户统计</li><li><input checked="" disabled="" type="checkbox"> ​订单统计</li><li><input checked="" disabled="" type="checkbox"> ​销量排名统计</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>奇妙想法</title>
+      <link href="/2024/09/30/%E5%A5%87%E5%A6%99%E6%83%B3%E6%B3%95/"/>
+      <url>/2024/09/30/%E5%A5%87%E5%A6%99%E6%83%B3%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<p>idea~</p><span id="more"></span><ul><li><input disabled="" type="checkbox"> 魔改一个hexo主题&#x2F;自创博客主题（我是菜狗八成不太行，难度五星）</li><li><input disabled="" type="checkbox"> 猫的树四部曲（难度一星）</li><li><input disabled="" type="checkbox"> 弹幕流星雨（我学成了能嵌到赛博小屋的话，难度五星）</li><li><input disabled="" type="checkbox"> 装修我的“赛博小屋”（现在的赛博小屋有点简陋，难度四星）</li><li><input disabled="" type="checkbox"> 养成刷力扣的习惯（难度一星）</li><li><input disabled="" type="checkbox"> 学习Java基础、数据结构、算法（难度一星）</li><li><input disabled="" type="checkbox"> 要成为轮滑高手！！！（难度三星）</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> target! </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>苍穹外卖day08&amp;09成果</title>
+      <link href="/2024/09/29/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day08-09%E6%88%90%E6%9E%9C/"/>
+      <url>/2024/09/29/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day08-09%E6%88%90%E6%9E%9C/</url>
+      
+        <content type="html"><![CDATA[<p>power!!!</p><span id="more"></span><ul><li><input checked="" disabled="" type="checkbox"> 模拟微信支付（因为不是企业，所以没法完成支付功能只能模拟了）</li></ul><p>用户端：</p><ul><li><input checked="" disabled="" type="checkbox"> ​导入地址簿</li><li><input checked="" disabled="" type="checkbox"> ​下单</li><li><input checked="" disabled="" type="checkbox"> ​查询历史订单</li><li><input checked="" disabled="" type="checkbox"> ​查询订单详情</li><li><input checked="" disabled="" type="checkbox"> ​取消订单</li><li><input checked="" disabled="" type="checkbox"> ​再来一单</li></ul><p>管理端</p><ul><li><input checked="" disabled="" type="checkbox"> ​订单搜索</li><li><input checked="" disabled="" type="checkbox"> ​订单状态数量统计</li><li><input checked="" disabled="" type="checkbox"> ​查询订单详情</li><li><input checked="" disabled="" type="checkbox"> ​接单</li><li><input checked="" disabled="" type="checkbox"> ​拒单</li><li><input checked="" disabled="" type="checkbox"> ​取消订单</li><li><input checked="" disabled="" type="checkbox"> ​派送订单</li><li><input checked="" disabled="" type="checkbox"> ​完成订单</li><li><input disabled="" type="checkbox"> ​校验收货地址是否超出配送范围（用到百度服务，接入百度地图，跳过）</li></ul><p>参考博客：<a href="https://danchar.top/posts/d2fdc735">苍穹外卖-day09 | Danchar’s Blog</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>梦中梦中梦</title>
+      <link href="/2024/09/27/%E6%A2%A6%E4%B8%AD%E6%A2%A6%E4%B8%AD%E6%A2%A6/"/>
+      <url>/2024/09/27/%E6%A2%A6%E4%B8%AD%E6%A2%A6%E4%B8%AD%E6%A2%A6/</url>
+      
+        <content type="html"><![CDATA[<p>刚刚刷到一个帖子，内容是关于离奇的事。我看到一个网友的评论，突然想起来高中那一年多的鬼压床经历。<br>那个时候估计是换了宿舍和床位不久后，刚刚搬到五楼。不知道什么时候起，我开始很难正常的睡觉。每天晚上的梦的题材大致一样，被紧紧束缚，被人追赶然后被抓住，有人总是像个变态一样追着我，那些梦总是恐怖有时略带血腥的，让人不舒服的，难以挣扎的。<br>我记得有一次梦是杀人。我疯狂的逃，最后在一个旋转的狭小的楼梯（像似灯塔里的楼梯）被一个恐怖的人堵住，一个蒙面的全身黑衣的男人，忘记了他是谁，我只记得当时我很害怕。<br>我记得有很多次梦是被魇住。很快睡着，然后睁眼看见了屋顶的白墙，有时这样的梦里会有奇怪的声音，比如异常激烈的鼓声，比如很多很多人一起祈祷时嘴里发出的声音。有时会有一个人爬上我的床，然后她的脸从正常变得狰狞，变成一副像鬼一样的脸（于是我有一段时间很害怕一个室友，因为梦到的是她爬上我的床）。基本上所有这种梦，我动不了，我可以清晰的看见我的手，胳膊，我的脚，我的腿，但是控制不了我的身体，我动也动不了，无论我怎么喊寝室其他人的名字，她们都听不见，因为我好像只是在梦里，并没有发出声音，可是我清晰的意思到，我已经醒了！这是一种很恐怖的感觉。我的脑子先于我的身体醒了。<br>那段时间我很害怕睡觉，因为睡觉就是一种煎熬。我把上床的时间延到十二点左右（因为寝室里其他人在下面，我睡不着），我会等到和寝室里最晚睡的人一起上床，然后去等待噩梦的到来。睡意强烈的时候是最害怕的，因为梦就要来了，果不其然，眼睛闭上恐怖的感觉就会找上门来，然后奋力挣扎，努力让自己醒了来，努力半天好不容易醒了又困得不行，刚刚从梦里出来又进到了梦里。然后在若干次的忍不住睡着和拼命惊醒之间来回折腾，熬到第二天。<br>这样的梦不仅在每个晚上困扰我，午睡或者课间休息的十分钟甚至也会不自觉的魇。我记得很多次，睡着之后，却意外的看到周围经过我的同学，但是我动不了，我清醒的好像我根本没有睡，只是睁着眼看着她们。可我确实在睡，而且是被困住了，因为我的身体没醒。<br>尽管尝试了各种方法，我查各种控梦的视频，在梦里高唱共产主义接班人，甚至念叨南无阿弥陀佛，但都是有点效果但不多。两年前高考的晚上，我也做了这些梦。<br>现在已经两年没有做过这样的梦了。别说是梦中梦或是鬼压床，连一个普普通通的梦也很少做了。<br>当我写了这么多，说明这些事已经离我很远了，甚至基本上不会想起来了。<br>写于2024年9月27日，国庆假期到来的前一晚。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>消失的图片</title>
+      <link href="/2024/09/27/%E6%B6%88%E5%A4%B1%E7%9A%84%E5%9B%BE%E7%89%87/"/>
+      <url>/2024/09/27/%E6%B6%88%E5%A4%B1%E7%9A%84%E5%9B%BE%E7%89%87/</url>
+      
+        <content type="html"><![CDATA[<p>最近发现在免费图床上传的图片，现在全都不存在了。</p><span id="more"></span><p>突然意识到不一样把那么多照片传到图床，虽然显示效果比放在img文件夹里面好，加载速度也比较快，一张质量不错的照片可比文字占的空间大多了…但是现在图片都没法显示了（倒不是什么重要图片，不过还是会很可惜）。</p><p>所以有些东西最好还是不要放在免费图床上，感觉没什么安全感，说没就没。看来还是要多打点字，不能图省事净放图片。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>定点数运算</title>
+      <link href="/2024/09/27/%E5%AE%9A%E7%82%B9%E6%95%B0%E8%BF%90%E7%AE%97/"/>
+      <url>/2024/09/27/%E5%AE%9A%E7%82%B9%E6%95%B0%E8%BF%90%E7%AE%97/</url>
+      
+        <content type="html"><![CDATA[<p>笔记</p><span id="more"></span><p><strong>补码加减法</strong></p><p><strong>以及判断溢出方法</strong></p><p><img src="https://i.hd-r.cn/3c090000e4b1cc257f9ba191b6fcb83e.jpg"></p><p><strong>原码乘法</strong></p><p>下图是手算乘法</p><p><img src="https://i.hd-r.cn/bef79488d7d95f2c90fecf3103c09567.jpg"></p><p><strong>下图是原码乘法</strong></p><p><img src="https://i.hd-r.cn/7959850c80169b084cc968240317f002.jpg"></p><p>因为[Y]原&#x3D;1.10111，所以Y0从低位开取，分别是1，1，1，0，1。（或者说C里面存的原来渐渐被挤掉的[Y]原的低位）</p><p>如果Y0&#x3D;0，不用加[X]原，因为这一位0与[X]原一定等于0，0*任何数&#x3D;0。</p><p><strong>补码乘法</strong></p><p><img src="https://i.hd-r.cn/5e580d2ff9de5228349ecf3e4336ac8e.jpg"></p><p>乘数 y 首先在末尾添加一个辅助位 0 ，每次讨论都是取 y 的最后<strong>两位，</strong>但每次移动仅移动<strong>一位</strong>。</p><p>判断 y 的最后两位是规则如下：</p><ul><li><strong>00</strong> 或者 <strong>11</strong> 时，直接<strong>右移</strong>一位；</li><li><strong>01</strong> 时，先加 <strong>x</strong> 的补，然后右移一位；</li><li><strong>10</strong> 时，先加 <strong>-x</strong> 的补，然后右移一位。</li></ul><p><strong>参考资料</strong></p><p>[<a href="https://www.cnblogs.com/LeoCathyFelix/p/11022465.html">计算机组成原理] Booth算法 —— 补码一位乘法 - 中年二班 - 博客园 (cnblogs.com)</a></p><p><strong>关于双符号位</strong></p><p>1.‌<strong>溢出检测</strong>‌：双符号位能够容易地检查加、减运算中的溢出情况。</p><p>‌2.<strong>符号表示</strong>‌：双符号位还用于表示数值的符号。例如，00表示正号，11表示负号。</p><p>3.<strong>上溢与下溢的判别</strong>‌：上溢发生在两个同符号的数相加（或相异符号数相减）时，运算结果超出所能表示的数据范围。</p><p>这里题目[X]原&#x3D;1.01001，负数从原来的1.变成11.。</p><p><img src="https://i.hd-r.cn/a42618cf0128419c7652a172ecc959d3.jpg"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 计组 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>苍穹外卖day07成果</title>
+      <link href="/2024/09/26/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day07%E6%88%90%E6%9E%9C/"/>
+      <url>/2024/09/26/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day07%E6%88%90%E6%9E%9C/</url>
+      
+        <content type="html"><![CDATA[<ul><li><p><input checked="" disabled="" type="checkbox"> 利用Redis缓存数据</p></li><li><p><input checked="" disabled="" type="checkbox"> 购物车相关接口</p></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>苍穹外卖day06成果</title>
+      <link href="/2024/09/25/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day06%E6%88%90%E6%9E%9C/"/>
+      <url>/2024/09/25/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day06%E6%88%90%E6%9E%9C/</url>
+      
+        <content type="html"><![CDATA[<ul><li><p><input checked="" disabled="" type="checkbox"> 尝试微信小程序开发</p></li><li><p><input checked="" disabled="" type="checkbox"> 微信登陆功能</p></li><li><p><input checked="" disabled="" type="checkbox"> 商品浏览功能代码</p></li></ul><p><img src="https://i.hd-r.cn/6a418e5fa1ce5401a24260c04acaabf8.png"></p><span id="more"></span><p>（因为没有money使用阿里云oss，自己改成了本地存储，所以图片没法显示）</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>苍穹外卖day05成果</title>
+      <link href="/2024/09/22/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day05%E6%88%90%E6%9E%9C/"/>
+      <url>/2024/09/22/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day05%E6%88%90%E6%9E%9C/</url>
+      
+        <content type="html"><![CDATA[<ul><li><p><input checked="" disabled="" type="checkbox"> Redis基本操作</p></li><li><p><input checked="" disabled="" type="checkbox"> 店铺营业状态设置</p></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>苍穹外卖day04成果</title>
+      <link href="/2024/09/22/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day04%E6%88%90%E6%9E%9C/"/>
+      <url>/2024/09/22/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day04%E6%88%90%E6%9E%9C/</url>
+      
+        <content type="html"><![CDATA[<ul><li><input checked="" disabled="" type="checkbox"> 套餐管理相关接口</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>苍穹外卖day03成果</title>
+      <link href="/2024/09/22/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day03%E6%88%90%E6%9E%9C/"/>
+      <url>/2024/09/22/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day03%E6%88%90%E6%9E%9C/</url>
+      
+        <content type="html"><![CDATA[<ul><li><input checked="" disabled="" type="checkbox"> 菜品管理相关接口</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于张爱玲</title>
+      <link href="/2024/09/20/%E5%85%B3%E4%BA%8E%E5%BC%A0%E7%88%B1%E7%8E%B2/"/>
+      <url>/2024/09/20/%E5%85%B3%E4%BA%8E%E5%BC%A0%E7%88%B1%E7%8E%B2/</url>
+      
+        <content type="html"><![CDATA[<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=292375358&bvid=BV1qf4y1375c&cid=391009639&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe><span id="more"></span><p>突然很想看看张爱玲笔下的故事，这样孤独的、遗世独立的、有个性的人写出的文字是是什么样的。生于那个时代，她经历过那么多。之前读过关于她的传记，那个作者写的也很好，很细腻，但我也只看到她与初恋相识的部分，或许只有读过张爱玲的书，才能真正的感受她。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>数据校验码</title>
+      <link href="/2024/09/20/%E6%95%B0%E6%8D%AE%E6%A0%A1%E9%AA%8C%E7%A0%81/"/>
+      <url>/2024/09/20/%E6%95%B0%E6%8D%AE%E6%A0%A1%E9%AA%8C%E7%A0%81/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://i.hd-r.cn/89c8f95e518ef4dbd0a3a65c55db69b7.jpg"></p><span id="more"></span><p><strong>概念</strong></p><p>数据在计算机内部进行计算、存取和传送过程中，由于元器件故障或噪音干扰等原因会出现差错。</p><p>冗余校验思想：除原数据信息外，还增加若干位编码，这些新增的代码称为校验位。</p><p>两个合法代码对应位上编码不同的位数称为码距，又称<em>海明距离</em>。</p><p>任意两个码字的海明距离的最小值称为该编码集的海明距离。</p><table><thead><tr><th>检查纠错位数</th><th>码距</th></tr></thead><tbody><tr><td>检e位</td><td>d&gt;&#x3D;e+1</td></tr><tr><td>纠e位</td><td>d&gt;&#x3D;2e+1</td></tr><tr><td>纠e1位、检e2位</td><td>d&gt;&#x3D;2*e1+e2+1</td></tr></tbody></table><p><strong>奇偶校验码</strong></p><p>通过增加冗余位使得码字中1的个数恒为奇数或偶数的编码方法，是一种检错码。</p><p>码距&#x3D;2</p><p><strong>海明校验码</strong></p><p>将有效信息按某种规律分成若干组，每组安排一个校验位，做奇偶测试，就能提供多位检错信息，以指出最大可能是哪位出错，从而将其纠正。实质上，海明校验是一种多重校验。</p><blockquote><p>规则：</p><ol><li>如果故障字各位都是0，无故障。</li><li>如果故障字有且仅有一位1，校验位有一位错了，不用纠正。</li><li>如果故障字有多位1，数据位出错，由故障字数值确定出错位，然后取反就可以纠错。</li></ol></blockquote><p>下图为校验位数的确定</p><p><img src="https://i.hd-r.cn/52ac41f44b0702e4416b74dc5ee301e3.jpg"></p><p>下图为分组方式（n&#x3D;8、k&#x3D;4）</p><p><img src="https://i.hd-r.cn/9a633c65471cf16ddf4671bbb78c1996.jpg"></p><p>由表可知，每个数据位至少要参与两组奇偶校验码的生成。如M5与第一组（P1）和第四组（P4）有关。</p><p><strong>循环冗余校验码</strong>（CRC码）</p><p>M(x)为n位二进制数据，将M(x)左移k位，用约定的生成多项式G(x)相除（G(x)是一个k+1位的二进制数），相除得到的k位余数就是校验位。</p><p><strong>检验</strong>：如果接收到的数据和校验码位用同样的生成多项式G(x)相除，若正好除尽，没有错误；除不尽，有错误。</p><p><strong>二进制的计算</strong></p><p><img src="https://i.hd-r.cn/06343f361f463752ab0ac5230ea78ba2.jpg"></p><p><strong>求CRC码</strong></p><p><img src="https://i.hd-r.cn/87a193f2b6cb0b8734d7dfa6792b74b6.jpg"></p><p><strong>CRC码检错例题</strong></p><p><img src="https://i.hd-r.cn/dd452324958b5899b23020895a823bfe.jpg"></p><p><strong>CRC码出错模式</strong>（n&#x3D;11,k&#x3D;4为例）余数右加0再除多项式二进制取余数</p><p><img src="https://i.hd-r.cn/c68ff9071348ba2b2e58ca824e5cc9cb.jpg"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 计组 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>加法器</title>
+      <link href="/2024/09/20/%E5%8A%A0%E6%B3%95%E5%99%A8/"/>
+      <url>/2024/09/20/%E5%8A%A0%E6%B3%95%E5%99%A8/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://i.hd-r.cn/89c8f95e518ef4dbd0a3a65c55db69b7.jpg"></p><span id="more"></span><p>笔记</p><p><img src="https://i.hd-r.cn/4ad857f67bda458f02600ba17e82d8ef.jpg"></p><p><img src="https://i.hd-r.cn/b1cd02f517bac0324c909e6657c0d272.jpg"></p><p>下图为1位全加器逻辑电路图</p><p><img src="https://i.hd-r.cn/937f6a173f51951f9c934687b22e816e.jpg"></p><p>下图为n位串行进位加法器</p><p><img src="https://i.hd-r.cn/f744692de62e41c20927426330ee25de.jpg"></p><p>下图为并行进位全加器FA1~FA4的逻辑电路图</p><p><img src="https://i.hd-r.cn/15e76cd01601886e5813cfdedeeedfaf.jpg"></p><p>总结</p><blockquote><p>串行进位加法器</p><p>并行进位加法器（两种）</p><ol><li>​组内并行组间串行</li><li>​组内并行组间并行</li></ol></blockquote><p><strong>延迟时间：组内并行组间并行&lt;组内并行组间串行&lt;串行进位加法器</strong></p><p><strong>复杂程度：组内并行组间并行&gt;组内并行组间串行&gt;串行进位加法器</strong></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 计组 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>一年前的信？</title>
+      <link href="/2024/09/19/%E4%B8%80%E5%B9%B4%E5%89%8D%E7%9A%84%E4%BF%A1%EF%BC%9F/"/>
+      <url>/2024/09/19/%E4%B8%80%E5%B9%B4%E5%89%8D%E7%9A%84%E4%BF%A1%EF%BC%9F/</url>
+      
+        <content type="html"><![CDATA[<p>来自2023年期末周。</p><span id="more"></span><h1 id="第1章-写给亲爱de桐的第一封信"><a href="#第1章-写给亲爱de桐的第一封信" class="headerlink" title="第1章 写给亲爱de桐的第一封信"></a>第1章 写给亲爱de桐的第一封信</h1><p>　　我将来一定会挣大钱！<br>　　今天的任务是把java考试题弄完。　　<br>　　用了两天时间终于弄完了35题。<br>　　刚刚又做了25道啊哈哈开心！</p><h1 id="第2章-写给亲爱de桐的第二封信"><a href="#第2章-写给亲爱de桐的第二封信" class="headerlink" title="第2章 写给亲爱de桐的第二封信"></a>第2章 写给亲爱de桐的第二封信</h1><p>　　2023&#x2F;12&#x2F;19<br>　　今天又熬夜了，以后别再熬了。<br>　　要继续弄java题，争取明天就整完。　　</p><h1 id="第3章-写给亲爱de桐的第三封信"><a href="#第3章-写给亲爱de桐的第三封信" class="headerlink" title="第3章 写给亲爱de桐的第三封信"></a>第3章 写给亲爱de桐的第三封信</h1><p>　　今天把java都弄完了。<br>　　让我来浅看一下考试。<br>　　<br>　　12.22 java<br>　　12.27 英语<br>　　1.2 数电和新思想<br>　　1.5 模电和数据库</p><h1 id="第4章-写给亲爱de桐的第四封信"><a href="#第4章-写给亲爱de桐的第四封信" class="headerlink" title="第4章 写给亲爱de桐的第四封信"></a>第4章 写给亲爱de桐的第四封信</h1><p>今天是2023年12月30日，还有一天就是新的一年了。<br>　　加油，争取复习完模电。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>利用github搭建图床</title>
+      <link href="/2024/09/19/%E5%88%A9%E7%94%A8github%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/"/>
+      <url>/2024/09/19/%E5%88%A9%E7%94%A8github%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/</url>
+      
+        <content type="html"><![CDATA[<p>又有了一个想法，做一个属于自己的图床！根据百度，这个想法是可行的。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>苍穹外卖day02成果</title>
+      <link href="/2024/09/18/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day02%E6%88%90%E6%9E%9C/"/>
+      <url>/2024/09/18/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day02%E6%88%90%E6%9E%9C/</url>
+      
+        <content type="html"><![CDATA[<p>关于Category的接口都敲出来了，好有成就感！！！</p><p><img src="https://i.hd-r.cn/7df3ff0fba8f5ca0d2c6031ec9b994a2.png"></p><span id="more"></span><ul><li>CategoryController</li></ul><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.sky.controller.admin;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.sky.dto.CategoryDTO;</span><br><span class="line"><span class="keyword">import</span> com.sky.dto.CategoryPageQueryDTO;</span><br><span class="line"><span class="keyword">import</span> com.sky.entity.Category;</span><br><span class="line"><span class="keyword">import</span> com.sky.result.PageResult;</span><br><span class="line"><span class="keyword">import</span> com.sky.result.Result;</span><br><span class="line"><span class="keyword">import</span> com.sky.service.CategoryService;</span><br><span class="line"><span class="keyword">import</span> io.swagger.annotations.Api;</span><br><span class="line"><span class="keyword">import</span> io.swagger.annotations.ApiOperation;</span><br><span class="line"><span class="keyword">import</span> lombok.extern.slf4j.Slf4j;</span><br><span class="line"><span class="keyword">import</span> org.springframework.beans.factory.annotation.Autowired;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 分类管理</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"></span><br><span class="line"><span class="meta">@RestController</span><span class="comment">//@RestController 是 @Controller 和 @ResponseBody 的组合注解，用于创建 RESTful 风格的 API。</span></span><br><span class="line"><span class="meta">@RequestMapping(&quot;/admin/category&quot;)</span><span class="comment">//用于类上，表示类中的所有响应请求的方法都是以该地址作为父路径。</span></span><br><span class="line"><span class="meta">@Slf4j</span><span class="comment">//日志</span></span><br><span class="line"><span class="meta">@Api(tags = &quot;分类相关接口&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">CategoryController</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Autowired</span><span class="comment">//注入依赖</span></span><br><span class="line">    <span class="keyword">private</span> CategoryService categoryService;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 新增分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> categoryDTO</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="meta">@PostMapping</span></span><br><span class="line">    <span class="meta">@ApiOperation(&quot;新增分类&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> Result&lt;String&gt; <span class="title function_">save</span><span class="params">(<span class="meta">@RequestBody</span> CategoryDTO categoryDTO)</span>&#123;</span><br><span class="line">        categoryService.save(categoryDTO);</span><br><span class="line">        <span class="keyword">return</span> Result.success();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 分类分页查询</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> categoryPageQueryDTO</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="meta">@GetMapping(&quot;/page&quot;)</span></span><br><span class="line">    <span class="meta">@ApiOperation(&quot;分类分页查询&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> Result&lt;PageResult&gt; <span class="title function_">page</span><span class="params">(CategoryPageQueryDTO categoryPageQueryDTO)</span>&#123;</span><br><span class="line">        PageResult pageResult=categoryService.pageQuery(categoryPageQueryDTO);</span><br><span class="line">        <span class="keyword">return</span> Result.success(pageResult);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 删除分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> id</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="meta">@DeleteMapping</span></span><br><span class="line">    <span class="meta">@ApiOperation(&quot;删除分类&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> Result&lt;String&gt; <span class="title function_">deleteById</span><span class="params">(Long id)</span>&#123;</span><br><span class="line">        categoryService.deleteById(id);</span><br><span class="line">        <span class="keyword">return</span> Result.success();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@PutMapping</span></span><br><span class="line">    <span class="meta">@ApiOperation(&quot;修改分类&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> Result&lt;String&gt; <span class="title function_">update</span><span class="params">(<span class="meta">@RequestBody</span> CategoryDTO categoryDTO)</span>&#123;</span><br><span class="line">        categoryService.update(categoryDTO);</span><br><span class="line">        <span class="keyword">return</span> Result.success();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 启用、禁用分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> status</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> id</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="meta">@PostMapping(&quot;/status/&#123;status&#125;&quot;)</span></span><br><span class="line">    <span class="meta">@ApiOperation(&quot;启用禁用分类&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> Result&lt;String&gt; <span class="title function_">startOrStop</span><span class="params">(<span class="meta">@PathVariable(&quot;status&quot;)</span>Integer status,Long id)</span>&#123;</span><br><span class="line">        categoryService.startOrStop(status,id);</span><br><span class="line">        <span class="keyword">return</span> Result.success();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 根据类型查询分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> type</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="meta">@GetMapping(&quot;/list&quot;)</span></span><br><span class="line">    <span class="meta">@ApiOperation(&quot;根据类型查询分类&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> Result&lt;List&lt;Category&gt;&gt; <span class="title function_">list</span><span class="params">(Integer type)</span>&#123;</span><br><span class="line">        List&lt;Category&gt; list = categoryService.list(type);</span><br><span class="line">        <span class="keyword">return</span> Result.success(list);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li>CategoryMapper</li></ul><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.sky.mapper;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.github.pagehelper.Page;</span><br><span class="line"><span class="keyword">import</span> com.sky.dto.CategoryPageQueryDTO;</span><br><span class="line"><span class="keyword">import</span> com.sky.entity.Category;</span><br><span class="line"><span class="keyword">import</span> org.apache.ibatis.annotations.Delete;</span><br><span class="line"><span class="keyword">import</span> org.apache.ibatis.annotations.Insert;</span><br><span class="line"><span class="keyword">import</span> org.apache.ibatis.annotations.Mapper;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Mapper</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">CategoryMapper</span> &#123;</span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 插入数据</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> category</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="meta">@Insert(&quot;insert into sky_take_out.category(type, name, sort, status, create_time, update_time, create_user, update_user) &quot; +</span></span><br><span class="line"><span class="meta">            &quot;values &quot; +</span></span><br><span class="line"><span class="meta">            &quot;(#&#123;type&#125;,#&#123;name&#125;,#&#123;sort&#125;,#&#123;status&#125;,#&#123;createTime&#125;,#&#123;updateTime&#125;,#&#123;createUser&#125;,#&#123;updateUser&#125;)&quot;)</span></span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">insert</span><span class="params">(Category category)</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 分页查询</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> categoryPageQueryDTO</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    Page&lt;Category&gt; <span class="title function_">pageQuery</span><span class="params">(CategoryPageQueryDTO categoryPageQueryDTO)</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 根据菜品id分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> id</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="meta">@Delete(&quot;delete from sky_take_out.category where id=#&#123;id&#125;&quot;)</span></span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">deleteById</span><span class="params">(Long id)</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 根据id修改分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> category</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">update</span><span class="params">(Category category)</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 根据类型查询分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> type</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    List&lt;Category&gt; <span class="title function_">list</span><span class="params">(Integer type)</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li>DishMapper</li></ul><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.sky.mapper;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> org.apache.ibatis.annotations.Mapper;</span><br><span class="line"><span class="keyword">import</span> org.apache.ibatis.annotations.Select;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Mapper</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">DishMapper</span> &#123;</span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 根据分类id查询菜品数量</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> id</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="meta">@Select(&quot;select count(id) from sky_take_out.dish where category_id=#&#123;categoryId&#125;&quot;)</span></span><br><span class="line">    Integer <span class="title function_">countByCategoryId</span><span class="params">(Long id)</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li>SetmealMapper</li></ul><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.sky.mapper;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> org.apache.ibatis.annotations.Mapper;</span><br><span class="line"><span class="keyword">import</span> org.apache.ibatis.annotations.Select;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Mapper</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">SetmealMapper</span> &#123;</span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 根据分类id查询套餐的数量</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> id</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="meta">@Select(&quot;select count(id) from sky_take_out.setmeal where category_id=#&#123;categoryId&#125;&quot;)</span></span><br><span class="line">    Integer <span class="title function_">countByCategoryId</span><span class="params">(Long id)</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li>CategoryServiceImpl</li></ul><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.sky.service.impl;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.github.pagehelper.Page;</span><br><span class="line"><span class="keyword">import</span> com.github.pagehelper.PageHelper;</span><br><span class="line"><span class="keyword">import</span> com.sky.constant.MessageConstant;</span><br><span class="line"><span class="keyword">import</span> com.sky.constant.StatusConstant;</span><br><span class="line"><span class="keyword">import</span> com.sky.context.BaseContext;</span><br><span class="line"><span class="keyword">import</span> com.sky.dto.CategoryDTO;</span><br><span class="line"><span class="keyword">import</span> com.sky.dto.CategoryPageQueryDTO;</span><br><span class="line"><span class="keyword">import</span> com.sky.entity.Category;</span><br><span class="line"><span class="keyword">import</span> com.sky.exception.DeletionNotAllowedException;</span><br><span class="line"><span class="keyword">import</span> com.sky.mapper.CategoryMapper;</span><br><span class="line"><span class="keyword">import</span> com.sky.mapper.DishMapper;</span><br><span class="line"><span class="keyword">import</span> com.sky.mapper.SetmealMapper;</span><br><span class="line"><span class="keyword">import</span> com.sky.result.PageResult;</span><br><span class="line"><span class="keyword">import</span> com.sky.service.CategoryService;</span><br><span class="line"><span class="keyword">import</span> org.springframework.beans.BeanUtils;</span><br><span class="line"><span class="keyword">import</span> org.springframework.beans.factory.annotation.Autowired;</span><br><span class="line"><span class="keyword">import</span> org.springframework.stereotype.Service;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.time.LocalDateTime;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Service</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">CategoryServiceImpl</span> <span class="keyword">implements</span> <span class="title class_">CategoryService</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> CategoryMapper categoryMapper;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> DishMapper dishMapper;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> SetmealMapper setmealMapper;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 新增分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> categoryDTO</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">save</span><span class="params">(CategoryDTO categoryDTO)</span> &#123;</span><br><span class="line">        Category category=<span class="keyword">new</span> <span class="title class_">Category</span>();</span><br><span class="line">        <span class="comment">//属性拷贝</span></span><br><span class="line">        BeanUtils.copyProperties(categoryDTO,category);</span><br><span class="line"></span><br><span class="line">        category.setStatus(StatusConstant.DISABLE);</span><br><span class="line"></span><br><span class="line">        category.setCreateTime(LocalDateTime.now());</span><br><span class="line">        category.setUpdateTime(LocalDateTime.now());</span><br><span class="line">        category.setCreateUser(BaseContext.getCurrentId());</span><br><span class="line">        category.setUpdateUser(BaseContext.getCurrentId());</span><br><span class="line"></span><br><span class="line">        categoryMapper.insert(category);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 分类分页查询</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> categoryPageQueryDTO</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> PageResult <span class="title function_">pageQuery</span><span class="params">(CategoryPageQueryDTO categoryPageQueryDTO)</span> &#123;</span><br><span class="line">        PageHelper.startPage(categoryPageQueryDTO.getPage(),categoryPageQueryDTO.getPageSize());</span><br><span class="line">        Page&lt;Category&gt; page=categoryMapper.pageQuery(categoryPageQueryDTO);</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">PageResult</span>(page.getTotal(),page.getResult());</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 删除分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> id</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">deleteById</span><span class="params">(Long id)</span> &#123;</span><br><span class="line">        <span class="comment">//查询当前分类是否关联了菜品，如果关联了就抛出业务异常</span></span><br><span class="line">        Integer count=dishMapper.countByCategoryId(id);</span><br><span class="line">        <span class="keyword">if</span> (count&gt;<span class="number">0</span>)&#123;</span><br><span class="line">            <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">DeletionNotAllowedException</span>(MessageConstant.CATEGORY_BE_RELATED_BY_DISH);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//查询当前分类是否关联了套餐，如果关联了就抛出业务异常</span></span><br><span class="line">        count=setmealMapper.countByCategoryId(id);</span><br><span class="line">        <span class="keyword">if</span> (count&gt;<span class="number">0</span>)&#123;</span><br><span class="line">            <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">DeletionNotAllowedException</span>(MessageConstant.CATEGORY_BE_RELATED_BY_SETMEAL);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        categoryMapper.deleteById(id);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 修改分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> categoryDTO</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">update</span><span class="params">(CategoryDTO categoryDTO)</span> &#123;</span><br><span class="line">        Category category=<span class="keyword">new</span> <span class="title class_">Category</span>();</span><br><span class="line">        BeanUtils.copyProperties(categoryDTO,category);</span><br><span class="line"></span><br><span class="line">        category.setUpdateTime(LocalDateTime.now());</span><br><span class="line">        category.setUpdateUser(BaseContext.getCurrentId());</span><br><span class="line"></span><br><span class="line">        categoryMapper.update(category);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 启用、禁用分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> status</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> id</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">startOrStop</span><span class="params">(Integer status, Long id)</span> &#123;</span><br><span class="line">        Category category=Category.builder()</span><br><span class="line">                .id(id)</span><br><span class="line">                .status(status)</span><br><span class="line">                .updateTime(LocalDateTime.now())</span><br><span class="line">                .updateUser(BaseContext.getCurrentId())</span><br><span class="line">                .build();</span><br><span class="line">        categoryMapper.update(category);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 根据类型查询分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> type</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> List&lt;Category&gt; <span class="title function_">list</span><span class="params">(Integer type)</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> categoryMapper.list(type);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li>CategoryService</li></ul><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.sky.service;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.sky.dto.CategoryDTO;</span><br><span class="line"><span class="keyword">import</span> com.sky.dto.CategoryPageQueryDTO;</span><br><span class="line"><span class="keyword">import</span> com.sky.entity.Category;</span><br><span class="line"><span class="keyword">import</span> com.sky.result.PageResult;</span><br><span class="line"><span class="keyword">import</span> io.swagger.annotations.ApiOperation;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.GetMapping;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">CategoryService</span> &#123;</span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 新增分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> categoryDTO</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">save</span><span class="params">(CategoryDTO categoryDTO)</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 分类分页查询</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> categoryPageQueryDTO</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    PageResult <span class="title function_">pageQuery</span><span class="params">(CategoryPageQueryDTO categoryPageQueryDTO)</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 删除分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> id</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">deleteById</span><span class="params">(Long id)</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 修改分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> categoryDTO</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">update</span><span class="params">(CategoryDTO categoryDTO)</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 启用、禁用分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> status</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> id</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">startOrStop</span><span class="params">(Integer status, Long id)</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 根据类型查询分类</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> type</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    List&lt;Category&gt; <span class="title function_">list</span><span class="params">(Integer type)</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li>CategoryMapper.xml</li></ul><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version=<span class="string">&quot;1.0&quot;</span> encoding=<span class="string">&quot;utf-8&quot;</span> ?&gt;</span></span><br><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">mapper</span> <span class="keyword">PUBLIC</span> <span class="string">&quot;-//mybatis.org//DTD Mapper 3.0//EN&quot;</span></span></span><br><span class="line"><span class="meta">        <span class="string">&quot;http://mybatis.org/dtd/mybatis-3-mapper.dtd&quot;</span> &gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">mapper</span> <span class="attr">namespace</span>=<span class="string">&quot;com.sky.mapper.CategoryMapper&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">select</span> <span class="attr">id</span>=<span class="string">&quot;pageQuery&quot;</span> <span class="attr">resultType</span>=<span class="string">&quot;com.sky.entity.Category&quot;</span>&gt;</span></span><br><span class="line">        select * from sky_take_out.category</span><br><span class="line">        <span class="tag">&lt;<span class="name">where</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">if</span> <span class="attr">test</span>=<span class="string">&quot;name!=null and name!=&#x27;&#x27;&quot;</span>&gt;</span></span><br><span class="line">                and name like concat(&#x27;%&#x27;,#&#123;name&#125;,&#x27;%&#x27;)</span><br><span class="line">            <span class="tag">&lt;/<span class="name">if</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">if</span> <span class="attr">test</span>=<span class="string">&quot;type!=null&quot;</span>&gt;</span></span><br><span class="line">                and type=#&#123;type&#125;</span><br><span class="line">            <span class="tag">&lt;/<span class="name">if</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">where</span>&gt;</span></span><br><span class="line">        order by sort asc,create_time desc</span><br><span class="line">    <span class="tag">&lt;/<span class="name">select</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">update</span> <span class="attr">id</span>=<span class="string">&quot;update&quot;</span> <span class="attr">parameterType</span>=<span class="string">&quot;Category&quot;</span>&gt;</span></span><br><span class="line">        update sky_take_out.category</span><br><span class="line">        <span class="tag">&lt;<span class="name">set</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">if</span> <span class="attr">test</span>=<span class="string">&quot;type != null&quot;</span>&gt;</span></span><br><span class="line">                type = #&#123;type&#125;,</span><br><span class="line">            <span class="tag">&lt;/<span class="name">if</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">if</span> <span class="attr">test</span>=<span class="string">&quot;name != null&quot;</span>&gt;</span></span><br><span class="line">                name = #&#123;name&#125;,</span><br><span class="line">            <span class="tag">&lt;/<span class="name">if</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">if</span> <span class="attr">test</span>=<span class="string">&quot;sort != null&quot;</span>&gt;</span></span><br><span class="line">                sort = #&#123;sort&#125;,</span><br><span class="line">            <span class="tag">&lt;/<span class="name">if</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">if</span> <span class="attr">test</span>=<span class="string">&quot;status != null&quot;</span>&gt;</span></span><br><span class="line">                status = #&#123;status&#125;,</span><br><span class="line">            <span class="tag">&lt;/<span class="name">if</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">if</span> <span class="attr">test</span>=<span class="string">&quot;updateTime != null&quot;</span>&gt;</span></span><br><span class="line">                update_time = #&#123;updateTime&#125;,</span><br><span class="line">            <span class="tag">&lt;/<span class="name">if</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">if</span> <span class="attr">test</span>=<span class="string">&quot;updateUser != null&quot;</span>&gt;</span></span><br><span class="line">                update_user = #&#123;updateUser&#125;</span><br><span class="line">            <span class="tag">&lt;/<span class="name">if</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">set</span>&gt;</span></span><br><span class="line">        where id = #&#123;id&#125;</span><br><span class="line">    <span class="tag">&lt;/<span class="name">update</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">select</span> <span class="attr">id</span>=<span class="string">&quot;list&quot;</span> <span class="attr">resultType</span>=<span class="string">&quot;com.sky.entity.Category&quot;</span>&gt;</span></span><br><span class="line">        select * from sky_take_out.category</span><br><span class="line">        where status=1</span><br><span class="line">        <span class="tag">&lt;<span class="name">if</span> <span class="attr">test</span>=<span class="string">&quot;type!=null&quot;</span>&gt;</span></span><br><span class="line">            and type=#&#123;type&#125;</span><br><span class="line">        <span class="tag">&lt;/<span class="name">if</span>&gt;</span></span><br><span class="line">        order by sort asc ,create_time desc</span><br><span class="line">    <span class="tag">&lt;/<span class="name">select</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">mapper</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>赚钱的想法</title>
+      <link href="/2024/09/18/%E8%B5%9A%E9%92%B1%E7%9A%84%E6%83%B3%E6%B3%95/"/>
+      <url>/2024/09/18/%E8%B5%9A%E9%92%B1%E7%9A%84%E6%83%B3%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<p>现在在图书馆，突然冒出来好多想法。</p><ul><li><input disabled="" type="checkbox"> boss直聘（但是我现在还要上课）</li><li><input disabled="" type="checkbox"> 卖课程设计（这个可以）</li></ul><p>那就要找一下那些平台了，小红书还是啥的，开个微信公众号？csdn或许也可以试试。</p><p><img src="https://i.hd-r.cn/1d05b008e0f3cd18bbffa0a4d57d6a29.png"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>一些配置文件</title>
+      <link href="/2024/09/18/%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/"/>
+      <url>/2024/09/18/%E4%B8%80%E4%BA%9B%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://i.hd-r.cn/9396877af8cfa93a4c19909659333266.png"></p><p>研究了好久，哈哈哈哈原来是这个，感觉对hexo了解的更多了！！</p><p>（翻遍了各种配置文件的成果，关于页面终于变成了我喜欢的样子）</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>新主题！！</title>
+      <link href="/2024/09/16/%E6%96%B0%E4%B8%BB%E9%A2%98%EF%BC%81%EF%BC%81/"/>
+      <url>/2024/09/16/%E6%96%B0%E4%B8%BB%E9%A2%98%EF%BC%81%EF%BC%81/</url>
+      
+        <content type="html"><![CDATA[<p>感觉好像原来的主题更有感觉，但是新主题又确实精致可爱。</p><p>landscape 我会永远记得你的！！！</p><p><img src="https://i.hd-r.cn/ab5eb4fa45c75ae37c8fb994ea3465ab.png"></p><span id="more"></span><p>与过去say goodbye</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>时间之矢与自由意志</title>
+      <link href="/2024/09/14/%E6%97%B6%E9%97%B4%E4%B9%8B%E7%9F%A2%E4%B8%8E%E8%87%AA%E7%94%B1%E6%84%8F%E5%BF%97/"/>
+      <url>/2024/09/14/%E6%97%B6%E9%97%B4%E4%B9%8B%E7%9F%A2%E4%B8%8E%E8%87%AA%E7%94%B1%E6%84%8F%E5%BF%97/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>正是因为你爱的人在这里，宇宙才有了意义。</p></blockquote><span id="more"></span><p>记得高中学物理时，总是在思考时间如何倒退，熵增越来越混乱到极致是什么样子，还有量子力学。</p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=669801019&bvid=BV1ha4y157tg&cid=242052980&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>苍穹外卖day01成果</title>
+      <link href="/2024/09/14/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day01%E6%88%90%E6%9E%9C/"/>
+      <url>/2024/09/14/%E8%8B%8D%E7%A9%B9%E5%A4%96%E5%8D%96day01%E6%88%90%E6%9E%9C/</url>
+      
+        <content type="html"><![CDATA[<ul><li><input checked="" disabled="" type="checkbox"> 前后端环境搭建</li><li><input checked="" disabled="" type="checkbox"> Swagger使用</li></ul><span id="more"></span><p><img src="https://i.hd-r.cn/374482fb536d216c4bd830921995b2fe.png"></p><p><img src="https://i.hd-r.cn/f32daf9c990e45151e2c3c637459bad9.png"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>原来你在这里</title>
+      <link href="/2024/09/14/%E5%8E%9F%E6%9D%A5%E4%BD%A0%E5%9C%A8%E8%BF%99%E9%87%8C/"/>
+      <url>/2024/09/14/%E5%8E%9F%E6%9D%A5%E4%BD%A0%E5%9C%A8%E8%BF%99%E9%87%8C/</url>
+      
+        <content type="html"><![CDATA[<p>关于ssm的书原来在操作系统那边的架子上。</p><span id="more"></span><p><img src="https://i.hd-r.cn/e26858b98ce75755f3df2b9e09b07302.jpg" alt="很不错的书"></p><p><img src="https://i.hd-r.cn/f41f1d6545d0872ee8fe9e05ab3d6499.jpg"></p><p><img src="https://i.hd-r.cn/b5280820cfd5c17a0ae3fbeefc70f402.jpg"></p><p><img src="https://i.hd-r.cn/fc7e9652b54a784c355ab8d29b84d659.jpg"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>地震</title>
+      <link href="/2024/09/11/%E5%9C%B0%E9%9C%87/"/>
+      <url>/2024/09/11/%E5%9C%B0%E9%9C%87/</url>
+      
+        <content type="html"><![CDATA[<p>地震来了，有点害怕，有的不知所措。大家面面相觑，不知道该不该下楼，有点好笑。</p><p>震得时候很懵逼，然后手机的警报就开始响。我们在五楼，可以看见外面走廊旁边的人犹豫着下不下楼。</p><p>震完了，平时很安静的寝室楼层响起了大家的议论声，全都在笑哈哈哈哈哈哈哈哈哈，还有拿平板下楼的哈哈哈哈哈。</p><p>去阳台看下面好多人，楼底下说话声跟烧开水似的哈哈哈哈哈哈哈哈哈，大家都心挺大的。</p><span id="more"></span><p><img src="https://i.hd-r.cn/2d6bdad29cdfc3a72217fc705d34f512.jpg"></p><p><img src="https://i.hd-r.cn/6003988a90650b7cf4c8503967bad48c.jpg"></p><p><img src="https://i.hd-r.cn/2611e903e4758f1d148aa06cbe8da8eb.jpg"></p><p><img src="https://i.hd-r.cn/c9f6cf875322621a3fb11f40da796264.jpg"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>心语信箱效果展示</title>
+      <link href="/2024/09/11/%E5%BF%83%E8%AF%AD%E4%BF%A1%E7%AE%B1%E6%95%88%E6%9E%9C%E5%B1%95%E7%A4%BA/"/>
+      <url>/2024/09/11/%E5%BF%83%E8%AF%AD%E4%BF%A1%E7%AE%B1%E6%95%88%E6%9E%9C%E5%B1%95%E7%A4%BA/</url>
+      
+        <content type="html"><![CDATA[<p>暑假的简单尝试 javaweb篇 (jsp+servlet…)</p><p><img src="https://i.hd-r.cn/9a34e50500464748c12f355b02331e40.png"></p><p><img src="https://i.hd-r.cn/674a410d9dd9ce4d9fed176e0a50dd5b.png"></p><p><img src="https://i.hd-r.cn/07bfedc843b22fd9d1d196ee7acee08d.png"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 学习记录 </tag>
+            
+            <tag> web </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Power!</title>
+      <link href="/2024/09/09/Power/"/>
+      <url>/2024/09/09/Power/</url>
+      
+        <content type="html"><![CDATA[<p>Redis简单入门</p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=444898573&bvid=BV1Jj411D7oG&cid=1169344809&p=11" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe><p>Docker简单入门</p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=996795888&bvid=BV14s4y1i7Vf&cid=1150750049&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe><p>Linux简单入门</p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1452604508&bvid=BV1cq421w72c&cid=1494041725&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe><p>Shell简单入门</p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1903342555&bvid=BV17m411U7cC&cid=1513619117&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe><span id="more"></span>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 学习记录 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>新的目标！</title>
+      <link href="/2024/09/09/%E6%96%B0%E7%9A%84%E7%9B%AE%E6%A0%87%EF%BC%81/"/>
+      <url>/2024/09/09/%E6%96%B0%E7%9A%84%E7%9B%AE%E6%A0%87%EF%BC%81/</url>
+      
+        <content type="html"><![CDATA[<ul><li><input disabled="" type="checkbox"> 苍穹外卖（并不知道能不能坚持下来）</li></ul><p><img src="https://i.hd-r.cn/2df74b728b000963e9f21db0bbd2f782.png"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 学习记录 </tag>
+            
+            <tag> target! </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>美好的周六以看完12集跃动青春结束~</title>
+      <link href="/2024/09/07/%E7%BE%8E%E5%A5%BD%E7%9A%84%E5%91%A8%E5%85%AD%E4%BB%A5%E7%9C%8B%E5%AE%8C12%E9%9B%86%E8%B7%83%E5%8A%A8%E9%9D%92%E6%98%A5%E7%BB%93%E6%9D%9F/"/>
+      <url>/2024/09/07/%E7%BE%8E%E5%A5%BD%E7%9A%84%E5%91%A8%E5%85%AD%E4%BB%A5%E7%9C%8B%E5%AE%8C12%E9%9B%86%E8%B7%83%E5%8A%A8%E9%9D%92%E6%98%A5%E7%BB%93%E6%9D%9F/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://i.hd-r.cn/8cdb2fdac35bd94d66df0203a889a71e.jpg"></p><p>看完之后很难形容这种感觉，温暖，感动，好幸福~</p><p>每个人都很可爱，大家都好好啊。纯爱无敌！青春无敌！！！</p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=782251852&bvid=BV1P24y1w7Le&cid=1091740487&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe><span id="more"></span><p>车没坐明白遇见好心的同校学生、开学典礼迟到跑着去学校、开学当天吐在老师一身名牌上、因为自我介绍睡不着觉结果第二天憔悴的简直恐怖、冷笑话”成为人上人”、会第一时间看出小美难过的发小兼闺蜜、高岭学姐每天做赶不上公交车的噩梦、雏鸭入水般第一次尝试星巴克、回家后的惬意、美佳的记仇小本本、和朋友们一起睡衣派对、志摩伸手拉小美跳舞、大家一起为校庆活动准备……</p><p>好幸福！！！！！！</p><p>可爱的小美</p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=619949991&bvid=BV1G84y1o76m&cid=1307526591&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe><p>快乐星猫x跃动青春</p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=404229656&bvid=BV1GV411G7Bc&cid=1219903490&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe><p>这个姐姐的翻唱也好听</p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=783535884&bvid=BV1t24y1M7w6&cid=1162817484&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe><p>突然发现没看过完整的OP诶~</p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=782064526&bvid=BV1H24y15748&cid=1127034488&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe><p>偶对了，这学期才开学两天的时候就已经学完web啦！</p><ul><li><input checked="" disabled="" type="checkbox"> web</li><li><input checked="" disabled="" type="checkbox"> springboot</li><li><input checked="" disabled="" type="checkbox"> ssm</li></ul><p>然后还写了一个心事罐，最开始是叫心情信箱来着，等想起来截个图吧</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 跃动青春 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>跃动青春</title>
+      <link href="/2024/09/06/%E8%B7%83%E5%8A%A8%E9%9D%92%E6%98%A5/"/>
+      <url>/2024/09/06/%E8%B7%83%E5%8A%A8%E9%9D%92%E6%98%A5/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://image.baidu.com/search/down?tn=download&ipn=dwnl&word=download&ie=utf8&fr=result&url=https://i1.hdslb.com/bfs/archive/ac3b86d58f2528def0322b087d3fc78c9ffad4b6.jpg&thumburl=https://img0.baidu.com/it/u=1883673164,1185923625&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=500" alt="Edge Image Viewer (baidu.com)"></p><p>好可爱！</p><p>感觉好温暖，主角是小太阳一样的女孩子，我也被治愈了嗷嗷嗷！</p><p><img src="https://image.baidu.com/search/down?tn=download&ipn=dwnl&word=download&ie=utf8&fr=result&url=https://ww4.sinaimg.cn/mw690/008eSnchly1hqlridl8g7j30u00u0mza.jpg&thumburl=https://img2.baidu.com/it/u=4260972059,3697702505&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=500" alt="Edge Image Viewer (baidu.com)"></p><p><img src="https://image.baidu.com/search/down?tn=download&ipn=dwnl&word=download&ie=utf8&fr=result&url=https://ww2.sinaimg.cn/mw690/0065hLbagy1hipfbabm3aj31402eohdt.jpg&thumburl=https://img0.baidu.com/it/u=563181573,3121595984&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=1083" alt="Edge Image Viewer (baidu.com)"></p><p><img src="https://image.baidu.com/search/down?tn=download&ipn=dwnl&word=download&ie=utf8&fr=result&url=https://ww2.sinaimg.cn/mw690/0065hLbagy1hipfbdg2bpj31402eo4ja.jpg&thumburl=https://img1.baidu.com/it/u=8357227,2992407876&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=1083" alt="Edge Image Viewer (baidu.com)"></p><p><img src="https://image.baidu.com/search/down?tn=download&ipn=dwnl&word=download&ie=utf8&fr=result&url=https://ww1.sinaimg.cn/mw690/005wNpoBgy1hs52u7pd6gj316n1kwwo3.jpg&thumburl=https://img0.baidu.com/it/u=1168695329,1258841043&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=667" alt="Edge Image Viewer (baidu.com)"></p><span id="more"></span>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>醍醐灌顶</title>
+      <link href="/2024/09/04/%E9%86%8D%E9%86%90%E7%81%8C%E9%A1%B6/"/>
+      <url>/2024/09/04/%E9%86%8D%E9%86%90%E7%81%8C%E9%A1%B6/</url>
+      
+        <content type="html"><![CDATA[<p>语言在精不在多。学会一门语言，搞透它传达的思想，然后让它的思想应用到其他语言或技术的学习中。</p><p>（操作系统老师说的，感觉好有道理）</p><p>我又悟了！</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我才不要和你做朋友呢</title>
+      <link href="/2024/05/13/%E6%88%91%E6%89%8D%E4%B8%8D%E8%A6%81%E5%92%8C%E4%BD%A0%E5%81%9A%E6%9C%8B%E5%8F%8B%E5%91%A2/"/>
+      <url>/2024/05/13/%E6%88%91%E6%89%8D%E4%B8%8D%E8%A6%81%E5%92%8C%E4%BD%A0%E5%81%9A%E6%9C%8B%E5%8F%8B%E5%91%A2/</url>
+      
+        <content type="html"><![CDATA[<p>昨天是母亲节，把我才不要和你做朋友呢看完了。主角们的青春故事真的很好笑，结果下一秒就笑不出来了。</p><p><img src="/../img/fc809317908ef4e31234067b1620e3e.jpg"></p><p>分享一个美好的下午~</p><p><img src="/../img/fbd4ab8ae28a82728c5658000761a13.jpg"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>备忘录</title>
+      <link href="/2024/04/18/%E5%A4%87%E5%BF%98%E5%BD%95/"/>
+      <url>/2024/04/18/%E5%A4%87%E5%BF%98%E5%BD%95/</url>
+      
+        <content type="html"><![CDATA[<p>红豆生南国，是很遥远的事情。</p><span id="more"></span><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">新建一篇名为：</span><br><span class="line">chenge-first-blog的博客</span><br><span class="line"></span><br><span class="line">命令：</span><br><span class="line">hexo new &#x27;chenge-first-blog&#x27;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">1.生成html文件</span><br><span class="line"></span><br><span class="line">hexo g</span><br><span class="line"></span><br><span class="line">2.上传到github</span><br><span class="line"></span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tong-first-blog</title>
+      <link href="/2024/04/16/tong-first-blog/"/>
+      <url>/2024/04/16/tong-first-blog/</url>
+      
+        <content type="html"><![CDATA[<p><img src="/../img/iii.jpg"></p><p>hello!</p><p>今天是2024年4月16日，终于弄好了！</p><p>也蛮顺利的嘛( •̀ ω •́ )y</p><ul><li><input checked="" disabled="" type="checkbox"> hexo+GitHub 搭建静态博客</li></ul><p>那么接下来是( •̀ ω •́ )y</p><ul><li><input disabled="" type="checkbox"> web！！！！！！！！！！！</li></ul><span id="more"></span>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2024/04/15/hello-world/"/>
+      <url>/2024/04/15/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><span id="more"></span><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
