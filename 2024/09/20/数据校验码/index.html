@@ -1,0 +1,297 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>数据校验码 | 桐の小窝</title><meta name="author" content="Star"><meta name="copyright" content="Star"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="article">
+<meta property="og:title" content="数据校验码">
+<meta property="og:url" content="http://tongtonglove.github.io/2024/09/20/%E6%95%B0%E6%8D%AE%E6%A0%A1%E9%AA%8C%E7%A0%81/index.html">
+<meta property="og:site_name" content="桐の小窝">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://img1.baidu.com/it/u=3323941490,3938731578&fm=253&fmt=auto&app=138&f=JPEG">
+<meta property="article:published_time" content="2024-09-20T03:12:35.000Z">
+<meta property="article:modified_time" content="2024-09-20T10:29:21.778Z">
+<meta property="article:author" content="Star">
+<meta property="article:tag" content="计组">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img1.baidu.com/it/u=3323941490,3938731578&fm=253&fmt=auto&app=138&f=JPEG"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://tongtonglove.github.io/2024/09/20/%E6%95%B0%E6%8D%AE%E6%A0%A1%E9%AA%8C%E7%A0%81/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!true && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        if (name && globalFn[key][name]) return
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'medium_zoom',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '数据校验码',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-09-20 18:29:21'
+}</script><link rel="stylesheet" href="/css/jianbiansebg.css"><meta name="generator" content="Hexo 7.1.1"></head><body><div id="web_bg" style="background-color: #efefef;"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://img1.baidu.com/it/u=3323941490,3938731578&amp;fm=253&amp;fmt=auto&amp;app=138&amp;f=JPEG" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">54</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-archive"></i><span> 小玩意</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/list/"><i class="fa-fw fas fa-list"></i><span> 桐の待办</span></a></li><li><a class="site-page child" href="/photos/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li><li><a class="site-page child" href="/collect/"><i class="fa-fw fas fa-video"></i><span> 藏宝阁</span></a></li><li><a class="site-page child" href="/toolbox/"><i class="fa-fw fas fa-archive"></i><span> 工具箱</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://pica.zhimg.com/v2-8edde88d4f64057c7e99847164445555_r.jpg?source=1def8aca);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">桐の小窝</span></a><a class="nav-page-title" href="/"><span class="site-name">数据校验码</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-archive"></i><span> 小玩意</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/list/"><i class="fa-fw fas fa-list"></i><span> 桐の待办</span></a></li><li><a class="site-page child" href="/photos/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li><li><a class="site-page child" href="/collect/"><i class="fa-fw fas fa-video"></i><span> 藏宝阁</span></a></li><li><a class="site-page child" href="/toolbox/"><i class="fa-fw fas fa-archive"></i><span> 工具箱</span></a></li></ul></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">数据校验码</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-09-20T03:12:35.000Z" title="发表于 2024-09-20 11:12:35">2024-09-20</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-09-20T10:29:21.778Z" title="更新于 2024-09-20 18:29:21">2024-09-20</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p><img src="https://i.hd-r.cn/89c8f95e518ef4dbd0a3a65c55db69b7.jpg"></p>
+<span id="more"></span>
+
+<p><strong>概念</strong></p>
+<p>数据在计算机内部进行计算、存取和传送过程中，由于元器件故障或噪音干扰等原因会出现差错。</p>
+<p>冗余校验思想：除原数据信息外，还增加若干位编码，这些新增的代码称为校验位。</p>
+<p>两个合法代码对应位上编码不同的位数称为码距，又称<em>海明距离</em>。</p>
+<p>任意两个码字的海明距离的最小值称为该编码集的海明距离。</p>
+<table>
+<thead>
+<tr>
+<th>检查纠错位数</th>
+<th>码距</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>检e位</td>
+<td>d&gt;&#x3D;e+1</td>
+</tr>
+<tr>
+<td>纠e位</td>
+<td>d&gt;&#x3D;2e+1</td>
+</tr>
+<tr>
+<td>纠e1位、检e2位</td>
+<td>d&gt;&#x3D;2*e1+e2+1</td>
+</tr>
+</tbody></table>
+<p><strong>奇偶校验码</strong></p>
+<p>通过增加冗余位使得码字中1的个数恒为奇数或偶数的编码方法，是一种检错码。</p>
+<p>码距&#x3D;2</p>
+<p><strong>海明校验码</strong></p>
+<p>将有效信息按某种规律分成若干组，每组安排一个校验位，做奇偶测试，就能提供多位检错信息，以指出最大可能是哪位出错，从而将其纠正。实质上，海明校验是一种多重校验。</p>
+<blockquote>
+<p>规则：</p>
+<ol>
+<li>如果故障字各位都是0，无故障。</li>
+<li>如果故障字有且仅有一位1，校验位有一位错了，不用纠正。</li>
+<li>如果故障字有多位1，数据位出错，由故障字数值确定出错位，然后取反就可以纠错。</li>
+</ol>
+</blockquote>
+<p>下图为校验位数的确定</p>
+<p><img src="https://i.hd-r.cn/52ac41f44b0702e4416b74dc5ee301e3.jpg"></p>
+<p>下图为分组方式（n&#x3D;8、k&#x3D;4）</p>
+<p><img src="https://i.hd-r.cn/9a633c65471cf16ddf4671bbb78c1996.jpg"></p>
+<p>由表可知，每个数据位至少要参与两组奇偶校验码的生成。如M5与第一组（P1）和第四组（P4）有关。</p>
+<p><strong>循环冗余校验码</strong>（CRC码）</p>
+<p>M(x)为n位二进制数据，将M(x)左移k位，用约定的生成多项式G(x)相除（G(x)是一个k+1位的二进制数），相除得到的k位余数就是校验位。</p>
+<p><strong>检验</strong>：如果接收到的数据和校验码位用同样的生成多项式G(x)相除，若正好除尽，没有错误；除不尽，有错误。</p>
+<p><strong>二进制的计算</strong></p>
+<p><img src="https://i.hd-r.cn/06343f361f463752ab0ac5230ea78ba2.jpg"></p>
+<p><strong>求CRC码</strong></p>
+<p><img src="https://i.hd-r.cn/87a193f2b6cb0b8734d7dfa6792b74b6.jpg"></p>
+<p><strong>CRC码检错例题</strong></p>
+<p><img src="https://i.hd-r.cn/dd452324958b5899b23020895a823bfe.jpg"></p>
+<p><strong>CRC码出错模式</strong>（n&#x3D;11,k&#x3D;4为例）余数右加0再除多项式二进制取余数</p>
+<p><img src="https://i.hd-r.cn/c68ff9071348ba2b2e58ca824e5cc9cb.jpg"></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://tongtonglove.github.io/">Star</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://tongtonglove.github.io/2024/09/20/%E6%95%B0%E6%8D%AE%E6%A0%A1%E9%AA%8C%E7%A0%81/">http://tongtonglove.github.io/2024/09/20/数据校验码/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="http://tongtonglove.github.io" target="_blank">桐の小窝</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%AE%A1%E7%BB%84/">计组</a></div><div class="post-share"><div class="social-share" data-image="https://img1.baidu.com/it/u=3323941490,3938731578&amp;fm=253&amp;fmt=auto&amp;app=138&amp;f=JPEG" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="prev-post pull-left" href="/2024/09/20/%E5%85%B3%E4%BA%8E%E5%BC%A0%E7%88%B1%E7%8E%B2/" title="关于张爱玲"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">关于张爱玲</div></div></a><a class="next-post pull-right" href="/2024/09/20/%E5%8A%A0%E6%B3%95%E5%99%A8/" title="加法器"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">加法器</div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a href="/2024/09/20/%E5%8A%A0%E6%B3%95%E5%99%A8/" title="加法器"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-09-20</div><div class="title">加法器</div></div></a><a href="/2024/09/27/%E5%AE%9A%E7%82%B9%E6%95%B0%E8%BF%90%E7%AE%97/" title="定点数运算"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-09-27</div><div class="title">定点数运算</div></div></a></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="giscus-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info is-center"><div class="avatar-img"><img src="https://img1.baidu.com/it/u=3323941490,3938731578&amp;fm=253&amp;fmt=auto&amp;app=138&amp;f=JPEG" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Star</div><div class="author-info-description">我拥有的避风港 朋友在的地方</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">54</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/tongtonglove"><i class="fab fa-github"></i><span>欢迎来到我的主页</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">你未必光芒万丈 但始终温暖有光</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/01/12/%E5%A5%BD%E7%8E%A9%E7%9A%84%E7%89%B9%E6%95%88/" title="好玩的特效">好玩的特效</a><time datetime="2025-01-12T03:22:18.000Z" title="发表于 2025-01-12 11:22:18">2025-01-12</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/01/10/2025%E5%B0%9D%E8%AF%95/" title="2025春联尝试">2025春联尝试</a><time datetime="2025-01-10T09:06:12.000Z" title="发表于 2025-01-10 17:06:12">2025-01-10</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/01/09/%E6%96%B0%E5%B9%B4%E7%81%AF%E7%AC%BC%E6%95%88%E6%9E%9C/" title="新年灯笼效果">新年灯笼效果</a><time datetime="2025-01-09T05:55:08.000Z" title="发表于 2025-01-09 13:55:08">2025-01-09</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/01/06/2025-1-6/" title="2025/1/6">2025/1/6</a><time datetime="2025-01-06T07:42:07.000Z" title="发表于 2025-01-06 15:42:07">2025-01-06</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/01/06/butterfly%E9%AD%94%E6%94%B9%E4%B9%8B%E8%BD%AE%E5%8A%A8%E6%9D%A1/" title="butterfly魔改之滚动条">butterfly魔改之滚动条</a><time datetime="2025-01-06T01:51:30.000Z" title="发表于 2025-01-06 09:51:30">2025-01-06</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2025 By Star</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">青春有时会彷徨，和我想象不一样；属于青春的疯狂，才是最好的成长。</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script><div class="js-pjax"><script>(()=>{
+  const getGiscusTheme = theme => theme === 'dark' ? 'dark' : 'light'
+
+  const loadGiscus = () => {
+    const config = Object.assign({
+      src: 'https://giscus.app/client.js',
+      'data-repo': 'tongtonglove/comments',
+      'data-repo-id': 'R_kgDONSiMWA',
+      'data-category-id': 'DIC_kwDONSiMWM4Ckdz7',
+      'data-mapping': 'pathname',
+      'data-theme': getGiscusTheme(document.documentElement.getAttribute('data-theme')),
+      'data-reactions-enabled': '1',
+      crossorigin: 'anonymous',
+      async: true
+    },null)
+
+    const ele = document.createElement('script')
+    for (let key in config) {
+      ele.setAttribute(key, config[key])
+    }
+    document.getElementById('giscus-wrap').appendChild(ele)
+  }
+
+  const changeGiscusTheme = theme => {
+    const iframe = document.querySelector('#giscus-wrap iframe')
+    if (iframe) {
+      const message = {
+        giscus: {
+          setConfig: {
+            theme: getGiscusTheme(theme)
+          }
+        }
+      }
+      iframe.contentWindow.postMessage(message, 'https://giscus.app')
+    }
+  }
+
+  btf.addGlobalFn('themeChange', changeGiscusTheme, 'giscus')
+
+  if ('Giscus' === 'Giscus' || !false) {
+    if (false) btf.loadComment(document.getElementById('giscus-wrap'), loadGiscus)
+    else loadGiscus()
+  } else {
+    window.loadOtherComment= loadGiscus
+  }
+})()</script></div><script src="https://myhkw.cn/player/js/jquery.min.js" type="text/javascript"></script><script src="https://myhkw.cn/api/player/demo" id="myhk" key="demo" skin="pinkcat" lr="l" m="1" au="1"></script><script src="https://cdn.jsdelivr.net/gh/fz6m/china-lantern@1.1/dist/china-lantern.min.js"></script><script src="/js/duilian/duilian.js"></script><canvas class="fireworks" mobile="true"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>(() => {
+  const pjaxSelectors = ["link[rel=\"canonical\"]","meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+  window.pjax = new Pjax({
+    elements: 'a:not([target="_blank"])',
+    selectors: pjaxSelectors,
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+  })
+
+  const triggerPjaxFn = (val) => {
+    if (!val) return
+    Object.values(val).forEach(fn => fn())
+  }
+
+  document.addEventListener('pjax:send', () => {
+    // removeEventListener
+    btf.removeGlobalFnEvent('pjaxSendOnce')
+    btf.removeGlobalFnEvent('themeChange')
+
+    // reset readmode
+    const $bodyClassList = document.body.classList
+    if ($bodyClassList.contains('read-mode')) $bodyClassList.remove('read-mode')
+
+    triggerPjaxFn(window.globalFn.pjaxSend)
+  })
+
+  document.addEventListener('pjax:complete', () => {
+    btf.removeGlobalFnEvent('pjaxCompleteOnce')
+    document.querySelectorAll('script[data-pjax]').forEach(item => {
+      const newScript = document.createElement('script')
+      const content = item.text || item.textContent || item.innerHTML || ""
+      Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+      newScript.appendChild(document.createTextNode(content))
+      item.parentNode.replaceChild(newScript, item)
+    })
+
+    triggerPjaxFn(window.globalFn.pjaxComplete)
+  })
+
+  document.addEventListener('pjax:error', e => {
+    if (e.request.status === 404) {
+      pjax.loadUrl('/404.html')
+    }
+  })
+})()</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
