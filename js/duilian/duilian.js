@@ -14,7 +14,8 @@
             right: 10px;  
             z-index: 999;  
             display: flex;  
-            justify-content: space-between;  
+            justify-content: space-between;
+			pointer-events: none;  // 添加点击穿透
         }  
         .duilian__box {  
             position: relative;  
@@ -23,6 +24,7 @@
             background: rgba(216, 0, 15, .8);  
             border-radius: 12px;  
             box-shadow: -5px 5px 50px 4px #fa6c00;  
+			pointer-events: none;  // 添加点击穿透
         }  
         .duilian__text {  
             font-family: '隶书', sans-serif;  
