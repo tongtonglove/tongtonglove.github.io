@@ -1,0 +1,10 @@
+/** 普通指针样式**/
+body {
+	width: 100vw;
+	height: 100vh;
+	cursor: url("https://dl.zhutix.net/2023/03/35090.png"), auto;
+}
+/** 链接指针样式**/
+a:hover {
+	cursor: url("https://dl.zhutix.net/2023/03/35104.png"), pointer;
+}
