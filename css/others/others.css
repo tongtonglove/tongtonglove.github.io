@@ -1,3 +1,21 @@
+/** 普通指针样式**/
+body {
+	width: 100vw;
+	height: 100vh;
+	cursor: url("https://dl.zhutix.net/2023/05/normal_32x32-32.png"), auto;
+}
+/** 链接指针样式**/
+a:hover {
+	cursor: url("https://dl.zhutix.net/2023/05/normal_32x32-32.png"), pointer;
+}
+
+/* 自定义字体 */
+* {
+	font-family: '幼圆';
+	font-weight: bold; /* 粗体字符 */
+}
+
+/* 主页所有文章卡片动态光效 */
 @keyframes glow {
     0% {
         box-shadow: 0 0 25px rgba(255, 0, 255, 0.9);
