@@ -12,7 +12,7 @@ a:hover {
 /* 自定义字体 */
 * {
 	font-family: '幼圆';
-	font-weight: bold; /* 粗体字符 */
+	/*font-weight: bold;*/ /* 粗体字符 */
 }
 
 /* 主页所有文章卡片动态光效 */
