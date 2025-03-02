@@ -1,0 +1,1546 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>笔记3 2025/3/2 | 桐の小窝</title><meta name="author" content="Star"><meta name="copyright" content="Star"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="开头状态码HTTP 状态码 是服务器对客户端请求的响应结果的三位数字代码。状态码分为五类，分别以不同的数字开头表示不同的响应类型。以下是 HTTP 状态码的分类及其含义：  1. 1xx（信息性状态码）表示请求已被接收，需要继续处理。 （1）100 Continue 含义：客户端应继续发送请求的剩余部分。 场景：客户端发送了一个包含 Expect: 100-continue 头的请求，服务器同意接">
+<meta property="og:type" content="article">
+<meta property="og:title" content="笔记3 2025&#x2F;3&#x2F;2">
+<meta property="og:url" content="http://tongtonglove.github.io/2025/03/02/%E7%AC%94%E8%AE%B03-2025-3-2/index.html">
+<meta property="og:site_name" content="桐の小窝">
+<meta property="og:description" content="开头状态码HTTP 状态码 是服务器对客户端请求的响应结果的三位数字代码。状态码分为五类，分别以不同的数字开头表示不同的响应类型。以下是 HTTP 状态码的分类及其含义：  1. 1xx（信息性状态码）表示请求已被接收，需要继续处理。 （1）100 Continue 含义：客户端应继续发送请求的剩余部分。 场景：客户端发送了一个包含 Expect: 100-continue 头的请求，服务器同意接">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://img1.baidu.com/it/u=3323941490,3938731578&fm=253&fmt=auto&app=138&f=JPEG">
+<meta property="article:published_time" content="2025-03-02T07:24:15.000Z">
+<meta property="article:modified_time" content="2025-03-02T08:49:55.206Z">
+<meta property="article:author" content="Star">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img1.baidu.com/it/u=3323941490,3938731578&fm=253&fmt=auto&app=138&f=JPEG"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://tongtonglove.github.io/2025/03/02/%E7%AC%94%E8%AE%B03-2025-3-2/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!true && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        if (name && globalFn[key][name]) return
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'medium_zoom',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '笔记3 2025/3/2',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2025-03-02 16:49:55'
+}</script><link rel="stylesheet" href="/css/others/others.css"><meta name="generator" content="Hexo 7.1.1"></head><body><div id="web_bg" style="background-image: url(/img/bg1.jpg);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://img1.baidu.com/it/u=3323941490,3938731578&amp;fm=253&amp;fmt=auto&amp;app=138&amp;f=JPEG" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">72</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-archive"></i><span> 小玩意</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/list/"><i class="fa-fw fas fa-list"></i><span> 桐の待办</span></a></li><li><a class="site-page child" href="/photos/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li><li><a class="site-page child" href="/collect/"><i class="fa-fw fas fa-video"></i><span> 藏宝阁</span></a></li><li><a class="site-page child" href="/toolbox/"><i class="fa-fw fas fa-archive"></i><span> 工具箱</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg fixed" id="page-header" style="background: transparent;"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">桐の小窝</span></a><a class="nav-page-title" href="/"><span class="site-name">笔记3 2025/3/2</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-archive"></i><span> 小玩意</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/list/"><i class="fa-fw fas fa-list"></i><span> 桐の待办</span></a></li><li><a class="site-page child" href="/photos/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li><li><a class="site-page child" href="/collect/"><i class="fa-fw fas fa-video"></i><span> 藏宝阁</span></a></li><li><a class="site-page child" href="/toolbox/"><i class="fa-fw fas fa-archive"></i><span> 工具箱</span></a></li></ul></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">笔记3 2025/3/2</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-03-02T07:24:15.000Z" title="发表于 2025-03-02 15:24:15">2025-03-02</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-03-02T08:49:55.206Z" title="更新于 2025-03-02 16:49:55">2025-03-02</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="开头状态码"><a href="#开头状态码" class="headerlink" title="开头状态码"></a>开头状态码</h1><p><strong>HTTP 状态码</strong> 是服务器对客户端请求的响应结果的三位数字代码。状态码分为五类，分别以不同的数字开头表示不同的响应类型。以下是 HTTP 状态码的分类及其含义：</p>
+<hr>
+<h2 id="1-1xx（信息性状态码）"><a href="#1-1xx（信息性状态码）" class="headerlink" title="1. 1xx（信息性状态码）"></a>1. <strong>1xx（信息性状态码）</strong></h2><p>表示请求已被接收，需要继续处理。</p>
+<h3 id="（1）100-Continue"><a href="#（1）100-Continue" class="headerlink" title="（1）100 Continue"></a>（1）<strong>100 Continue</strong></h3><ul>
+<li><strong>含义</strong>：客户端应继续发送请求的剩余部分。</li>
+<li><strong>场景</strong>：客户端发送了一个包含 <code>Expect: 100-continue</code> 头的请求，服务器同意接收请求体。</li>
+</ul>
+<h3 id="（2）101-Switching-Protocols"><a href="#（2）101-Switching-Protocols" class="headerlink" title="（2）101 Switching Protocols"></a>（2）<strong>101 Switching Protocols</strong></h3><ul>
+<li><strong>含义</strong>：服务器同意切换协议（如从 HTTP 切换到 WebSocket）。</li>
+<li><strong>场景</strong>：客户端请求升级协议，服务器同意。</li>
+</ul>
+<hr>
+<h2 id="2-2xx（成功状态码）"><a href="#2-2xx（成功状态码）" class="headerlink" title="2. 2xx（成功状态码）"></a>2. <strong>2xx（成功状态码）</strong></h2><p>表示请求已成功被服务器接收、理解并处理。</p>
+<h3 id="（1）200-OK"><a href="#（1）200-OK" class="headerlink" title="（1）200 OK"></a>（1）<strong>200 OK</strong></h3><ul>
+<li><strong>含义</strong>：请求成功，服务器返回了请求的数据。</li>
+<li><strong>场景</strong>：GET、POST 请求成功。</li>
+</ul>
+<h3 id="（2）201-Created"><a href="#（2）201-Created" class="headerlink" title="（2）201 Created"></a>（2）<strong>201 Created</strong></h3><ul>
+<li><strong>含义</strong>：请求成功，并且服务器创建了新的资源。</li>
+<li><strong>场景</strong>：POST 请求成功创建资源。</li>
+</ul>
+<h3 id="（3）204-No-Content"><a href="#（3）204-No-Content" class="headerlink" title="（3）204 No Content"></a>（3）<strong>204 No Content</strong></h3><ul>
+<li><strong>含义</strong>：请求成功，但响应中没有返回内容。</li>
+<li><strong>场景</strong>：DELETE 请求成功，或不需要返回数据的请求。</li>
+</ul>
+<hr>
+<h2 id="3-3xx（重定向状态码）"><a href="#3-3xx（重定向状态码）" class="headerlink" title="3. 3xx（重定向状态码）"></a>3. <strong>3xx（重定向状态码）</strong></h2><p>表示需要客户端进一步操作以完成请求。</p>
+<h3 id="（1）301-Moved-Permanently"><a href="#（1）301-Moved-Permanently" class="headerlink" title="（1）301 Moved Permanently"></a>（1）<strong>301 Moved Permanently</strong></h3><ul>
+<li><strong>含义</strong>：请求的资源已永久移动到新的 URL。</li>
+<li><strong>场景</strong>：网站改版或资源迁移。</li>
+</ul>
+<h3 id="（2）302-Found"><a href="#（2）302-Found" class="headerlink" title="（2）302 Found"></a>（2）<strong>302 Found</strong></h3><ul>
+<li><strong>含义</strong>：请求的资源临时移动到新的 URL。</li>
+<li><strong>场景</strong>：临时重定向。</li>
+</ul>
+<h3 id="（3）304-Not-Modified"><a href="#（3）304-Not-Modified" class="headerlink" title="（3）304 Not Modified"></a>（3）<strong>304 Not Modified</strong></h3><ul>
+<li><strong>含义</strong>：资源未修改，客户端可以使用缓存的版本。</li>
+<li><strong>场景</strong>：客户端发送了条件请求（如 <code>If-Modified-Since</code>），服务器判断资源未修改。</li>
+</ul>
+<hr>
+<h2 id="4-4xx（客户端错误状态码）"><a href="#4-4xx（客户端错误状态码）" class="headerlink" title="4. 4xx（客户端错误状态码）"></a>4. <strong>4xx（客户端错误状态码）</strong></h2><p>表示客户端请求有误，服务器无法处理。</p>
+<h3 id="（1）400-Bad-Request"><a href="#（1）400-Bad-Request" class="headerlink" title="（1）400 Bad Request"></a>（1）<strong>400 Bad Request</strong></h3><ul>
+<li><strong>含义</strong>：请求无效，服务器无法理解。</li>
+<li><strong>场景</strong>：请求参数错误或格式不正确。</li>
+</ul>
+<h3 id="（2）401-Unauthorized"><a href="#（2）401-Unauthorized" class="headerlink" title="（2）401 Unauthorized"></a>（2）<strong>401 Unauthorized</strong></h3><ul>
+<li><strong>含义</strong>：请求需要身份验证。</li>
+<li><strong>场景</strong>：未提供有效的身份验证信息。</li>
+</ul>
+<h3 id="（3）403-Forbidden"><a href="#（3）403-Forbidden" class="headerlink" title="（3）403 Forbidden"></a>（3）<strong>403 Forbidden</strong></h3><ul>
+<li><strong>含义</strong>：服务器拒绝请求。</li>
+<li><strong>场景</strong>：客户端没有访问资源的权限。</li>
+</ul>
+<h3 id="（4）404-Not-Found"><a href="#（4）404-Not-Found" class="headerlink" title="（4）404 Not Found"></a>（4）<strong>404 Not Found</strong></h3><ul>
+<li><strong>含义</strong>：请求的资源不存在。</li>
+<li><strong>场景</strong>：URL 错误或资源已被删除。</li>
+</ul>
+<h3 id="（5）405-Method-Not-Allowed"><a href="#（5）405-Method-Not-Allowed" class="headerlink" title="（5）405 Method Not Allowed"></a>（5）<strong>405 Method Not Allowed</strong></h3><ul>
+<li><strong>含义</strong>：请求方法不被允许。</li>
+<li><strong>场景</strong>：使用了不支持的 HTTP 方法（如对只支持 GET 的资源发送 POST 请求）。</li>
+</ul>
+<hr>
+<h2 id="5-5xx（服务器错误状态码）"><a href="#5-5xx（服务器错误状态码）" class="headerlink" title="5. 5xx（服务器错误状态码）"></a>5. <strong>5xx（服务器错误状态码）</strong></h2><p>表示服务器处理请求时发生错误。</p>
+<h3 id="（1）500-Internal-Server-Error"><a href="#（1）500-Internal-Server-Error" class="headerlink" title="（1）500 Internal Server Error"></a>（1）<strong>500 Internal Server Error</strong></h3><ul>
+<li><strong>含义</strong>：服务器内部错误，无法完成请求。</li>
+<li><strong>场景</strong>：服务器端代码或配置错误。</li>
+</ul>
+<h3 id="（2）502-Bad-Gateway"><a href="#（2）502-Bad-Gateway" class="headerlink" title="（2）502 Bad Gateway"></a>（2）<strong>502 Bad Gateway</strong></h3><ul>
+<li><strong>含义</strong>：服务器作为网关或代理时，从上游服务器收到无效响应。</li>
+<li><strong>场景</strong>：上游服务器不可用或响应超时。</li>
+</ul>
+<h3 id="（3）503-Service-Unavailable"><a href="#（3）503-Service-Unavailable" class="headerlink" title="（3）503 Service Unavailable"></a>（3）<strong>503 Service Unavailable</strong></h3><ul>
+<li><strong>含义</strong>：服务器暂时无法处理请求。</li>
+<li><strong>场景</strong>：服务器过载或维护中。</li>
+</ul>
+<h3 id="（4）504-Gateway-Timeout"><a href="#（4）504-Gateway-Timeout" class="headerlink" title="（4）504 Gateway Timeout"></a>（4）<strong>504 Gateway Timeout</strong></h3><ul>
+<li><strong>含义</strong>：服务器作为网关或代理时，未能及时从上游服务器收到响应。</li>
+<li><strong>场景</strong>：上游服务器响应超时。</li>
+</ul>
+<hr>
+<h2 id="6-总结"><a href="#6-总结" class="headerlink" title="6. 总结"></a>6. <strong>总结</strong></h2><table>
+<thead>
+<tr>
+<th><strong>状态码</strong></th>
+<th><strong>类别</strong></th>
+<th><strong>含义</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1xx</td>
+<td>信息性状态码</td>
+<td>请求已被接收，需要继续处理</td>
+</tr>
+<tr>
+<td>2xx</td>
+<td>成功状态码</td>
+<td>请求已成功被服务器接收、理解并处理</td>
+</tr>
+<tr>
+<td>3xx</td>
+<td>重定向状态码</td>
+<td>需要客户端进一步操作以完成请求</td>
+</tr>
+<tr>
+<td>4xx</td>
+<td>客户端错误状态码</td>
+<td>客户端请求有误，服务器无法处理</td>
+</tr>
+<tr>
+<td>5xx</td>
+<td>服务器错误状态码</td>
+<td>服务器处理请求时发生错误</td>
+</tr>
+</tbody></table>
+<p>通过理解 HTTP 状态码的含义，可以更好地调试和优化 Web 应用程序！</p>
+<h1 id="为什么3握手4挥手，为什么是3和4"><a href="#为什么3握手4挥手，为什么是3和4" class="headerlink" title="为什么3握手4挥手，为什么是3和4"></a>为什么3握手4挥手，为什么是3和4</h1><p><strong>三次握手（Three-Way Handshake）</strong> 和 <strong>四次挥手（Four-Way Handshake）</strong> 是 TCP 协议中用于建立和终止连接的核心机制。它们的次数是由 TCP 协议的设计和通信双方的状态转换需求决定的。以下是详细解释：</p>
+<hr>
+<h2 id="1-三次握手（Three-Way-Handshake）"><a href="#1-三次握手（Three-Way-Handshake）" class="headerlink" title="1. 三次握手（Three-Way Handshake）"></a>1. <strong>三次握手（Three-Way Handshake）</strong></h2><h3 id="（1）为什么是三次握手？"><a href="#（1）为什么是三次握手？" class="headerlink" title="（1）为什么是三次握手？"></a>（1）<strong>为什么是三次握手？</strong></h3><p>三次握手是为了确保客户端和服务器双方都能确认彼此的发送和接收能力，从而建立一个可靠的连接。</p>
+<h3 id="（2）三次握手的过程"><a href="#（2）三次握手的过程" class="headerlink" title="（2）三次握手的过程"></a>（2）<strong>三次握手的过程</strong></h3><ol>
+<li><p><strong>第一次握手</strong>：</p>
+<ul>
+<li>客户端向服务器发送 <code>SYN</code> 报文，表示请求建立连接。</li>
+<li>客户端进入 <code>SYN_SENT</code> 状态。</li>
+</ul>
+</li>
+<li><p><strong>第二次握手</strong>：</p>
+<ul>
+<li>服务器收到 <code>SYN</code> 报文后，向客户端发送 <code>SYN+ACK</code> 报文，表示同意建立连接。</li>
+<li>服务器进入 <code>SYN_RECEIVED</code> 状态。</li>
+</ul>
+</li>
+<li><p><strong>第三次握手</strong>：</p>
+<ul>
+<li>客户端收到 <code>SYN+ACK</code> 报文后，向服务器发送 <code>ACK</code> 报文，表示连接已建立。</li>
+<li>客户端和服务器都进入 <code>ESTABLISHED</code> 状态。</li>
+</ul>
+</li>
+</ol>
+<h3 id="（3）为什么不是两次或四次？"><a href="#（3）为什么不是两次或四次？" class="headerlink" title="（3）为什么不是两次或四次？"></a>（3）<strong>为什么不是两次或四次？</strong></h3><ul>
+<li><strong>两次握手</strong>：<ul>
+<li>如果只有两次握手，服务器无法确认客户端的接收能力，可能导致连接建立失败。</li>
+</ul>
+</li>
+<li><strong>四次握手</strong>：<ul>
+<li>三次握手已经足够确保双方的发送和接收能力，四次握手会增加不必要的开销。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="2-四次挥手（Four-Way-Handshake）"><a href="#2-四次挥手（Four-Way-Handshake）" class="headerlink" title="2. 四次挥手（Four-Way Handshake）"></a>2. <strong>四次挥手（Four-Way Handshake）</strong></h2><h3 id="（1）为什么是四次挥手？"><a href="#（1）为什么是四次挥手？" class="headerlink" title="（1）为什么是四次挥手？"></a>（1）<strong>为什么是四次挥手？</strong></h3><p>四次挥手是为了确保客户端和服务器双方都能安全地关闭连接，释放资源。</p>
+<h3 id="（2）四次挥手的过程"><a href="#（2）四次挥手的过程" class="headerlink" title="（2）四次挥手的过程"></a>（2）<strong>四次挥手的过程</strong></h3><ol>
+<li><p><strong>第一次挥手</strong>：</p>
+<ul>
+<li>客户端向服务器发送 <code>FIN</code> 报文，表示请求关闭连接。</li>
+<li>客户端进入 <code>FIN_WAIT_1</code> 状态。</li>
+</ul>
+</li>
+<li><p><strong>第二次挥手</strong>：</p>
+<ul>
+<li>服务器收到 <code>FIN</code> 报文后，向客户端发送 <code>ACK</code> 报文，表示同意关闭连接。</li>
+<li>服务器进入 <code>CLOSE_WAIT</code> 状态，客户端进入 <code>FIN_WAIT_2</code> 状态。</li>
+</ul>
+</li>
+<li><p><strong>第三次挥手</strong>：</p>
+<ul>
+<li>服务器向客户端发送 <code>FIN</code> 报文，表示请求关闭连接。</li>
+<li>服务器进入 <code>LAST_ACK</code> 状态。</li>
+</ul>
+</li>
+<li><p><strong>第四次挥手</strong>：</p>
+<ul>
+<li>客户端收到 <code>FIN</code> 报文后，向服务器发送 <code>ACK</code> 报文，表示连接已关闭。</li>
+<li>客户端进入 <code>TIME_WAIT</code> 状态，服务器进入 <code>CLOSED</code> 状态。</li>
+</ul>
+</li>
+</ol>
+<h3 id="（3）为什么不是三次或五次？"><a href="#（3）为什么不是三次或五次？" class="headerlink" title="（3）为什么不是三次或五次？"></a>（3）<strong>为什么不是三次或五次？</strong></h3><ul>
+<li><strong>三次挥手</strong>：<ul>
+<li>如果只有三次挥手，服务器无法确保客户端已经收到关闭请求，可能导致资源未释放。</li>
+</ul>
+</li>
+<li><strong>五次挥手</strong>：<ul>
+<li>四次挥手已经足够确保双方安全关闭连接，五次挥手会增加不必要的开销。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="3-总结"><a href="#3-总结" class="headerlink" title="3. 总结"></a>3. <strong>总结</strong></h2><table>
+<thead>
+<tr>
+<th><strong>机制</strong></th>
+<th><strong>次数</strong></th>
+<th><strong>目的</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>三次握手</strong></td>
+<td>3</td>
+<td>确保客户端和服务器双方都能确认彼此的发送和接收能力，建立可靠连接</td>
+</tr>
+<tr>
+<td><strong>四次挥手</strong></td>
+<td>4</td>
+<td>确保客户端和服务器双方都能安全地关闭连接，释放资源</td>
+</tr>
+</tbody></table>
+<p>通过三次握手和四次挥手，TCP 协议能够可靠地建立和终止连接，确保数据传输的完整性和可靠性！</p>
+<h1 id="udp和tcp区别"><a href="#udp和tcp区别" class="headerlink" title="udp和tcp区别"></a>udp和tcp区别</h1><p><strong>UDP（User Datagram Protocol，用户数据报协议）</strong> 和 <strong>TCP（Transmission Control Protocol，传输控制协议）</strong> 是两种常用的传输层协议，它们在数据传输方式、可靠性和适用场景上有显著区别。以下是它们的详细对比：</p>
+<hr>
+<h2 id="1-连接方式"><a href="#1-连接方式" class="headerlink" title="1. 连接方式"></a>1. <strong>连接方式</strong></h2><h3 id="（1）TCP"><a href="#（1）TCP" class="headerlink" title="（1）TCP"></a>（1）<strong>TCP</strong></h3><ul>
+<li><strong>面向连接</strong>：在数据传输之前，需要通过三次握手建立连接。</li>
+<li><strong>可靠传输</strong>：确保数据按顺序、无差错地传输。</li>
+</ul>
+<h3 id="（2）UDP"><a href="#（2）UDP" class="headerlink" title="（2）UDP"></a>（2）<strong>UDP</strong></h3><ul>
+<li><strong>无连接</strong>：不需要建立连接，直接发送数据。</li>
+<li><strong>不可靠传输</strong>：不保证数据的顺序和可靠性。</li>
+</ul>
+<hr>
+<h2 id="2-数据传输方式"><a href="#2-数据传输方式" class="headerlink" title="2. 数据传输方式"></a>2. <strong>数据传输方式</strong></h2><h3 id="（1）TCP-1"><a href="#（1）TCP-1" class="headerlink" title="（1）TCP"></a>（1）<strong>TCP</strong></h3><ul>
+<li><strong>流式传输</strong>：将数据分割成多个数据包，按顺序传输。</li>
+<li><strong>确认机制</strong>：接收方收到数据后发送确认（ACK），发送方根据确认重传丢失的数据包。</li>
+</ul>
+<h3 id="（2）UDP-1"><a href="#（2）UDP-1" class="headerlink" title="（2）UDP"></a>（2）<strong>UDP</strong></h3><ul>
+<li><strong>数据报传输</strong>：每个数据包独立发送，不保证顺序。</li>
+<li><strong>无确认机制</strong>：发送方不等待接收方的确认，数据包可能丢失或乱序。</li>
+</ul>
+<hr>
+<h2 id="3-可靠性"><a href="#3-可靠性" class="headerlink" title="3. 可靠性"></a>3. <strong>可靠性</strong></h2><h3 id="（1）TCP-2"><a href="#（1）TCP-2" class="headerlink" title="（1）TCP"></a>（1）<strong>TCP</strong></h3><ul>
+<li><strong>可靠</strong>：通过确认机制、重传机制和流量控制确保数据的可靠传输。</li>
+<li><strong>适用场景</strong>：需要高可靠性的应用（如文件传输、网页浏览）。</li>
+</ul>
+<h3 id="（2）UDP-2"><a href="#（2）UDP-2" class="headerlink" title="（2）UDP"></a>（2）<strong>UDP</strong></h3><ul>
+<li><strong>不可靠</strong>：不保证数据的可靠传输，数据包可能丢失、重复或乱序。</li>
+<li><strong>适用场景</strong>：对实时性要求高的应用（如视频流、在线游戏）。</li>
+</ul>
+<hr>
+<h2 id="4-传输效率"><a href="#4-传输效率" class="headerlink" title="4. 传输效率"></a>4. <strong>传输效率</strong></h2><h3 id="（1）TCP-3"><a href="#（1）TCP-3" class="headerlink" title="（1）TCP"></a>（1）<strong>TCP</strong></h3><ul>
+<li><strong>效率较低</strong>：由于需要建立连接、确认和重传，传输效率较低。</li>
+<li><strong>开销较大</strong>：每个数据包需要额外的头部信息（如序列号、确认号）。</li>
+</ul>
+<h3 id="（2）UDP-3"><a href="#（2）UDP-3" class="headerlink" title="（2）UDP"></a>（2）<strong>UDP</strong></h3><ul>
+<li><strong>效率较高</strong>：不需要建立连接和确认，传输效率较高。</li>
+<li><strong>开销较小</strong>：数据包头部信息较少，传输开销小。</li>
+</ul>
+<hr>
+<h2 id="5-流量控制"><a href="#5-流量控制" class="headerlink" title="5. 流量控制"></a>5. <strong>流量控制</strong></h2><h3 id="（1）TCP-4"><a href="#（1）TCP-4" class="headerlink" title="（1）TCP"></a>（1）<strong>TCP</strong></h3><ul>
+<li><strong>支持流量控制</strong>：通过滑动窗口机制控制发送方的发送速率，避免接收方缓冲区溢出。</li>
+</ul>
+<h3 id="（2）UDP-4"><a href="#（2）UDP-4" class="headerlink" title="（2）UDP"></a>（2）<strong>UDP</strong></h3><ul>
+<li><strong>不支持流量控制</strong>：发送方以固定速率发送数据，可能导致接收方缓冲区溢出。</li>
+</ul>
+<hr>
+<h2 id="6-拥塞控制"><a href="#6-拥塞控制" class="headerlink" title="6. 拥塞控制"></a>6. <strong>拥塞控制</strong></h2><h3 id="（1）TCP-5"><a href="#（1）TCP-5" class="headerlink" title="（1）TCP"></a>（1）<strong>TCP</strong></h3><ul>
+<li><strong>支持拥塞控制</strong>：通过慢启动、拥塞避免和快速重传等机制避免网络拥塞。</li>
+</ul>
+<h3 id="（2）UDP-5"><a href="#（2）UDP-5" class="headerlink" title="（2）UDP"></a>（2）<strong>UDP</strong></h3><ul>
+<li><strong>不支持拥塞控制</strong>：发送方不关心网络拥塞情况，可能导致网络拥塞。</li>
+</ul>
+<hr>
+<h2 id="7-头部大小"><a href="#7-头部大小" class="headerlink" title="7. 头部大小"></a>7. <strong>头部大小</strong></h2><h3 id="（1）TCP-6"><a href="#（1）TCP-6" class="headerlink" title="（1）TCP"></a>（1）<strong>TCP</strong></h3><ul>
+<li><strong>头部较大</strong>：TCP 头部通常为 20 字节（不含选项字段）。</li>
+</ul>
+<h3 id="（2）UDP-6"><a href="#（2）UDP-6" class="headerlink" title="（2）UDP"></a>（2）<strong>UDP</strong></h3><ul>
+<li><strong>头部较小</strong>：UDP 头部固定为 8 字节。</li>
+</ul>
+<hr>
+<h2 id="8-适用场景"><a href="#8-适用场景" class="headerlink" title="8. 适用场景"></a>8. <strong>适用场景</strong></h2><h3 id="（1）TCP-7"><a href="#（1）TCP-7" class="headerlink" title="（1）TCP"></a>（1）<strong>TCP</strong></h3><ul>
+<li><strong>文件传输</strong>：如 FTP、HTTP。</li>
+<li><strong>电子邮件</strong>：如 SMTP、POP3。</li>
+<li><strong>网页浏览</strong>：如 HTTPS。</li>
+<li><strong>远程登录</strong>：如 SSH。</li>
+</ul>
+<h3 id="（2）UDP-7"><a href="#（2）UDP-7" class="headerlink" title="（2）UDP"></a>（2）<strong>UDP</strong></h3><ul>
+<li><strong>实时应用</strong>：如视频流、语音通话（VoIP）。</li>
+<li><strong>在线游戏</strong>：如多人在线游戏。</li>
+<li><strong>DNS 查询</strong>：如域名解析。</li>
+<li><strong>广播和多播</strong>：如网络广播。</li>
+</ul>
+<hr>
+<h2 id="9-总结对比"><a href="#9-总结对比" class="headerlink" title="9. 总结对比"></a>9. <strong>总结对比</strong></h2><table>
+<thead>
+<tr>
+<th><strong>特性</strong></th>
+<th><strong>TCP</strong></th>
+<th><strong>UDP</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>连接方式</strong></td>
+<td>面向连接</td>
+<td>无连接</td>
+</tr>
+<tr>
+<td><strong>可靠性</strong></td>
+<td>可靠传输</td>
+<td>不可靠传输</td>
+</tr>
+<tr>
+<td><strong>传输效率</strong></td>
+<td>较低</td>
+<td>较高</td>
+</tr>
+<tr>
+<td><strong>流量控制</strong></td>
+<td>支持</td>
+<td>不支持</td>
+</tr>
+<tr>
+<td><strong>拥塞控制</strong></td>
+<td>支持</td>
+<td>不支持</td>
+</tr>
+<tr>
+<td><strong>头部大小</strong></td>
+<td>较大（通常 20 字节）</td>
+<td>较小（固定 8 字节）</td>
+</tr>
+<tr>
+<td><strong>适用场景</strong></td>
+<td>文件传输、网页浏览、电子邮件</td>
+<td>实时应用、在线游戏、DNS 查询</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="10-选择建议"><a href="#10-选择建议" class="headerlink" title="10. 选择建议"></a>10. <strong>选择建议</strong></h2><ul>
+<li><p><strong>选择 TCP</strong>：</p>
+<ul>
+<li>需要高可靠性的应用。</li>
+<li>数据传输顺序和完整性要求高的场景。</li>
+</ul>
+</li>
+<li><p><strong>选择 UDP</strong>：</p>
+<ul>
+<li>对实时性要求高的应用。</li>
+<li>数据传输量小、频率高的场景。</li>
+</ul>
+</li>
+</ul>
+<p>通过理解 TCP 和 UDP 的区别，可以根据实际需求选择合适的传输协议，优化应用程序的性能和可靠性！</p>
+<h1 id="为什么tcp可靠"><a href="#为什么tcp可靠" class="headerlink" title="为什么tcp可靠"></a>为什么tcp可靠</h1><p><strong>TCP（Transmission Control Protocol，传输控制协议）</strong> 是一种可靠的传输层协议，它通过多种机制确保数据在传输过程中的可靠性。以下是 TCP 可靠性的核心机制及其工作原理：</p>
+<hr>
+<h2 id="1-连接管理"><a href="#1-连接管理" class="headerlink" title="1. 连接管理"></a>1. <strong>连接管理</strong></h2><h3 id="（1）三次握手"><a href="#（1）三次握手" class="headerlink" title="（1）三次握手"></a>（1）<strong>三次握手</strong></h3><ul>
+<li><strong>目的</strong>：确保客户端和服务器双方都能确认彼此的发送和接收能力。</li>
+<li><strong>过程</strong>：<ol>
+<li>客户端发送 <code>SYN</code> 报文，请求建立连接。</li>
+<li>服务器回复 <code>SYN+ACK</code> 报文，表示同意建立连接。</li>
+<li>客户端发送 <code>ACK</code> 报文，确认连接建立。</li>
+</ol>
+</li>
+</ul>
+<h3 id="（2）四次挥手"><a href="#（2）四次挥手" class="headerlink" title="（2）四次挥手"></a>（2）<strong>四次挥手</strong></h3><ul>
+<li><strong>目的</strong>：确保客户端和服务器双方都能安全地关闭连接，释放资源。</li>
+<li><strong>过程</strong>：<ol>
+<li>客户端发送 <code>FIN</code> 报文，请求关闭连接。</li>
+<li>服务器回复 <code>ACK</code> 报文，表示同意关闭连接。</li>
+<li>服务器发送 <code>FIN</code> 报文，请求关闭连接。</li>
+<li>客户端回复 <code>ACK</code> 报文，确认连接关闭。</li>
+</ol>
+</li>
+</ul>
+<hr>
+<h2 id="2-数据确认与重传"><a href="#2-数据确认与重传" class="headerlink" title="2. 数据确认与重传"></a>2. <strong>数据确认与重传</strong></h2><h3 id="（1）确认机制（ACK）"><a href="#（1）确认机制（ACK）" class="headerlink" title="（1）确认机制（ACK）"></a>（1）<strong>确认机制（ACK）</strong></h3><ul>
+<li><strong>目的</strong>：接收方收到数据后，向发送方发送确认（ACK），表示数据已成功接收。</li>
+<li><strong>工作原理</strong>：<ul>
+<li>发送方发送数据后，等待接收方的确认。</li>
+<li>如果发送方未收到确认，会重传数据。</li>
+</ul>
+</li>
+</ul>
+<h3 id="（2）超时重传"><a href="#（2）超时重传" class="headerlink" title="（2）超时重传"></a>（2）<strong>超时重传</strong></h3><ul>
+<li><strong>目的</strong>：如果发送方在指定时间内未收到确认，会重传数据。</li>
+<li><strong>工作原理</strong>：<ul>
+<li>发送方为每个数据包设置一个超时计时器。</li>
+<li>如果计时器超时，发送方会重传数据。</li>
+</ul>
+</li>
+</ul>
+<h3 id="（3）快速重传"><a href="#（3）快速重传" class="headerlink" title="（3）快速重传"></a>（3）<strong>快速重传</strong></h3><ul>
+<li><strong>目的</strong>：在检测到数据包丢失时，立即重传数据，而不等待超时。</li>
+<li><strong>工作原理</strong>：<ul>
+<li>如果接收方收到乱序的数据包，会发送重复的确认（DupACK）。</li>
+<li>发送方收到多个 DupACK 后，立即重传丢失的数据包。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="3-数据顺序与完整性"><a href="#3-数据顺序与完整性" class="headerlink" title="3. 数据顺序与完整性"></a>3. <strong>数据顺序与完整性</strong></h2><h3 id="（1）序列号（Sequence-Number）"><a href="#（1）序列号（Sequence-Number）" class="headerlink" title="（1）序列号（Sequence Number）"></a>（1）<strong>序列号（Sequence Number）</strong></h3><ul>
+<li><strong>目的</strong>：为每个数据包分配一个唯一的序列号，确保数据按顺序传输。</li>
+<li><strong>工作原理</strong>：<ul>
+<li>发送方为每个数据包分配一个序列号。</li>
+<li>接收方根据序列号重新组装数据。</li>
+</ul>
+</li>
+</ul>
+<h3 id="（2）确认号（Acknowledgment-Number）"><a href="#（2）确认号（Acknowledgment-Number）" class="headerlink" title="（2）确认号（Acknowledgment Number）"></a>（2）<strong>确认号（Acknowledgment Number）</strong></h3><ul>
+<li><strong>目的</strong>：表示接收方期望接收的下一个数据包的序列号。</li>
+<li><strong>工作原理</strong>：<ul>
+<li>接收方发送确认号，表示已成功接收的数据包。</li>
+<li>发送方根据确认号发送下一个数据包。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="4-流量控制"><a href="#4-流量控制" class="headerlink" title="4. 流量控制"></a>4. <strong>流量控制</strong></h2><h3 id="（1）滑动窗口（Sliding-Window）"><a href="#（1）滑动窗口（Sliding-Window）" class="headerlink" title="（1）滑动窗口（Sliding Window）"></a>（1）<strong>滑动窗口（Sliding Window）</strong></h3><ul>
+<li><strong>目的</strong>：控制发送方的发送速率，避免接收方缓冲区溢出。</li>
+<li><strong>工作原理</strong>：<ul>
+<li>接收方通过窗口大小告知发送方可接收的数据量。</li>
+<li>发送方根据窗口大小调整发送速率。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="5-拥塞控制"><a href="#5-拥塞控制" class="headerlink" title="5. 拥塞控制"></a>5. <strong>拥塞控制</strong></h2><h3 id="（1）慢启动（Slow-Start）"><a href="#（1）慢启动（Slow-Start）" class="headerlink" title="（1）慢启动（Slow Start）"></a>（1）<strong>慢启动（Slow Start）</strong></h3><ul>
+<li><strong>目的</strong>：在连接建立初期，逐步增加发送速率，避免网络拥塞。</li>
+<li><strong>工作原理</strong>：<ul>
+<li>发送方从较小的窗口大小开始，逐步增加发送速率。</li>
+</ul>
+</li>
+</ul>
+<h3 id="（2）拥塞避免（Congestion-Avoidance）"><a href="#（2）拥塞避免（Congestion-Avoidance）" class="headerlink" title="（2）拥塞避免（Congestion Avoidance）"></a>（2）<strong>拥塞避免（Congestion Avoidance）</strong></h3><ul>
+<li><strong>目的</strong>：在网络拥塞时，减少发送速率，避免进一步拥塞。</li>
+<li><strong>工作原理</strong>：<ul>
+<li>发送方根据网络状况动态调整窗口大小。</li>
+</ul>
+</li>
+</ul>
+<h3 id="（3）快速恢复（Fast-Recovery）"><a href="#（3）快速恢复（Fast-Recovery）" class="headerlink" title="（3）快速恢复（Fast Recovery）"></a>（3）<strong>快速恢复（Fast Recovery）</strong></h3><ul>
+<li><strong>目的</strong>：在检测到数据包丢失时，快速恢复发送速率。</li>
+<li><strong>工作原理</strong>：<ul>
+<li>发送方在快速重传后，进入快速恢复阶段，逐步增加发送速率。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="6-错误检测与纠正"><a href="#6-错误检测与纠正" class="headerlink" title="6. 错误检测与纠正"></a>6. <strong>错误检测与纠正</strong></h2><h3 id="（1）校验和（Checksum）"><a href="#（1）校验和（Checksum）" class="headerlink" title="（1）校验和（Checksum）"></a>（1）<strong>校验和（Checksum）</strong></h3><ul>
+<li><strong>目的</strong>：检测数据在传输过程中是否发生错误。</li>
+<li><strong>工作原理</strong>：<ul>
+<li>发送方计算数据包的校验和，并将其包含在头部。</li>
+<li>接收方重新计算校验和，与头部中的校验和进行比较。</li>
+</ul>
+</li>
+</ul>
+<h3 id="（2）重传机制"><a href="#（2）重传机制" class="headerlink" title="（2）重传机制"></a>（2）<strong>重传机制</strong></h3><ul>
+<li><strong>目的</strong>：在检测到数据包丢失或错误时，重传数据。</li>
+<li><strong>工作原理</strong>：<ul>
+<li>发送方根据确认机制和超时重传机制，重传丢失或错误的数据包。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="7-总结"><a href="#7-总结" class="headerlink" title="7. 总结"></a>7. <strong>总结</strong></h2><table>
+<thead>
+<tr>
+<th><strong>机制</strong></th>
+<th><strong>目的</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>连接管理</strong></td>
+<td>确保客户端和服务器双方都能确认彼此的发送和接收能力</td>
+</tr>
+<tr>
+<td><strong>数据确认与重传</strong></td>
+<td>确保数据成功传输，并在丢失时重传</td>
+</tr>
+<tr>
+<td><strong>数据顺序与完整性</strong></td>
+<td>确保数据按顺序传输，并保持完整性</td>
+</tr>
+<tr>
+<td><strong>流量控制</strong></td>
+<td>控制发送方的发送速率，避免接收方缓冲区溢出</td>
+</tr>
+<tr>
+<td><strong>拥塞控制</strong></td>
+<td>避免网络拥塞，确保网络稳定性</td>
+</tr>
+<tr>
+<td><strong>错误检测与纠正</strong></td>
+<td>检测并纠正数据传输中的错误</td>
+</tr>
+</tbody></table>
+<p>通过以上机制，TCP 能够确保数据的可靠传输，适用于需要高可靠性的应用场景（如文件传输、网页浏览等）！</p>
+<h1 id="从浏览器输入一个url，按下回车到看到界面的详细全过程"><a href="#从浏览器输入一个url，按下回车到看到界面的详细全过程" class="headerlink" title="从浏览器输入一个url，按下回车到看到界面的详细全过程"></a>从浏览器输入一个url，按下回车到看到界面的详细全过程</h1><p>从浏览器输入一个 URL 并按下回车，到最终看到页面内容，整个过程涉及多个步骤和技术的协同工作。以下是详细的流程：</p>
+<hr>
+<h2 id="1-URL-解析"><a href="#1-URL-解析" class="headerlink" title="1. URL 解析"></a>1. <strong>URL 解析</strong></h2><h3 id="（1）解析-URL"><a href="#（1）解析-URL" class="headerlink" title="（1）解析 URL"></a>（1）<strong>解析 URL</strong></h3><ul>
+<li>浏览器解析用户输入的 URL，提取协议（如 HTTP、HTTPS）、域名、端口、路径和查询参数等信息。</li>
+</ul>
+<h3 id="（2）检查缓存"><a href="#（2）检查缓存" class="headerlink" title="（2）检查缓存"></a>（2）<strong>检查缓存</strong></h3><ul>
+<li>浏览器检查本地缓存（如 DNS 缓存、页面缓存）是否有该 URL 的资源。</li>
+<li>如果有缓存且未过期，直接使用缓存内容，跳过后续步骤。</li>
+</ul>
+<hr>
+<h2 id="2-DNS-解析"><a href="#2-DNS-解析" class="headerlink" title="2. DNS 解析"></a>2. <strong>DNS 解析</strong></h2><h3 id="（1）查询-DNS-缓存"><a href="#（1）查询-DNS-缓存" class="headerlink" title="（1）查询 DNS 缓存"></a>（1）<strong>查询 DNS 缓存</strong></h3><ul>
+<li>浏览器检查本地 DNS 缓存是否有域名对应的 IP 地址。</li>
+<li>如果没有，向操作系统或路由器发送 DNS 查询请求。</li>
+</ul>
+<h3 id="（2）递归-DNS-查询"><a href="#（2）递归-DNS-查询" class="headerlink" title="（2）递归 DNS 查询"></a>（2）<strong>递归 DNS 查询</strong></h3><ul>
+<li>如果本地 DNS 缓存中没有记录，浏览器会向 DNS 服务器发送递归查询请求。</li>
+<li>DNS 服务器依次查询根域名服务器、顶级域名服务器（如 <code>.com</code>）、权威域名服务器，最终返回域名对应的 IP 地址。</li>
+</ul>
+<hr>
+<h2 id="3-建立-TCP-连接"><a href="#3-建立-TCP-连接" class="headerlink" title="3. 建立 TCP 连接"></a>3. <strong>建立 TCP 连接</strong></h2><h3 id="（1）三次握手-1"><a href="#（1）三次握手-1" class="headerlink" title="（1）三次握手"></a>（1）<strong>三次握手</strong></h3><ul>
+<li>浏览器通过 IP 地址和端口号（默认 HTTP 为 80，HTTPS 为 443）与服务器建立 TCP 连接。</li>
+<li>通过三次握手确保连接的可靠性：<ol>
+<li>浏览器发送 <code>SYN</code> 报文。</li>
+<li>服务器回复 <code>SYN+ACK</code> 报文。</li>
+<li>浏览器发送 <code>ACK</code> 报文。</li>
+</ol>
+</li>
+</ul>
+<h3 id="（2）HTTPS-的-TLS-握手"><a href="#（2）HTTPS-的-TLS-握手" class="headerlink" title="（2）HTTPS 的 TLS 握手"></a>（2）<strong>HTTPS 的 TLS 握手</strong></h3><ul>
+<li>如果使用 HTTPS，浏览器会与服务器进行 TLS 握手，协商加密算法并交换密钥。</li>
+<li>过程包括：<ol>
+<li>浏览器发送 <code>ClientHello</code> 报文。</li>
+<li>服务器回复 <code>ServerHello</code> 报文，并发送证书。</li>
+<li>浏览器验证证书，生成会话密钥并发送给服务器。</li>
+<li>服务器确认密钥，完成握手。</li>
+</ol>
+</li>
+</ul>
+<hr>
+<h2 id="4-发送-HTTP-请求"><a href="#4-发送-HTTP-请求" class="headerlink" title="4. 发送 HTTP 请求"></a>4. <strong>发送 HTTP 请求</strong></h2><h3 id="（1）构造-HTTP-请求"><a href="#（1）构造-HTTP-请求" class="headerlink" title="（1）构造 HTTP 请求"></a>（1）<strong>构造 HTTP 请求</strong></h3><ul>
+<li>浏览器根据 URL 构造 HTTP 请求报文，包括请求方法（如 GET、POST）、请求头（如 <code>User-Agent</code>、<code>Accept</code>）和请求体（如 POST 数据）。</li>
+</ul>
+<h3 id="（2）发送请求"><a href="#（2）发送请求" class="headerlink" title="（2）发送请求"></a>（2）<strong>发送请求</strong></h3><ul>
+<li>浏览器通过 TCP 连接将 HTTP 请求报文发送到服务器。</li>
+</ul>
+<hr>
+<h2 id="5-服务器处理请求"><a href="#5-服务器处理请求" class="headerlink" title="5. 服务器处理请求"></a>5. <strong>服务器处理请求</strong></h2><h3 id="（1）接收请求"><a href="#（1）接收请求" class="headerlink" title="（1）接收请求"></a>（1）<strong>接收请求</strong></h3><ul>
+<li>服务器接收 HTTP 请求报文，解析请求方法、路径、头部和体。</li>
+</ul>
+<h3 id="（2）处理请求"><a href="#（2）处理请求" class="headerlink" title="（2）处理请求"></a>（2）<strong>处理请求</strong></h3><ul>
+<li>服务器根据请求路径和参数执行相应的处理逻辑（如查询数据库、调用 API）。</li>
+<li>如果是静态资源（如 HTML、CSS、JS），直接从文件系统读取。</li>
+</ul>
+<h3 id="（3）生成响应"><a href="#（3）生成响应" class="headerlink" title="（3）生成响应"></a>（3）<strong>生成响应</strong></h3><ul>
+<li>服务器生成 HTTP 响应报文，包括状态码（如 200 OK）、响应头（如 <code>Content-Type</code>、<code>Content-Length</code>）和响应体（如 HTML 内容）。</li>
+</ul>
+<hr>
+<h2 id="6-接收-HTTP-响应"><a href="#6-接收-HTTP-响应" class="headerlink" title="6. 接收 HTTP 响应"></a>6. <strong>接收 HTTP 响应</strong></h2><h3 id="（1）接收响应"><a href="#（1）接收响应" class="headerlink" title="（1）接收响应"></a>（1）<strong>接收响应</strong></h3><ul>
+<li>浏览器接收服务器返回的 HTTP 响应报文。</li>
+</ul>
+<h3 id="（2）解析响应"><a href="#（2）解析响应" class="headerlink" title="（2）解析响应"></a>（2）<strong>解析响应</strong></h3><ul>
+<li>浏览器解析响应报文，根据状态码判断请求是否成功。</li>
+<li>如果状态码为 200，继续解析响应体。</li>
+</ul>
+<hr>
+<h2 id="7-渲染页面"><a href="#7-渲染页面" class="headerlink" title="7. 渲染页面"></a>7. <strong>渲染页面</strong></h2><h3 id="（1）解析-HTML"><a href="#（1）解析-HTML" class="headerlink" title="（1）解析 HTML"></a>（1）<strong>解析 HTML</strong></h3><ul>
+<li>浏览器解析 HTML 文档，构建 DOM（文档对象模型）树。</li>
+</ul>
+<h3 id="（2）加载外部资源"><a href="#（2）加载外部资源" class="headerlink" title="（2）加载外部资源"></a>（2）<strong>加载外部资源</strong></h3><ul>
+<li>浏览器根据 HTML 中的标签（如 <code>&lt;link&gt;</code>、<code>&lt;script&gt;</code>、<code>&lt;img&gt;</code>）加载外部资源（如 CSS、JS、图片）。</li>
+<li>对于每个资源，重复 DNS 解析、TCP 连接、发送请求和接收响应的过程。</li>
+</ul>
+<h3 id="（3）解析-CSS"><a href="#（3）解析-CSS" class="headerlink" title="（3）解析 CSS"></a>（3）<strong>解析 CSS</strong></h3><ul>
+<li>浏览器解析 CSS 文件，构建 CSSOM（CSS 对象模型）树。</li>
+</ul>
+<h3 id="（4）构建渲染树"><a href="#（4）构建渲染树" class="headerlink" title="（4）构建渲染树"></a>（4）<strong>构建渲染树</strong></h3><ul>
+<li>浏览器将 DOM 树和 CSSOM 树合并，构建渲染树（Render Tree）。</li>
+</ul>
+<h3 id="（5）布局（Layout）"><a href="#（5）布局（Layout）" class="headerlink" title="（5）布局（Layout）"></a>（5）<strong>布局（Layout）</strong></h3><ul>
+<li>浏览器计算渲染树中每个节点的位置和大小，生成布局。</li>
+</ul>
+<h3 id="（6）绘制（Paint）"><a href="#（6）绘制（Paint）" class="headerlink" title="（6）绘制（Paint）"></a>（6）<strong>绘制（Paint）</strong></h3><ul>
+<li>浏览器将布局结果绘制到屏幕上，显示页面内容。</li>
+</ul>
+<hr>
+<h2 id="8-执行-JavaScript"><a href="#8-执行-JavaScript" class="headerlink" title="8. 执行 JavaScript"></a>8. <strong>执行 JavaScript</strong></h2><h3 id="（1）解析和执行-JS"><a href="#（1）解析和执行-JS" class="headerlink" title="（1）解析和执行 JS"></a>（1）<strong>解析和执行 JS</strong></h3><ul>
+<li>浏览器解析并执行 JavaScript 代码，动态修改 DOM 和 CSSOM。</li>
+<li>如果 JS 修改了 DOM 或样式，浏览器会重新构建渲染树、布局和绘制。</li>
+</ul>
+<h3 id="（2）事件处理"><a href="#（2）事件处理" class="headerlink" title="（2）事件处理"></a>（2）<strong>事件处理</strong></h3><ul>
+<li>浏览器监听用户交互事件（如点击、滚动），并触发相应的事件处理函数。</li>
+</ul>
+<hr>
+<h2 id="9-总结"><a href="#9-总结" class="headerlink" title="9. 总结"></a>9. <strong>总结</strong></h2><table>
+<thead>
+<tr>
+<th><strong>步骤</strong></th>
+<th><strong>描述</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>URL 解析</strong></td>
+<td>解析 URL，检查缓存</td>
+</tr>
+<tr>
+<td><strong>DNS 解析</strong></td>
+<td>查询 DNS 缓存，递归 DNS 查询</td>
+</tr>
+<tr>
+<td><strong>建立 TCP 连接</strong></td>
+<td>三次握手，TLS 握手（HTTPS）</td>
+</tr>
+<tr>
+<td><strong>发送 HTTP 请求</strong></td>
+<td>构造并发送 HTTP 请求报文</td>
+</tr>
+<tr>
+<td><strong>服务器处理请求</strong></td>
+<td>接收请求，处理逻辑，生成响应</td>
+</tr>
+<tr>
+<td><strong>接收 HTTP 响应</strong></td>
+<td>接收并解析响应报文</td>
+</tr>
+<tr>
+<td><strong>渲染页面</strong></td>
+<td>解析 HTML，加载资源，构建渲染树，布局，绘制</td>
+</tr>
+<tr>
+<td><strong>执行 JavaScript</strong></td>
+<td>解析和执行 JS，处理事件</td>
+</tr>
+</tbody></table>
+<p>通过以上步骤，浏览器能够从输入 URL 到最终显示页面内容，完成一次完整的 Web 请求和渲染过程！</p>
+<h1 id="为什么https是安全的？完整流程"><a href="#为什么https是安全的？完整流程" class="headerlink" title="为什么https是安全的？完整流程"></a>为什么https是安全的？完整流程</h1><p><strong>HTTPS（HyperText Transfer Protocol Secure）</strong> 是 HTTP 的安全版本，通过 <strong>TLS&#x2F;SSL（Transport Layer Security&#x2F;Secure Sockets Layer）</strong> 协议对通信数据进行加密，确保数据传输的安全性。以下是 HTTPS 的安全性原理及其完整流程的详细说明：</p>
+<hr>
+<h2 id="1-HTTPS-的安全性原理"><a href="#1-HTTPS-的安全性原理" class="headerlink" title="1. HTTPS 的安全性原理"></a>1. <strong>HTTPS 的安全性原理</strong></h2><h3 id="（1）加密通信"><a href="#（1）加密通信" class="headerlink" title="（1）加密通信"></a>（1）<strong>加密通信</strong></h3><ul>
+<li>HTTPS 使用对称加密和非对称加密相结合的方式，确保数据在传输过程中不被窃听或篡改。<ul>
+<li><strong>对称加密</strong>：使用同一个密钥加密和解密数据，效率高。</li>
+<li><strong>非对称加密</strong>：使用公钥和私钥对数据进行加密和解密，安全性高。</li>
+</ul>
+</li>
+</ul>
+<h3 id="（2）身份验证"><a href="#（2）身份验证" class="headerlink" title="（2）身份验证"></a>（2）<strong>身份验证</strong></h3><ul>
+<li>HTTPS 通过数字证书验证服务器的身份，防止中间人攻击。<ul>
+<li><strong>数字证书</strong>：由受信任的证书颁发机构（CA）签发，包含服务器的公钥和域名信息。</li>
+</ul>
+</li>
+</ul>
+<h3 id="（3）数据完整性"><a href="#（3）数据完整性" class="headerlink" title="（3）数据完整性"></a>（3）<strong>数据完整性</strong></h3><ul>
+<li>HTTPS 使用消息摘要算法（如 SHA-256）确保数据在传输过程中未被篡改。</li>
+</ul>
+<hr>
+<h2 id="2-HTTPS-的完整流程"><a href="#2-HTTPS-的完整流程" class="headerlink" title="2. HTTPS 的完整流程"></a>2. <strong>HTTPS 的完整流程</strong></h2><h3 id="（1）客户端发起请求"><a href="#（1）客户端发起请求" class="headerlink" title="（1）客户端发起请求"></a>（1）<strong>客户端发起请求</strong></h3><ul>
+<li>用户在浏览器中输入 HTTPS URL（如 <code>https://example.com</code>），浏览器向服务器发起连接请求。</li>
+</ul>
+<h3 id="（2）服务器返回证书"><a href="#（2）服务器返回证书" class="headerlink" title="（2）服务器返回证书"></a>（2）<strong>服务器返回证书</strong></h3><ul>
+<li>服务器将自己的数字证书发送给客户端。证书包含以下信息：<ul>
+<li>服务器的公钥。</li>
+<li>证书的有效期。</li>
+<li>证书的颁发机构（CA）。</li>
+<li>服务器的域名。</li>
+</ul>
+</li>
+</ul>
+<h3 id="（3）客户端验证证书"><a href="#（3）客户端验证证书" class="headerlink" title="（3）客户端验证证书"></a>（3）<strong>客户端验证证书</strong></h3><ul>
+<li>客户端（浏览器）验证证书的有效性：<ol>
+<li><strong>检查证书是否过期</strong>：确保证书在有效期内。</li>
+<li><strong>检查证书的颁发机构</strong>：确保证书由受信任的 CA 签发。</li>
+<li><strong>检查域名是否匹配</strong>：确保证书中的域名与用户访问的域名一致。</li>
+</ol>
+</li>
+<li>如果验证失败，浏览器会显示警告信息。</li>
+</ul>
+<h3 id="（4）密钥交换"><a href="#（4）密钥交换" class="headerlink" title="（4）密钥交换"></a>（4）<strong>密钥交换</strong></h3><ul>
+<li>客户端生成一个随机的对称密钥（称为会话密钥），并使用服务器的公钥加密后发送给服务器。</li>
+<li>服务器使用自己的私钥解密，获取会话密钥。</li>
+</ul>
+<h3 id="（5）加密通信"><a href="#（5）加密通信" class="headerlink" title="（5）加密通信"></a>（5）<strong>加密通信</strong></h3><ul>
+<li>客户端和服务器使用会话密钥进行对称加密通信，确保数据传输的安全性。</li>
+</ul>
+<hr>
+<h2 id="3-TLS-SSL-握手流程"><a href="#3-TLS-SSL-握手流程" class="headerlink" title="3. TLS&#x2F;SSL 握手流程"></a>3. <strong>TLS&#x2F;SSL 握手流程</strong></h2><h3 id="（1）ClientHello"><a href="#（1）ClientHello" class="headerlink" title="（1）ClientHello"></a>（1）<strong>ClientHello</strong></h3><ul>
+<li>客户端向服务器发送 <code>ClientHello</code> 消息，包含以下信息：<ul>
+<li>支持的 TLS 版本。</li>
+<li>支持的加密套件（Cipher Suites）。</li>
+<li>随机数（Client Random），用于生成会话密钥。</li>
+</ul>
+</li>
+</ul>
+<h3 id="（2）ServerHello"><a href="#（2）ServerHello" class="headerlink" title="（2）ServerHello"></a>（2）<strong>ServerHello</strong></h3><ul>
+<li>服务器向客户端发送 <code>ServerHello</code> 消息，包含以下信息：<ul>
+<li>选择的 TLS 版本。</li>
+<li>选择的加密套件。</li>
+<li>随机数（Server Random），用于生成会话密钥。</li>
+</ul>
+</li>
+</ul>
+<h3 id="（3）Server-Certificate"><a href="#（3）Server-Certificate" class="headerlink" title="（3）Server Certificate"></a>（3）<strong>Server Certificate</strong></h3><ul>
+<li>服务器将自己的数字证书发送给客户端。</li>
+</ul>
+<h3 id="（4）ServerKeyExchange（可选）"><a href="#（4）ServerKeyExchange（可选）" class="headerlink" title="（4）ServerKeyExchange（可选）"></a>（4）<strong>ServerKeyExchange（可选）</strong></h3><ul>
+<li>如果使用非对称加密算法（如 DHE、ECDHE），服务器会发送密钥交换参数。</li>
+</ul>
+<h3 id="（5）ServerHelloDone"><a href="#（5）ServerHelloDone" class="headerlink" title="（5）ServerHelloDone"></a>（5）<strong>ServerHelloDone</strong></h3><ul>
+<li>服务器通知客户端，握手消息发送完毕。</li>
+</ul>
+<h3 id="（6）ClientKeyExchange"><a href="#（6）ClientKeyExchange" class="headerlink" title="（6）ClientKeyExchange"></a>（6）<strong>ClientKeyExchange</strong></h3><ul>
+<li>客户端生成会话密钥，并使用服务器的公钥加密后发送给服务器。</li>
+</ul>
+<h3 id="（7）ChangeCipherSpec"><a href="#（7）ChangeCipherSpec" class="headerlink" title="（7）ChangeCipherSpec"></a>（7）<strong>ChangeCipherSpec</strong></h3><ul>
+<li>客户端和服务器分别发送 <code>ChangeCipherSpec</code> 消息，通知对方后续通信将使用加密。</li>
+</ul>
+<h3 id="（8）Finished"><a href="#（8）Finished" class="headerlink" title="（8）Finished"></a>（8）<strong>Finished</strong></h3><ul>
+<li>客户端和服务器分别发送 <code>Finished</code> 消息，验证握手过程是否成功。</li>
+</ul>
+<hr>
+<h2 id="4-HTTPS-的安全性总结"><a href="#4-HTTPS-的安全性总结" class="headerlink" title="4. HTTPS 的安全性总结"></a>4. <strong>HTTPS 的安全性总结</strong></h2><table>
+<thead>
+<tr>
+<th><strong>特性</strong></th>
+<th><strong>描述</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>加密通信</strong></td>
+<td>使用对称加密和非对称加密确保数据传输的安全性</td>
+</tr>
+<tr>
+<td><strong>身份验证</strong></td>
+<td>通过数字证书验证服务器的身份，防止中间人攻击</td>
+</tr>
+<tr>
+<td><strong>数据完整性</strong></td>
+<td>使用消息摘要算法确保数据在传输过程中未被篡改</td>
+</tr>
+<tr>
+<td><strong>TLS&#x2F;SSL 握手</strong></td>
+<td>通过 TLS&#x2F;SSL 握手协议协商加密算法和交换密钥</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="5-HTTPS-的优点"><a href="#5-HTTPS-的优点" class="headerlink" title="5. HTTPS 的优点"></a>5. <strong>HTTPS 的优点</strong></h2><h3 id="（1）数据加密"><a href="#（1）数据加密" class="headerlink" title="（1）数据加密"></a>（1）<strong>数据加密</strong></h3><ul>
+<li>防止数据在传输过程中被窃听或篡改。</li>
+</ul>
+<h3 id="（2）身份验证-1"><a href="#（2）身份验证-1" class="headerlink" title="（2）身份验证"></a>（2）<strong>身份验证</strong></h3><ul>
+<li>确保用户访问的是真实的服务器，防止中间人攻击。</li>
+</ul>
+<h3 id="（3）数据完整性-1"><a href="#（3）数据完整性-1" class="headerlink" title="（3）数据完整性"></a>（3）<strong>数据完整性</strong></h3><ul>
+<li>确保数据在传输过程中未被篡改。</li>
+</ul>
+<h3 id="（4）SEO-优势"><a href="#（4）SEO-优势" class="headerlink" title="（4）SEO 优势"></a>（4）<strong>SEO 优势</strong></h3><ul>
+<li>搜索引擎（如 Google）优先索引 HTTPS 网站。</li>
+</ul>
+<hr>
+<h2 id="6-总结-1"><a href="#6-总结-1" class="headerlink" title="6. 总结"></a>6. <strong>总结</strong></h2><p>HTTPS 通过 TLS&#x2F;SSL 协议实现了加密通信、身份验证和数据完整性，确保了数据传输的安全性。以下是 HTTPS 的完整流程：</p>
+<ol>
+<li>客户端发起请求。</li>
+<li>服务器返回证书。</li>
+<li>客户端验证证书。</li>
+<li>密钥交换。</li>
+<li>加密通信。</li>
+</ol>
+<p>通过 HTTPS，用户可以安全地访问网站，防止数据泄露和篡改！</p>
+<h1 id="7层，5层，4层协议？每层的常见协议（送分）"><a href="#7层，5层，4层协议？每层的常见协议（送分）" class="headerlink" title="7层，5层，4层协议？每层的常见协议（送分）"></a>7层，5层，4层协议？每层的常见协议（送分）</h1><p>计算机网络通常使用 <strong>OSI 七层模型</strong> 或 <strong>TCP&#x2F;IP 四层模型</strong> 来描述网络协议的分层结构。以下是两种模型的分层及其常见协议：</p>
+<hr>
+<h2 id="1-OSI-七层模型"><a href="#1-OSI-七层模型" class="headerlink" title="1. OSI 七层模型"></a>1. <strong>OSI 七层模型</strong></h2><p>OSI（Open Systems Interconnection）模型将网络通信分为七层，每层负责不同的功能。</p>
+<table>
+<thead>
+<tr>
+<th><strong>层级</strong></th>
+<th><strong>名称</strong></th>
+<th><strong>功能</strong></th>
+<th><strong>常见协议</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>第7层</strong></td>
+<td>应用层（Application）</td>
+<td>提供用户接口和应用程序服务</td>
+<td>HTTP、HTTPS、FTP、SMTP、DNS、Telnet</td>
+</tr>
+<tr>
+<td><strong>第6层</strong></td>
+<td>表示层（Presentation）</td>
+<td>数据格式转换、加密解密</td>
+<td>SSL&#x2F;TLS、JPEG、MPEG</td>
+</tr>
+<tr>
+<td><strong>第5层</strong></td>
+<td>会话层（Session）</td>
+<td>建立、管理和终止会话</td>
+<td>NetBIOS、RPC</td>
+</tr>
+<tr>
+<td><strong>第4层</strong></td>
+<td>传输层（Transport）</td>
+<td>提供端到端的可靠数据传输</td>
+<td>TCP、UDP</td>
+</tr>
+<tr>
+<td><strong>第3层</strong></td>
+<td>网络层（Network）</td>
+<td>数据包的路由和转发</td>
+<td>IP、ICMP、ARP、RIP、OSPF</td>
+</tr>
+<tr>
+<td><strong>第2层</strong></td>
+<td>数据链路层（Data Link）</td>
+<td>提供节点到节点的可靠数据传输</td>
+<td>Ethernet、PPP、MAC、VLAN</td>
+</tr>
+<tr>
+<td><strong>第1层</strong></td>
+<td>物理层（Physical）</td>
+<td>传输比特流，定义物理介质和电气特性</td>
+<td>RS-232、DSL、光纤、同轴电缆</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="2-TCP-IP-四层模型"><a href="#2-TCP-IP-四层模型" class="headerlink" title="2. TCP&#x2F;IP 四层模型"></a>2. <strong>TCP&#x2F;IP 四层模型</strong></h2><p>TCP&#x2F;IP 模型是实际应用中更常用的模型，它将网络通信分为四层。</p>
+<table>
+<thead>
+<tr>
+<th><strong>层级</strong></th>
+<th><strong>名称</strong></th>
+<th><strong>功能</strong></th>
+<th><strong>常见协议</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>第4层</strong></td>
+<td>应用层（Application）</td>
+<td>提供用户接口和应用程序服务</td>
+<td>HTTP、HTTPS、FTP、SMTP、DNS、Telnet</td>
+</tr>
+<tr>
+<td><strong>第3层</strong></td>
+<td>传输层（Transport）</td>
+<td>提供端到端的可靠数据传输</td>
+<td>TCP、UDP</td>
+</tr>
+<tr>
+<td><strong>第2层</strong></td>
+<td>网络层（Internet）</td>
+<td>数据包的路由和转发</td>
+<td>IP、ICMP、ARP、RIP、OSPF</td>
+</tr>
+<tr>
+<td><strong>第1层</strong></td>
+<td>网络接口层（Network Access）</td>
+<td>提供节点到节点的可靠数据传输，定义物理介质和电气特性</td>
+<td>Ethernet、PPP、MAC、VLAN</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="3-五层模型"><a href="#3-五层模型" class="headerlink" title="3. 五层模型"></a>3. <strong>五层模型</strong></h2><p>五层模型是 OSI 和 TCP&#x2F;IP 模型的结合，常用于教学和实际应用中。</p>
+<table>
+<thead>
+<tr>
+<th><strong>层级</strong></th>
+<th><strong>名称</strong></th>
+<th><strong>功能</strong></th>
+<th><strong>常见协议</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>第5层</strong></td>
+<td>应用层（Application）</td>
+<td>提供用户接口和应用程序服务</td>
+<td>HTTP、HTTPS、FTP、SMTP、DNS、Telnet</td>
+</tr>
+<tr>
+<td><strong>第4层</strong></td>
+<td>传输层（Transport）</td>
+<td>提供端到端的可靠数据传输</td>
+<td>TCP、UDP</td>
+</tr>
+<tr>
+<td><strong>第3层</strong></td>
+<td>网络层（Network）</td>
+<td>数据包的路由和转发</td>
+<td>IP、ICMP、ARP、RIP、OSPF</td>
+</tr>
+<tr>
+<td><strong>第2层</strong></td>
+<td>数据链路层（Data Link）</td>
+<td>提供节点到节点的可靠数据传输</td>
+<td>Ethernet、PPP、MAC、VLAN</td>
+</tr>
+<tr>
+<td><strong>第1层</strong></td>
+<td>物理层（Physical）</td>
+<td>传输比特流，定义物理介质和电气特性</td>
+<td>RS-232、DSL、光纤、同轴电缆</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="4-总结"><a href="#4-总结" class="headerlink" title="4. 总结"></a>4. <strong>总结</strong></h2><table>
+<thead>
+<tr>
+<th><strong>模型</strong></th>
+<th><strong>层级</strong></th>
+<th><strong>常见协议</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>OSI 七层模型</strong></td>
+<td>应用层、表示层、会话层、传输层、网络层、数据链路层、物理层</td>
+<td>HTTP、SSL&#x2F;TLS、TCP、IP、Ethernet 等</td>
+</tr>
+<tr>
+<td><strong>TCP&#x2F;IP 四层模型</strong></td>
+<td>应用层、传输层、网络层、网络接口层</td>
+<td>HTTP、TCP、IP、Ethernet 等</td>
+</tr>
+<tr>
+<td><strong>五层模型</strong></td>
+<td>应用层、传输层、网络层、数据链路层、物理层</td>
+<td>HTTP、TCP、IP、Ethernet 等</td>
+</tr>
+</tbody></table>
+<p>通过理解不同模型的分层及其常见协议，可以更好地掌握网络通信的原理和实现！</p>
+<h1 id="cookie和session的区别"><a href="#cookie和session的区别" class="headerlink" title="cookie和session的区别"></a>cookie和session的区别</h1><p><strong>Cookie</strong> 和 <strong>Session</strong> 是用于在Web应用中维护用户状态的两种机制，主要区别如下：</p>
+<h3 id="1-存储位置"><a href="#1-存储位置" class="headerlink" title="1. 存储位置"></a>1. 存储位置</h3><ul>
+<li><strong>Cookie</strong>：数据存储在客户端（浏览器）。</li>
+<li><strong>Session</strong>：数据存储在服务器端，客户端仅保存一个Session ID。</li>
+</ul>
+<h3 id="2-安全性"><a href="#2-安全性" class="headerlink" title="2. 安全性"></a>2. 安全性</h3><ul>
+<li><strong>Cookie</strong>：安全性较低，数据容易被篡改或窃取。</li>
+<li><strong>Session</strong>：安全性较高，敏感数据存储在服务器，客户端只保存Session ID。</li>
+</ul>
+<h3 id="3-存储大小"><a href="#3-存储大小" class="headerlink" title="3. 存储大小"></a>3. 存储大小</h3><ul>
+<li><strong>Cookie</strong>：单个Cookie通常不超过4KB，且每个域名下的Cookie数量有限。</li>
+<li><strong>Session</strong>：存储大小取决于服务器配置，通常远大于Cookie。</li>
+</ul>
+<h3 id="4-生命周期"><a href="#4-生命周期" class="headerlink" title="4. 生命周期"></a>4. 生命周期</h3><ul>
+<li><strong>Cookie</strong>：可设置过期时间，即使关闭浏览器也能保留。</li>
+<li><strong>Session</strong>：生命周期较短，通常在用户关闭浏览器后失效（可通过设置延长）。</li>
+</ul>
+<h3 id="5-性能影响"><a href="#5-性能影响" class="headerlink" title="5. 性能影响"></a>5. 性能影响</h3><ul>
+<li><strong>Cookie</strong>：每次请求都会携带，可能增加网络负担。</li>
+<li><strong>Session</strong>：仅需传递Session ID，减少数据传输量，但服务器需要存储和管理Session数据。</li>
+</ul>
+<h3 id="6-使用场景"><a href="#6-使用场景" class="headerlink" title="6. 使用场景"></a>6. 使用场景</h3><ul>
+<li><strong>Cookie</strong>：适合存储不敏感的小数据，如用户偏好。</li>
+<li><strong>Session</strong>：适合存储敏感或较大的数据，如用户登录信息。</li>
+</ul>
+<h3 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h3><ul>
+<li><strong>Cookie</strong>：存储用户语言偏好。</li>
+<li><strong>Session</strong>：存储用户登录状态。</li>
+</ul>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><ul>
+<li><strong>Cookie</strong>：客户端存储，适合小数据，安全性较低。</li>
+<li><strong>Session</strong>：服务器端存储，适合敏感数据，安全性较高。</li>
+</ul>
+<p>根据需求选择合适的机制。</p>
+<h1 id="http有几个版本？2和3的区别"><a href="#http有几个版本？2和3的区别" class="headerlink" title="http有几个版本？2和3的区别"></a>http有几个版本？2和3的区别</h1><p>HTTP（超文本传输协议）有多个版本，主要包括 <strong>HTTP&#x2F;1.0</strong>、<strong>HTTP&#x2F;1.1</strong>、<strong>HTTP&#x2F;2</strong> 和 <strong>HTTP&#x2F;3</strong>。以下是各版本的简要介绍以及 <strong>HTTP&#x2F;2</strong> 和 <strong>HTTP&#x2F;3</strong> 的主要区别：</p>
+<hr>
+<h3 id="HTTP-版本概览"><a href="#HTTP-版本概览" class="headerlink" title="HTTP 版本概览"></a>HTTP 版本概览</h3><ol>
+<li><p><strong>HTTP&#x2F;1.0</strong>（1996年）：</p>
+<ul>
+<li>每个请求需要单独建立TCP连接，效率较低。</li>
+<li>不支持持久连接（Persistent Connection）。</li>
+</ul>
+</li>
+<li><p><strong>HTTP&#x2F;1.1</strong>（1997年）：</p>
+<ul>
+<li>引入了持久连接，允许在单个TCP连接上发送多个请求。</li>
+<li>支持管道化（Pipelining），但存在队头阻塞（Head-of-Line Blocking）问题。</li>
+<li>增加了缓存控制和分块传输编码等功能。</li>
+</ul>
+</li>
+<li><p><strong>HTTP&#x2F;2</strong>（2015年）：</p>
+<ul>
+<li>基于二进制帧传输，取代了HTTP&#x2F;1.x的文本格式。</li>
+<li>支持多路复用（Multiplexing），解决了队头阻塞问题。</li>
+<li>支持头部压缩（HPACK）。</li>
+<li>支持服务器推送（Server Push）。</li>
+</ul>
+</li>
+<li><p><strong>HTTP&#x2F;3</strong>（2022年正式标准化）：</p>
+<ul>
+<li>基于 <strong>QUIC</strong> 协议，使用 <strong>UDP</strong> 而非 <strong>TCP</strong>。</li>
+<li>解决了TCP的队头阻塞问题。</li>
+<li>内置加密（TLS 1.3），安全性更高。</li>
+<li>连接迁移功能，切换网络时无需重新建立连接。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="HTTP-2-和-HTTP-3-的区别"><a href="#HTTP-2-和-HTTP-3-的区别" class="headerlink" title="HTTP&#x2F;2 和 HTTP&#x2F;3 的区别"></a>HTTP&#x2F;2 和 HTTP&#x2F;3 的区别</h3><table>
+<thead>
+<tr>
+<th>特性</th>
+<th>HTTP&#x2F;2</th>
+<th>HTTP&#x2F;3</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>传输协议</strong></td>
+<td>基于 <strong>TCP</strong></td>
+<td>基于 <strong>QUIC</strong>（UDP）</td>
+</tr>
+<tr>
+<td><strong>队头阻塞</strong></td>
+<td>在TCP层仍存在队头阻塞</td>
+<td>完全解决队头阻塞</td>
+</tr>
+<tr>
+<td><strong>连接建立速度</strong></td>
+<td>需要TCP三次握手和TLS握手</td>
+<td>更快，QUIC整合了TLS 1.3</td>
+</tr>
+<tr>
+<td><strong>安全性</strong></td>
+<td>需要额外配置TLS</td>
+<td>内置TLS 1.3，默认加密</td>
+</tr>
+<tr>
+<td><strong>连接迁移</strong></td>
+<td>不支持</td>
+<td>支持，切换网络时无需重新连接</td>
+</tr>
+<tr>
+<td><strong>错误恢复</strong></td>
+<td>依赖TCP的重传机制</td>
+<td>QUIC内置错误恢复，更快更可靠</td>
+</tr>
+<tr>
+<td><strong>部署复杂度</strong></td>
+<td>相对简单</td>
+<td>较复杂，需要支持QUIC</td>
+</tr>
+</tbody></table>
+<hr>
+<h3 id="主要改进点"><a href="#主要改进点" class="headerlink" title="主要改进点"></a>主要改进点</h3><ol>
+<li><p><strong>HTTP&#x2F;2</strong>：</p>
+<ul>
+<li>解决了HTTP&#x2F;1.x的队头阻塞问题（应用层）。</li>
+<li>提高了传输效率，支持多路复用和头部压缩。</li>
+</ul>
+</li>
+<li><p><strong>HTTP&#x2F;3</strong>：</p>
+<ul>
+<li>解决了TCP层的队头阻塞问题。</li>
+<li>提升了连接速度和可靠性，特别是在弱网络环境下。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="使用场景"><a href="#使用场景" class="headerlink" title="使用场景"></a>使用场景</h3><ul>
+<li><strong>HTTP&#x2F;2</strong>：适合大多数现代Web应用，性能优于HTTP&#x2F;1.x。</li>
+<li><strong>HTTP&#x2F;3</strong>：适合对延迟敏感的应用（如视频流、在线游戏）以及移动网络环境。</li>
+</ul>
+<hr>
+<h3 id="总结-1"><a href="#总结-1" class="headerlink" title="总结"></a>总结</h3><ul>
+<li><strong>HTTP&#x2F;2</strong> 是对HTTP&#x2F;1.x的重大改进，但仍依赖TCP。</li>
+<li><strong>HTTP&#x2F;3</strong> 基于QUIC协议，进一步优化了性能、安全性和可靠性，是未来的发展方向。</li>
+</ul>
+<h1 id="HTTP缓存机制"><a href="#HTTP缓存机制" class="headerlink" title="HTTP缓存机制"></a>HTTP缓存机制</h1><p>HTTP缓存机制是一种通过存储资源的副本，减少服务器负载并加快客户端访问速度的技术。它通过客户端（浏览器）和服务器之间的协作来实现。以下是HTTP缓存机制的核心概念和工作原理：</p>
+<hr>
+<h3 id="1-缓存的作用"><a href="#1-缓存的作用" class="headerlink" title="1. 缓存的作用"></a>1. <strong>缓存的作用</strong></h3><ul>
+<li><strong>减少带宽消耗</strong>：缓存可以减少重复资源的传输。</li>
+<li><strong>降低服务器负载</strong>：缓存可以减少对服务器的请求次数。</li>
+<li><strong>加快页面加载速度</strong>：直接从缓存加载资源比从服务器获取更快。</li>
+</ul>
+<hr>
+<h3 id="2-缓存类型"><a href="#2-缓存类型" class="headerlink" title="2. 缓存类型"></a>2. <strong>缓存类型</strong></h3><p>HTTP缓存分为两种：</p>
+<ol>
+<li><p><strong>强缓存</strong>：</p>
+<ul>
+<li>直接从本地缓存读取资源，不向服务器发送请求。</li>
+<li>通过响应头字段 <code>Cache-Control</code> 和 <code>Expires</code> 控制。</li>
+</ul>
+</li>
+<li><p><strong>协商缓存</strong>：</p>
+<ul>
+<li>向服务器发送请求，由服务器判断资源是否更新。</li>
+<li>如果资源未更新，服务器返回 <code>304 Not Modified</code>，客户端使用缓存。</li>
+<li>通过响应头字段 <code>Last-Modified</code> 和 <code>ETag</code> 控制。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="3-缓存相关的HTTP头部字段"><a href="#3-缓存相关的HTTP头部字段" class="headerlink" title="3. 缓存相关的HTTP头部字段"></a>3. <strong>缓存相关的HTTP头部字段</strong></h3><h4 id="（1）强缓存相关字段"><a href="#（1）强缓存相关字段" class="headerlink" title="（1）强缓存相关字段"></a>（1）强缓存相关字段</h4><ul>
+<li><p>**<code>Cache-Control</code>**：</p>
+<ul>
+<li>控制缓存行为的核心字段。</li>
+<li>常见指令：<ul>
+<li><code>max-age=&lt;seconds&gt;</code>：资源缓存的最大时间（秒）。</li>
+<li><code>no-cache</code>：禁用强缓存，需使用协商缓存。</li>
+<li><code>no-store</code>：禁止缓存，每次请求都从服务器获取。</li>
+<li><code>public</code>：资源可以被任何缓存（如CDN）存储。</li>
+<li><code>private</code>：资源只能被客户端缓存。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>**<code>Expires</code>**：</p>
+<ul>
+<li>指定资源的过期时间（绝对时间）。</li>
+<li>优先级低于 <code>Cache-Control</code>。</li>
+</ul>
+</li>
+</ul>
+<h4 id="（2）协商缓存相关字段"><a href="#（2）协商缓存相关字段" class="headerlink" title="（2）协商缓存相关字段"></a>（2）协商缓存相关字段</h4><ul>
+<li><p>**<code>Last-Modified</code>**：</p>
+<ul>
+<li>服务器返回的资源最后修改时间。</li>
+<li>客户端下次请求时通过 <code>If-Modified-Since</code> 字段发送该时间，服务器判断资源是否更新。</li>
+</ul>
+</li>
+<li><p>**<code>ETag</code>**：</p>
+<ul>
+<li>服务器返回的资源唯一标识（通常是哈希值）。</li>
+<li>客户端下次请求时通过 <code>If-None-Match</code> 字段发送该标识，服务器判断资源是否更新。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="4-缓存工作流程"><a href="#4-缓存工作流程" class="headerlink" title="4. 缓存工作流程"></a>4. <strong>缓存工作流程</strong></h3><h4 id="（1）强缓存流程"><a href="#（1）强缓存流程" class="headerlink" title="（1）强缓存流程"></a>（1）强缓存流程</h4><ol>
+<li>客户端请求资源。</li>
+<li>检查本地缓存是否存在且未过期（通过 <code>Cache-Control</code> 或 <code>Expires</code>）。</li>
+<li>如果缓存有效，直接使用缓存资源，不发送请求。</li>
+<li>如果缓存失效，向服务器发送请求。</li>
+</ol>
+<h4 id="（2）协商缓存流程"><a href="#（2）协商缓存流程" class="headerlink" title="（2）协商缓存流程"></a>（2）协商缓存流程</h4><ol>
+<li>客户端请求资源。</li>
+<li>向服务器发送请求，携带 <code>If-Modified-Since</code> 或 <code>If-None-Match</code>。</li>
+<li>服务器检查资源是否更新：<ul>
+<li>如果未更新，返回 <code>304 Not Modified</code>，客户端使用缓存。</li>
+<li>如果已更新，返回新资源并更新缓存。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="5-缓存策略示例"><a href="#5-缓存策略示例" class="headerlink" title="5. 缓存策略示例"></a>5. <strong>缓存策略示例</strong></h3><ul>
+<li><p><strong>静态资源（如图片、CSS、JS）</strong>：</p>
+<ul>
+<li>设置较长的 <code>max-age</code>（如1年），并使用文件哈希或版本号作为文件名，确保更新后客户端获取新资源。</li>
+<li>示例：<code>Cache-Control: public, max-age=31536000</code></li>
+</ul>
+</li>
+<li><p><strong>动态资源（如API响应）</strong>：</p>
+<ul>
+<li>使用 <code>no-cache</code> 或较短的 <code>max-age</code>，确保数据及时更新。</li>
+<li>示例：<code>Cache-Control: no-cache</code></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="6-缓存的最佳实践"><a href="#6-缓存的最佳实践" class="headerlink" title="6. 缓存的最佳实践"></a>6. <strong>缓存的最佳实践</strong></h3><ul>
+<li><strong>合理设置缓存时间</strong>：静态资源缓存时间较长，动态资源缓存时间较短。</li>
+<li><strong>使用版本号或哈希值</strong>：确保资源更新后客户端能获取最新版本。</li>
+<li><strong>结合CDN</strong>：利用CDN的边缘节点缓存资源，进一步加速访问。</li>
+<li><strong>避免过度缓存</strong>：敏感数据或频繁更新的资源应禁用缓存。</li>
+</ul>
+<hr>
+<h3 id="7-缓存的流程图"><a href="#7-缓存的流程图" class="headerlink" title="7. 缓存的流程图"></a>7. <strong>缓存的流程图</strong></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">客户端请求资源</span><br><span class="line">       |</span><br><span class="line">       v</span><br><span class="line">检查强缓存是否有效</span><br><span class="line">       |</span><br><span class="line">       v</span><br><span class="line">有效？ ——是——&gt; 使用缓存</span><br><span class="line">       |</span><br><span class="line">       否</span><br><span class="line">       |</span><br><span class="line">       v</span><br><span class="line">向服务器发送请求</span><br><span class="line">       |</span><br><span class="line">       v</span><br><span class="line">服务器检查资源是否更新</span><br><span class="line">       |</span><br><span class="line">       v</span><br><span class="line">未更新？ ——是——&gt; 返回304，使用缓存</span><br><span class="line">       |</span><br><span class="line">       否</span><br><span class="line">       |</span><br><span class="line">       v</span><br><span class="line">返回新资源，更新缓存</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="总结-2"><a href="#总结-2" class="headerlink" title="总结"></a>总结</h3><p>HTTP缓存机制通过强缓存和协商缓存优化资源加载性能。合理配置缓存策略可以显著提升Web应用的性能和用户体验。</p>
+<h1 id="tcp报文的序列号是随机的，为什么"><a href="#tcp报文的序列号是随机的，为什么" class="headerlink" title="tcp报文的序列号是随机的，为什么"></a>tcp报文的序列号是随机的，为什么</h1><p>TCP报文的序列号（Sequence Number）并不是完全随机的，而是基于特定的规则生成的。它的主要作用是确保数据的有序性和可靠性。以下是TCP序列号的设计原理和生成规则：</p>
+<hr>
+<h3 id="1-序列号的作用"><a href="#1-序列号的作用" class="headerlink" title="1. 序列号的作用"></a>1. <strong>序列号的作用</strong></h3><ul>
+<li><strong>数据排序</strong>：接收方根据序列号对数据包进行排序，确保数据按正确顺序重组。</li>
+<li><strong>可靠性</strong>：通过序列号和确认号（Acknowledgment Number），TCP实现可靠传输，确保数据不丢失、不重复。</li>
+</ul>
+<hr>
+<h3 id="2-序列号的生成规则"><a href="#2-序列号的生成规则" class="headerlink" title="2. 序列号的生成规则"></a>2. <strong>序列号的生成规则</strong></h3><p>TCP序列号的初始值（Initial Sequence Number, ISN）并不是完全随机的，而是基于以下规则生成：</p>
+<ol>
+<li><p><strong>基于时钟</strong>：</p>
+<ul>
+<li>ISN通常基于一个随时间递增的计数器生成。</li>
+<li>例如，许多操作系统使用一个每微秒或每毫秒递增的时钟值作为ISN的基础。</li>
+<li>这样可以确保每次连接的ISN都是唯一的，避免冲突。</li>
+</ul>
+</li>
+<li><p><strong>随机化偏移</strong>：</p>
+<ul>
+<li>为了防止预测攻击（如TCP序列号预测攻击），ISN会在时钟值的基础上加上一个随机偏移量。</li>
+<li>这种随机化使得ISN更难被猜测，提高了安全性。</li>
+</ul>
+</li>
+<li><p><strong>唯一性</strong>：</p>
+<ul>
+<li>ISN的设计需要确保在同一时间内，不同连接的ISN不会重复。</li>
+<li>通过结合时钟值和随机偏移量，可以保证ISN的唯一性。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="3-为什么序列号不能完全随机？"><a href="#3-为什么序列号不能完全随机？" class="headerlink" title="3. 为什么序列号不能完全随机？"></a>3. <strong>为什么序列号不能完全随机？</strong></h3><ul>
+<li><strong>有序性要求</strong>：TCP需要确保数据包按顺序传输和重组。如果序列号完全随机，接收方无法正确排序数据包。</li>
+<li><strong>可靠性要求</strong>：TCP通过序列号和确认号实现可靠传输。完全随机的序列号会导致确认机制失效。</li>
+<li><strong>安全性要求</strong>：完全随机的序列号可能更容易被预测，增加安全风险。</li>
+</ul>
+<hr>
+<h3 id="4-序列号的初始化过程"><a href="#4-序列号的初始化过程" class="headerlink" title="4. 序列号的初始化过程"></a>4. <strong>序列号的初始化过程</strong></h3><p>在TCP三次握手过程中，序列号的初始化如下：</p>
+<ol>
+<li>客户端发送SYN报文，携带一个初始序列号（ISN）。</li>
+<li>服务器回复SYN-ACK报文，携带自己的初始序列号，并确认客户端的序列号。</li>
+<li>客户端发送ACK报文，确认服务器的序列号。</li>
+</ol>
+<hr>
+<h3 id="5-序列号的增长规则"><a href="#5-序列号的增长规则" class="headerlink" title="5. 序列号的增长规则"></a>5. <strong>序列号的增长规则</strong></h3><ul>
+<li>序列号随着发送的数据字节数递增。</li>
+<li>例如，如果发送了100字节的数据，序列号会增加100。</li>
+</ul>
+<hr>
+<h3 id="6-安全性考虑"><a href="#6-安全性考虑" class="headerlink" title="6. 安全性考虑"></a>6. <strong>安全性考虑</strong></h3><ul>
+<li><strong>防止序列号预测攻击</strong>：<ul>
+<li>如果序列号完全随机或可预测，攻击者可能伪造TCP报文，实施中间人攻击或会话劫持。</li>
+<li>通过结合时钟值和随机偏移量，可以降低序列号被预测的风险。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="总结-3"><a href="#总结-3" class="headerlink" title="总结"></a>总结</h3><p>TCP序列号并不是完全随机的，而是基于时钟值和随机偏移量生成的。这种设计既保证了数据的有序性和可靠性，又提高了安全性。序列号的生成规则是TCP协议实现可靠传输和安全通信的重要基础。</p>
+<h1 id="如何让udp可靠"><a href="#如何让udp可靠" class="headerlink" title="如何让udp可靠"></a>如何让udp可靠</h1><p>UDP（用户数据报协议）本身是一个无连接、不可靠的传输协议，但它具有低延迟和高效率的特点。如果需要在UDP上实现可靠传输，可以通过在应用层添加额外的机制来模拟TCP的可靠性。以下是实现可靠UDP的常见方法：</p>
+<hr>
+<h3 id="1-确认机制（Acknowledgment-ACK）"><a href="#1-确认机制（Acknowledgment-ACK）" class="headerlink" title="1. 确认机制（Acknowledgment, ACK）"></a>1. <strong>确认机制（Acknowledgment, ACK）</strong></h3><ul>
+<li><strong>原理</strong>：接收方收到数据后，向发送方发送确认消息（ACK）。</li>
+<li><strong>实现</strong>：<ul>
+<li>每个数据包分配一个唯一序列号（Sequence Number）。</li>
+<li>接收方收到数据后，返回包含序列号的ACK。</li>
+<li>发送方如果没有收到ACK，则重传数据。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="2-超时重传（Retransmission）"><a href="#2-超时重传（Retransmission）" class="headerlink" title="2. 超时重传（Retransmission）"></a>2. <strong>超时重传（Retransmission）</strong></h3><ul>
+<li><strong>原理</strong>：发送方在发送数据后启动计时器，如果超时未收到ACK，则重传数据。</li>
+<li><strong>实现</strong>：<ul>
+<li>为每个数据包设置一个超时时间（RTO, Retransmission Timeout）。</li>
+<li>如果超时未收到ACK，则重传数据包。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="3-序列号（Sequence-Number）"><a href="#3-序列号（Sequence-Number）" class="headerlink" title="3. 序列号（Sequence Number）"></a>3. <strong>序列号（Sequence Number）</strong></h3><ul>
+<li><strong>原理</strong>：为每个数据包分配一个序列号，确保数据的有序性和完整性。</li>
+<li><strong>实现</strong>：<ul>
+<li>发送方为每个数据包分配递增的序列号。</li>
+<li>接收方根据序列号对数据包进行排序和去重。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="4-滑动窗口（Sliding-Window）"><a href="#4-滑动窗口（Sliding-Window）" class="headerlink" title="4. 滑动窗口（Sliding Window）"></a>4. <strong>滑动窗口（Sliding Window）</strong></h3><ul>
+<li><strong>原理</strong>：通过滑动窗口机制控制发送方的发送速率，避免接收方缓冲区溢出。</li>
+<li><strong>实现</strong>：<ul>
+<li>发送方维护一个发送窗口，窗口内的数据可以连续发送。</li>
+<li>接收方维护一个接收窗口，返回ACK时携带窗口大小。</li>
+<li>发送方根据接收方的窗口大小调整发送速率。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="5-数据校验（Checksum）"><a href="#5-数据校验（Checksum）" class="headerlink" title="5. 数据校验（Checksum）"></a>5. <strong>数据校验（Checksum）</strong></h3><ul>
+<li><strong>原理</strong>：通过校验和检测数据在传输过程中是否损坏。</li>
+<li><strong>实现</strong>：<ul>
+<li>发送方计算数据包的校验和并附加到报文中。</li>
+<li>接收方收到数据后重新计算校验和，与报文中的校验和比对。</li>
+<li>如果校验失败，则丢弃数据包并请求重传。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="6-流量控制（Flow-Control）"><a href="#6-流量控制（Flow-Control）" class="headerlink" title="6. 流量控制（Flow Control）"></a>6. <strong>流量控制（Flow Control）</strong></h3><ul>
+<li><strong>原理</strong>：根据接收方的处理能力动态调整发送速率。</li>
+<li><strong>实现</strong>：<ul>
+<li>接收方通过ACK报文反馈当前缓冲区大小。</li>
+<li>发送方根据反馈调整发送速率。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="7-拥塞控制（Congestion-Control）"><a href="#7-拥塞控制（Congestion-Control）" class="headerlink" title="7. 拥塞控制（Congestion Control）"></a>7. <strong>拥塞控制（Congestion Control）</strong></h3><ul>
+<li><strong>原理</strong>：避免网络拥塞，确保公平性和稳定性。</li>
+<li><strong>实现</strong>：<ul>
+<li>使用类似TCP的拥塞控制算法（如慢启动、拥塞避免、快速重传、快速恢复）。</li>
+<li>根据网络状况动态调整发送速率。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="8-实现示例"><a href="#8-实现示例" class="headerlink" title="8. 实现示例"></a>8. <strong>实现示例</strong></h3><p>以下是一个简单的可靠UDP协议设计：</p>
+<ol>
+<li><p><strong>数据包结构</strong>：</p>
+<ul>
+<li>序列号（4字节）</li>
+<li>数据长度（2字节）</li>
+<li>校验和（2字节）</li>
+<li>数据（可变长度）</li>
+</ul>
+</li>
+<li><p><strong>发送方逻辑</strong>：</p>
+<ul>
+<li>为每个数据包分配序列号。</li>
+<li>发送数据包并启动计时器。</li>
+<li>如果收到ACK，则继续发送下一个数据包。</li>
+<li>如果超时未收到ACK，则重传数据包。</li>
+</ul>
+</li>
+<li><p><strong>接收方逻辑</strong>：</p>
+<ul>
+<li>收到数据包后检查校验和。</li>
+<li>如果校验通过，则返回ACK并存储数据。</li>
+<li>如果数据包乱序，则缓存并等待缺失的数据包。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="9-现有可靠UDP协议"><a href="#9-现有可靠UDP协议" class="headerlink" title="9. 现有可靠UDP协议"></a>9. <strong>现有可靠UDP协议</strong></h3><ul>
+<li><strong>QUIC</strong>：Google开发的基于UDP的可靠传输协议，用于HTTP&#x2F;3。</li>
+<li><strong>RUDP</strong>：可靠用户数据报协议，提供了确认、重传和流量控制机制。</li>
+<li><strong>UDT</strong>：基于UDP的高速数据传输协议，适用于大文件传输。</li>
+</ul>
+<hr>
+<h3 id="10-总结"><a href="#10-总结" class="headerlink" title="10. 总结"></a>10. <strong>总结</strong></h3><p>通过添加确认机制、超时重传、序列号、滑动窗口、数据校验、流量控制和拥塞控制等机制，可以在UDP上实现可靠传输。虽然这些机制会增加一定的复杂性和开销，但它们能够在不牺牲UDP高效性的前提下，提供类似TCP的可靠性。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://tongtonglove.github.io/">Star</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://tongtonglove.github.io/2025/03/02/%E7%AC%94%E8%AE%B03-2025-3-2/">http://tongtonglove.github.io/2025/03/02/笔记3-2025-3-2/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="http://tongtonglove.github.io" target="_blank">桐の小窝</a>！</span></div></div><div class="tag_share"><div class="post-share"><div class="social-share" data-image="https://img1.baidu.com/it/u=3323941490,3938731578&amp;fm=253&amp;fmt=auto&amp;app=138&amp;f=JPEG" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="prev-post pull-left" href="/2025/03/02/%E7%AC%94%E8%AE%B04-2025-3-2/" title="笔记4 2025/3/2"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">笔记4 2025/3/2</div></div></a><a class="next-post pull-right" href="/2025/03/02/%E7%AC%94%E8%AE%B0-2025-3-2/" title="笔记2 2025/3/2"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">笔记2 2025/3/2</div></div></a></nav><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="giscus-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info is-center"><div class="avatar-img"><img src="https://img1.baidu.com/it/u=3323941490,3938731578&amp;fm=253&amp;fmt=auto&amp;app=138&amp;f=JPEG" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Star</div><div class="author-info-description">我拥有的避风港 朋友在的地方</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">72</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/tongtonglove"><i class="fab fa-github"></i><span>欢迎来到我的主页</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">你未必光芒万丈 但始终温暖有光</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BC%80%E5%A4%B4%E7%8A%B6%E6%80%81%E7%A0%81"><span class="toc-number">1.</span> <span class="toc-text">开头状态码</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1xx%EF%BC%88%E4%BF%A1%E6%81%AF%E6%80%A7%E7%8A%B6%E6%80%81%E7%A0%81%EF%BC%89"><span class="toc-number">1.1.</span> <span class="toc-text">1. 1xx（信息性状态码）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89100-Continue"><span class="toc-number">1.1.1.</span> <span class="toc-text">（1）100 Continue</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89101-Switching-Protocols"><span class="toc-number">1.1.2.</span> <span class="toc-text">（2）101 Switching Protocols</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-2xx%EF%BC%88%E6%88%90%E5%8A%9F%E7%8A%B6%E6%80%81%E7%A0%81%EF%BC%89"><span class="toc-number">1.2.</span> <span class="toc-text">2. 2xx（成功状态码）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89200-OK"><span class="toc-number">1.2.1.</span> <span class="toc-text">（1）200 OK</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89201-Created"><span class="toc-number">1.2.2.</span> <span class="toc-text">（2）201 Created</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%883%EF%BC%89204-No-Content"><span class="toc-number">1.2.3.</span> <span class="toc-text">（3）204 No Content</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-3xx%EF%BC%88%E9%87%8D%E5%AE%9A%E5%90%91%E7%8A%B6%E6%80%81%E7%A0%81%EF%BC%89"><span class="toc-number">1.3.</span> <span class="toc-text">3. 3xx（重定向状态码）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89301-Moved-Permanently"><span class="toc-number">1.3.1.</span> <span class="toc-text">（1）301 Moved Permanently</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89302-Found"><span class="toc-number">1.3.2.</span> <span class="toc-text">（2）302 Found</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%883%EF%BC%89304-Not-Modified"><span class="toc-number">1.3.3.</span> <span class="toc-text">（3）304 Not Modified</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-4xx%EF%BC%88%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%94%99%E8%AF%AF%E7%8A%B6%E6%80%81%E7%A0%81%EF%BC%89"><span class="toc-number">1.4.</span> <span class="toc-text">4. 4xx（客户端错误状态码）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89400-Bad-Request"><span class="toc-number">1.4.1.</span> <span class="toc-text">（1）400 Bad Request</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89401-Unauthorized"><span class="toc-number">1.4.2.</span> <span class="toc-text">（2）401 Unauthorized</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%883%EF%BC%89403-Forbidden"><span class="toc-number">1.4.3.</span> <span class="toc-text">（3）403 Forbidden</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%884%EF%BC%89404-Not-Found"><span class="toc-number">1.4.4.</span> <span class="toc-text">（4）404 Not Found</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%885%EF%BC%89405-Method-Not-Allowed"><span class="toc-number">1.4.5.</span> <span class="toc-text">（5）405 Method Not Allowed</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-5xx%EF%BC%88%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%94%99%E8%AF%AF%E7%8A%B6%E6%80%81%E7%A0%81%EF%BC%89"><span class="toc-number">1.5.</span> <span class="toc-text">5. 5xx（服务器错误状态码）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89500-Internal-Server-Error"><span class="toc-number">1.5.1.</span> <span class="toc-text">（1）500 Internal Server Error</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89502-Bad-Gateway"><span class="toc-number">1.5.2.</span> <span class="toc-text">（2）502 Bad Gateway</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%883%EF%BC%89503-Service-Unavailable"><span class="toc-number">1.5.3.</span> <span class="toc-text">（3）503 Service Unavailable</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%884%EF%BC%89504-Gateway-Timeout"><span class="toc-number">1.5.4.</span> <span class="toc-text">（4）504 Gateway Timeout</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E6%80%BB%E7%BB%93"><span class="toc-number">1.6.</span> <span class="toc-text">6. 总结</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%883%E6%8F%A1%E6%89%8B4%E6%8C%A5%E6%89%8B%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF3%E5%92%8C4"><span class="toc-number">2.</span> <span class="toc-text">为什么3握手4挥手，为什么是3和4</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%EF%BC%88Three-Way-Handshake%EF%BC%89"><span class="toc-number">2.1.</span> <span class="toc-text">1. 三次握手（Three-Way Handshake）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%EF%BC%9F"><span class="toc-number">2.1.1.</span> <span class="toc-text">（1）为什么是三次握手？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E7%9A%84%E8%BF%87%E7%A8%8B"><span class="toc-number">2.1.2.</span> <span class="toc-text">（2）三次握手的过程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%883%EF%BC%89%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E6%98%AF%E4%B8%A4%E6%AC%A1%E6%88%96%E5%9B%9B%E6%AC%A1%EF%BC%9F"><span class="toc-number">2.1.3.</span> <span class="toc-text">（3）为什么不是两次或四次？</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B%EF%BC%88Four-Way-Handshake%EF%BC%89"><span class="toc-number">2.2.</span> <span class="toc-text">2. 四次挥手（Four-Way Handshake）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B%EF%BC%9F"><span class="toc-number">2.2.1.</span> <span class="toc-text">（1）为什么是四次挥手？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B%E7%9A%84%E8%BF%87%E7%A8%8B"><span class="toc-number">2.2.2.</span> <span class="toc-text">（2）四次挥手的过程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%883%EF%BC%89%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E6%98%AF%E4%B8%89%E6%AC%A1%E6%88%96%E4%BA%94%E6%AC%A1%EF%BC%9F"><span class="toc-number">2.2.3.</span> <span class="toc-text">（3）为什么不是三次或五次？</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E6%80%BB%E7%BB%93"><span class="toc-number">2.3.</span> <span class="toc-text">3. 总结</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#udp%E5%92%8Ctcp%E5%8C%BA%E5%88%AB"><span class="toc-number">3.</span> <span class="toc-text">udp和tcp区别</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E8%BF%9E%E6%8E%A5%E6%96%B9%E5%BC%8F"><span class="toc-number">3.1.</span> <span class="toc-text">1. 连接方式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89TCP"><span class="toc-number">3.1.1.</span> <span class="toc-text">（1）TCP</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89UDP"><span class="toc-number">3.1.2.</span> <span class="toc-text">（2）UDP</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E6%95%B0%E6%8D%AE%E4%BC%A0%E8%BE%93%E6%96%B9%E5%BC%8F"><span class="toc-number">3.2.</span> <span class="toc-text">2. 数据传输方式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89TCP-1"><span class="toc-number">3.2.1.</span> <span class="toc-text">（1）TCP</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89UDP-1"><span class="toc-number">3.2.2.</span> <span class="toc-text">（2）UDP</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E5%8F%AF%E9%9D%A0%E6%80%A7"><span class="toc-number">3.3.</span> <span class="toc-text">3. 可靠性</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89TCP-2"><span class="toc-number">3.3.1.</span> <span class="toc-text">（1）TCP</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89UDP-2"><span class="toc-number">3.3.2.</span> <span class="toc-text">（2）UDP</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E4%BC%A0%E8%BE%93%E6%95%88%E7%8E%87"><span class="toc-number">3.4.</span> <span class="toc-text">4. 传输效率</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89TCP-3"><span class="toc-number">3.4.1.</span> <span class="toc-text">（1）TCP</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89UDP-3"><span class="toc-number">3.4.2.</span> <span class="toc-text">（2）UDP</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E6%B5%81%E9%87%8F%E6%8E%A7%E5%88%B6"><span class="toc-number">3.5.</span> <span class="toc-text">5. 流量控制</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89TCP-4"><span class="toc-number">3.5.1.</span> <span class="toc-text">（1）TCP</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89UDP-4"><span class="toc-number">3.5.2.</span> <span class="toc-text">（2）UDP</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E6%8B%A5%E5%A1%9E%E6%8E%A7%E5%88%B6"><span class="toc-number">3.6.</span> <span class="toc-text">6. 拥塞控制</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89TCP-5"><span class="toc-number">3.6.1.</span> <span class="toc-text">（1）TCP</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89UDP-5"><span class="toc-number">3.6.2.</span> <span class="toc-text">（2）UDP</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-%E5%A4%B4%E9%83%A8%E5%A4%A7%E5%B0%8F"><span class="toc-number">3.7.</span> <span class="toc-text">7. 头部大小</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89TCP-6"><span class="toc-number">3.7.1.</span> <span class="toc-text">（1）TCP</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89UDP-6"><span class="toc-number">3.7.2.</span> <span class="toc-text">（2）UDP</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8-%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF"><span class="toc-number">3.8.</span> <span class="toc-text">8. 适用场景</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89TCP-7"><span class="toc-number">3.8.1.</span> <span class="toc-text">（1）TCP</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89UDP-7"><span class="toc-number">3.8.2.</span> <span class="toc-text">（2）UDP</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#9-%E6%80%BB%E7%BB%93%E5%AF%B9%E6%AF%94"><span class="toc-number">3.9.</span> <span class="toc-text">9. 总结对比</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#10-%E9%80%89%E6%8B%A9%E5%BB%BA%E8%AE%AE"><span class="toc-number">3.10.</span> <span class="toc-text">10. 选择建议</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88tcp%E5%8F%AF%E9%9D%A0"><span class="toc-number">4.</span> <span class="toc-text">为什么tcp可靠</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E8%BF%9E%E6%8E%A5%E7%AE%A1%E7%90%86"><span class="toc-number">4.1.</span> <span class="toc-text">1. 连接管理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B"><span class="toc-number">4.1.1.</span> <span class="toc-text">（1）三次握手</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B"><span class="toc-number">4.1.2.</span> <span class="toc-text">（2）四次挥手</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E6%95%B0%E6%8D%AE%E7%A1%AE%E8%AE%A4%E4%B8%8E%E9%87%8D%E4%BC%A0"><span class="toc-number">4.2.</span> <span class="toc-text">2. 数据确认与重传</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E7%A1%AE%E8%AE%A4%E6%9C%BA%E5%88%B6%EF%BC%88ACK%EF%BC%89"><span class="toc-number">4.2.1.</span> <span class="toc-text">（1）确认机制（ACK）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89%E8%B6%85%E6%97%B6%E9%87%8D%E4%BC%A0"><span class="toc-number">4.2.2.</span> <span class="toc-text">（2）超时重传</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%883%EF%BC%89%E5%BF%AB%E9%80%9F%E9%87%8D%E4%BC%A0"><span class="toc-number">4.2.3.</span> <span class="toc-text">（3）快速重传</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E6%95%B0%E6%8D%AE%E9%A1%BA%E5%BA%8F%E4%B8%8E%E5%AE%8C%E6%95%B4%E6%80%A7"><span class="toc-number">4.3.</span> <span class="toc-text">3. 数据顺序与完整性</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E5%BA%8F%E5%88%97%E5%8F%B7%EF%BC%88Sequence-Number%EF%BC%89"><span class="toc-number">4.3.1.</span> <span class="toc-text">（1）序列号（Sequence Number）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89%E7%A1%AE%E8%AE%A4%E5%8F%B7%EF%BC%88Acknowledgment-Number%EF%BC%89"><span class="toc-number">4.3.2.</span> <span class="toc-text">（2）确认号（Acknowledgment Number）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E6%B5%81%E9%87%8F%E6%8E%A7%E5%88%B6"><span class="toc-number">4.4.</span> <span class="toc-text">4. 流量控制</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%EF%BC%88Sliding-Window%EF%BC%89"><span class="toc-number">4.4.1.</span> <span class="toc-text">（1）滑动窗口（Sliding Window）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E6%8B%A5%E5%A1%9E%E6%8E%A7%E5%88%B6"><span class="toc-number">4.5.</span> <span class="toc-text">5. 拥塞控制</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E6%85%A2%E5%90%AF%E5%8A%A8%EF%BC%88Slow-Start%EF%BC%89"><span class="toc-number">4.5.1.</span> <span class="toc-text">（1）慢启动（Slow Start）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89%E6%8B%A5%E5%A1%9E%E9%81%BF%E5%85%8D%EF%BC%88Congestion-Avoidance%EF%BC%89"><span class="toc-number">4.5.2.</span> <span class="toc-text">（2）拥塞避免（Congestion Avoidance）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%883%EF%BC%89%E5%BF%AB%E9%80%9F%E6%81%A2%E5%A4%8D%EF%BC%88Fast-Recovery%EF%BC%89"><span class="toc-number">4.5.3.</span> <span class="toc-text">（3）快速恢复（Fast Recovery）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E9%94%99%E8%AF%AF%E6%A3%80%E6%B5%8B%E4%B8%8E%E7%BA%A0%E6%AD%A3"><span class="toc-number">4.6.</span> <span class="toc-text">6. 错误检测与纠正</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E6%A0%A1%E9%AA%8C%E5%92%8C%EF%BC%88Checksum%EF%BC%89"><span class="toc-number">4.6.1.</span> <span class="toc-text">（1）校验和（Checksum）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89%E9%87%8D%E4%BC%A0%E6%9C%BA%E5%88%B6"><span class="toc-number">4.6.2.</span> <span class="toc-text">（2）重传机制</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-%E6%80%BB%E7%BB%93"><span class="toc-number">4.7.</span> <span class="toc-text">7. 总结</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BB%8E%E6%B5%8F%E8%A7%88%E5%99%A8%E8%BE%93%E5%85%A5%E4%B8%80%E4%B8%AAurl%EF%BC%8C%E6%8C%89%E4%B8%8B%E5%9B%9E%E8%BD%A6%E5%88%B0%E7%9C%8B%E5%88%B0%E7%95%8C%E9%9D%A2%E7%9A%84%E8%AF%A6%E7%BB%86%E5%85%A8%E8%BF%87%E7%A8%8B"><span class="toc-number">5.</span> <span class="toc-text">从浏览器输入一个url，按下回车到看到界面的详细全过程</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-URL-%E8%A7%A3%E6%9E%90"><span class="toc-number">5.1.</span> <span class="toc-text">1. URL 解析</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E8%A7%A3%E6%9E%90-URL"><span class="toc-number">5.1.1.</span> <span class="toc-text">（1）解析 URL</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89%E6%A3%80%E6%9F%A5%E7%BC%93%E5%AD%98"><span class="toc-number">5.1.2.</span> <span class="toc-text">（2）检查缓存</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-DNS-%E8%A7%A3%E6%9E%90"><span class="toc-number">5.2.</span> <span class="toc-text">2. DNS 解析</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E6%9F%A5%E8%AF%A2-DNS-%E7%BC%93%E5%AD%98"><span class="toc-number">5.2.1.</span> <span class="toc-text">（1）查询 DNS 缓存</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89%E9%80%92%E5%BD%92-DNS-%E6%9F%A5%E8%AF%A2"><span class="toc-number">5.2.2.</span> <span class="toc-text">（2）递归 DNS 查询</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E5%BB%BA%E7%AB%8B-TCP-%E8%BF%9E%E6%8E%A5"><span class="toc-number">5.3.</span> <span class="toc-text">3. 建立 TCP 连接</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B-1"><span class="toc-number">5.3.1.</span> <span class="toc-text">（1）三次握手</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89HTTPS-%E7%9A%84-TLS-%E6%8F%A1%E6%89%8B"><span class="toc-number">5.3.2.</span> <span class="toc-text">（2）HTTPS 的 TLS 握手</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E5%8F%91%E9%80%81-HTTP-%E8%AF%B7%E6%B1%82"><span class="toc-number">5.4.</span> <span class="toc-text">4. 发送 HTTP 请求</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E6%9E%84%E9%80%A0-HTTP-%E8%AF%B7%E6%B1%82"><span class="toc-number">5.4.1.</span> <span class="toc-text">（1）构造 HTTP 请求</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89%E5%8F%91%E9%80%81%E8%AF%B7%E6%B1%82"><span class="toc-number">5.4.2.</span> <span class="toc-text">（2）发送请求</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%A4%84%E7%90%86%E8%AF%B7%E6%B1%82"><span class="toc-number">5.5.</span> <span class="toc-text">5. 服务器处理请求</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E6%8E%A5%E6%94%B6%E8%AF%B7%E6%B1%82"><span class="toc-number">5.5.1.</span> <span class="toc-text">（1）接收请求</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89%E5%A4%84%E7%90%86%E8%AF%B7%E6%B1%82"><span class="toc-number">5.5.2.</span> <span class="toc-text">（2）处理请求</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%883%EF%BC%89%E7%94%9F%E6%88%90%E5%93%8D%E5%BA%94"><span class="toc-number">5.5.3.</span> <span class="toc-text">（3）生成响应</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E6%8E%A5%E6%94%B6-HTTP-%E5%93%8D%E5%BA%94"><span class="toc-number">5.6.</span> <span class="toc-text">6. 接收 HTTP 响应</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E6%8E%A5%E6%94%B6%E5%93%8D%E5%BA%94"><span class="toc-number">5.6.1.</span> <span class="toc-text">（1）接收响应</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89%E8%A7%A3%E6%9E%90%E5%93%8D%E5%BA%94"><span class="toc-number">5.6.2.</span> <span class="toc-text">（2）解析响应</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-%E6%B8%B2%E6%9F%93%E9%A1%B5%E9%9D%A2"><span class="toc-number">5.7.</span> <span class="toc-text">7. 渲染页面</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E8%A7%A3%E6%9E%90-HTML"><span class="toc-number">5.7.1.</span> <span class="toc-text">（1）解析 HTML</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89%E5%8A%A0%E8%BD%BD%E5%A4%96%E9%83%A8%E8%B5%84%E6%BA%90"><span class="toc-number">5.7.2.</span> <span class="toc-text">（2）加载外部资源</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%883%EF%BC%89%E8%A7%A3%E6%9E%90-CSS"><span class="toc-number">5.7.3.</span> <span class="toc-text">（3）解析 CSS</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%884%EF%BC%89%E6%9E%84%E5%BB%BA%E6%B8%B2%E6%9F%93%E6%A0%91"><span class="toc-number">5.7.4.</span> <span class="toc-text">（4）构建渲染树</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%885%EF%BC%89%E5%B8%83%E5%B1%80%EF%BC%88Layout%EF%BC%89"><span class="toc-number">5.7.5.</span> <span class="toc-text">（5）布局（Layout）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%886%EF%BC%89%E7%BB%98%E5%88%B6%EF%BC%88Paint%EF%BC%89"><span class="toc-number">5.7.6.</span> <span class="toc-text">（6）绘制（Paint）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8-%E6%89%A7%E8%A1%8C-JavaScript"><span class="toc-number">5.8.</span> <span class="toc-text">8. 执行 JavaScript</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E8%A7%A3%E6%9E%90%E5%92%8C%E6%89%A7%E8%A1%8C-JS"><span class="toc-number">5.8.1.</span> <span class="toc-text">（1）解析和执行 JS</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89%E4%BA%8B%E4%BB%B6%E5%A4%84%E7%90%86"><span class="toc-number">5.8.2.</span> <span class="toc-text">（2）事件处理</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#9-%E6%80%BB%E7%BB%93"><span class="toc-number">5.9.</span> <span class="toc-text">9. 总结</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88https%E6%98%AF%E5%AE%89%E5%85%A8%E7%9A%84%EF%BC%9F%E5%AE%8C%E6%95%B4%E6%B5%81%E7%A8%8B"><span class="toc-number">6.</span> <span class="toc-text">为什么https是安全的？完整流程</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-HTTPS-%E7%9A%84%E5%AE%89%E5%85%A8%E6%80%A7%E5%8E%9F%E7%90%86"><span class="toc-number">6.1.</span> <span class="toc-text">1. HTTPS 的安全性原理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E5%8A%A0%E5%AF%86%E9%80%9A%E4%BF%A1"><span class="toc-number">6.1.1.</span> <span class="toc-text">（1）加密通信</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81"><span class="toc-number">6.1.2.</span> <span class="toc-text">（2）身份验证</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%883%EF%BC%89%E6%95%B0%E6%8D%AE%E5%AE%8C%E6%95%B4%E6%80%A7"><span class="toc-number">6.1.3.</span> <span class="toc-text">（3）数据完整性</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-HTTPS-%E7%9A%84%E5%AE%8C%E6%95%B4%E6%B5%81%E7%A8%8B"><span class="toc-number">6.2.</span> <span class="toc-text">2. HTTPS 的完整流程</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%8F%91%E8%B5%B7%E8%AF%B7%E6%B1%82"><span class="toc-number">6.2.1.</span> <span class="toc-text">（1）客户端发起请求</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%BF%94%E5%9B%9E%E8%AF%81%E4%B9%A6"><span class="toc-number">6.2.2.</span> <span class="toc-text">（2）服务器返回证书</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%883%EF%BC%89%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%AA%8C%E8%AF%81%E8%AF%81%E4%B9%A6"><span class="toc-number">6.2.3.</span> <span class="toc-text">（3）客户端验证证书</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%884%EF%BC%89%E5%AF%86%E9%92%A5%E4%BA%A4%E6%8D%A2"><span class="toc-number">6.2.4.</span> <span class="toc-text">（4）密钥交换</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%885%EF%BC%89%E5%8A%A0%E5%AF%86%E9%80%9A%E4%BF%A1"><span class="toc-number">6.2.5.</span> <span class="toc-text">（5）加密通信</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-TLS-SSL-%E6%8F%A1%E6%89%8B%E6%B5%81%E7%A8%8B"><span class="toc-number">6.3.</span> <span class="toc-text">3. TLS&#x2F;SSL 握手流程</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89ClientHello"><span class="toc-number">6.3.1.</span> <span class="toc-text">（1）ClientHello</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89ServerHello"><span class="toc-number">6.3.2.</span> <span class="toc-text">（2）ServerHello</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%883%EF%BC%89Server-Certificate"><span class="toc-number">6.3.3.</span> <span class="toc-text">（3）Server Certificate</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%884%EF%BC%89ServerKeyExchange%EF%BC%88%E5%8F%AF%E9%80%89%EF%BC%89"><span class="toc-number">6.3.4.</span> <span class="toc-text">（4）ServerKeyExchange（可选）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%885%EF%BC%89ServerHelloDone"><span class="toc-number">6.3.5.</span> <span class="toc-text">（5）ServerHelloDone</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%886%EF%BC%89ClientKeyExchange"><span class="toc-number">6.3.6.</span> <span class="toc-text">（6）ClientKeyExchange</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%887%EF%BC%89ChangeCipherSpec"><span class="toc-number">6.3.7.</span> <span class="toc-text">（7）ChangeCipherSpec</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%888%EF%BC%89Finished"><span class="toc-number">6.3.8.</span> <span class="toc-text">（8）Finished</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-HTTPS-%E7%9A%84%E5%AE%89%E5%85%A8%E6%80%A7%E6%80%BB%E7%BB%93"><span class="toc-number">6.4.</span> <span class="toc-text">4. HTTPS 的安全性总结</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-HTTPS-%E7%9A%84%E4%BC%98%E7%82%B9"><span class="toc-number">6.5.</span> <span class="toc-text">5. HTTPS 的优点</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E6%95%B0%E6%8D%AE%E5%8A%A0%E5%AF%86"><span class="toc-number">6.5.1.</span> <span class="toc-text">（1）数据加密</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%882%EF%BC%89%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81-1"><span class="toc-number">6.5.2.</span> <span class="toc-text">（2）身份验证</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%883%EF%BC%89%E6%95%B0%E6%8D%AE%E5%AE%8C%E6%95%B4%E6%80%A7-1"><span class="toc-number">6.5.3.</span> <span class="toc-text">（3）数据完整性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%884%EF%BC%89SEO-%E4%BC%98%E5%8A%BF"><span class="toc-number">6.5.4.</span> <span class="toc-text">（4）SEO 优势</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E6%80%BB%E7%BB%93-1"><span class="toc-number">6.6.</span> <span class="toc-text">6. 总结</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#7%E5%B1%82%EF%BC%8C5%E5%B1%82%EF%BC%8C4%E5%B1%82%E5%8D%8F%E8%AE%AE%EF%BC%9F%E6%AF%8F%E5%B1%82%E7%9A%84%E5%B8%B8%E8%A7%81%E5%8D%8F%E8%AE%AE%EF%BC%88%E9%80%81%E5%88%86%EF%BC%89"><span class="toc-number">7.</span> <span class="toc-text">7层，5层，4层协议？每层的常见协议（送分）</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-OSI-%E4%B8%83%E5%B1%82%E6%A8%A1%E5%9E%8B"><span class="toc-number">7.1.</span> <span class="toc-text">1. OSI 七层模型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-TCP-IP-%E5%9B%9B%E5%B1%82%E6%A8%A1%E5%9E%8B"><span class="toc-number">7.2.</span> <span class="toc-text">2. TCP&#x2F;IP 四层模型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E4%BA%94%E5%B1%82%E6%A8%A1%E5%9E%8B"><span class="toc-number">7.3.</span> <span class="toc-text">3. 五层模型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E6%80%BB%E7%BB%93"><span class="toc-number">7.4.</span> <span class="toc-text">4. 总结</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#cookie%E5%92%8Csession%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-number">8.</span> <span class="toc-text">cookie和session的区别</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%AD%98%E5%82%A8%E4%BD%8D%E7%BD%AE"><span class="toc-number">8.0.1.</span> <span class="toc-text">1. 存储位置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%AE%89%E5%85%A8%E6%80%A7"><span class="toc-number">8.0.2.</span> <span class="toc-text">2. 安全性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E5%AD%98%E5%82%A8%E5%A4%A7%E5%B0%8F"><span class="toc-number">8.0.3.</span> <span class="toc-text">3. 存储大小</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F"><span class="toc-number">8.0.4.</span> <span class="toc-text">4. 生命周期</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-%E6%80%A7%E8%83%BD%E5%BD%B1%E5%93%8D"><span class="toc-number">8.0.5.</span> <span class="toc-text">5. 性能影响</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF"><span class="toc-number">8.0.6.</span> <span class="toc-text">6. 使用场景</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8B"><span class="toc-number">8.0.7.</span> <span class="toc-text">示例</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">8.0.8.</span> <span class="toc-text">总结</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#http%E6%9C%89%E5%87%A0%E4%B8%AA%E7%89%88%E6%9C%AC%EF%BC%9F2%E5%92%8C3%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-number">9.</span> <span class="toc-text">http有几个版本？2和3的区别</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#HTTP-%E7%89%88%E6%9C%AC%E6%A6%82%E8%A7%88"><span class="toc-number">9.0.1.</span> <span class="toc-text">HTTP 版本概览</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#HTTP-2-%E5%92%8C-HTTP-3-%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-number">9.0.2.</span> <span class="toc-text">HTTP&#x2F;2 和 HTTP&#x2F;3 的区别</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%BB%E8%A6%81%E6%94%B9%E8%BF%9B%E7%82%B9"><span class="toc-number">9.0.3.</span> <span class="toc-text">主要改进点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF"><span class="toc-number">9.0.4.</span> <span class="toc-text">使用场景</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93-1"><span class="toc-number">9.0.5.</span> <span class="toc-text">总结</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#HTTP%E7%BC%93%E5%AD%98%E6%9C%BA%E5%88%B6"><span class="toc-number">10.</span> <span class="toc-text">HTTP缓存机制</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E7%BC%93%E5%AD%98%E7%9A%84%E4%BD%9C%E7%94%A8"><span class="toc-number">10.0.1.</span> <span class="toc-text">1. 缓存的作用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E7%BC%93%E5%AD%98%E7%B1%BB%E5%9E%8B"><span class="toc-number">10.0.2.</span> <span class="toc-text">2. 缓存类型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E7%BC%93%E5%AD%98%E7%9B%B8%E5%85%B3%E7%9A%84HTTP%E5%A4%B4%E9%83%A8%E5%AD%97%E6%AE%B5"><span class="toc-number">10.0.3.</span> <span class="toc-text">3. 缓存相关的HTTP头部字段</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E5%BC%BA%E7%BC%93%E5%AD%98%E7%9B%B8%E5%85%B3%E5%AD%97%E6%AE%B5"><span class="toc-number">10.0.3.1.</span> <span class="toc-text">（1）强缓存相关字段</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%EF%BC%882%EF%BC%89%E5%8D%8F%E5%95%86%E7%BC%93%E5%AD%98%E7%9B%B8%E5%85%B3%E5%AD%97%E6%AE%B5"><span class="toc-number">10.0.3.2.</span> <span class="toc-text">（2）协商缓存相关字段</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E7%BC%93%E5%AD%98%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B"><span class="toc-number">10.0.4.</span> <span class="toc-text">4. 缓存工作流程</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E5%BC%BA%E7%BC%93%E5%AD%98%E6%B5%81%E7%A8%8B"><span class="toc-number">10.0.4.1.</span> <span class="toc-text">（1）强缓存流程</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%EF%BC%882%EF%BC%89%E5%8D%8F%E5%95%86%E7%BC%93%E5%AD%98%E6%B5%81%E7%A8%8B"><span class="toc-number">10.0.4.2.</span> <span class="toc-text">（2）协商缓存流程</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-%E7%BC%93%E5%AD%98%E7%AD%96%E7%95%A5%E7%A4%BA%E4%BE%8B"><span class="toc-number">10.0.5.</span> <span class="toc-text">5. 缓存策略示例</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-%E7%BC%93%E5%AD%98%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5"><span class="toc-number">10.0.6.</span> <span class="toc-text">6. 缓存的最佳实践</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-%E7%BC%93%E5%AD%98%E7%9A%84%E6%B5%81%E7%A8%8B%E5%9B%BE"><span class="toc-number">10.0.7.</span> <span class="toc-text">7. 缓存的流程图</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93-2"><span class="toc-number">10.0.8.</span> <span class="toc-text">总结</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#tcp%E6%8A%A5%E6%96%87%E7%9A%84%E5%BA%8F%E5%88%97%E5%8F%B7%E6%98%AF%E9%9A%8F%E6%9C%BA%E7%9A%84%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88"><span class="toc-number">11.</span> <span class="toc-text">tcp报文的序列号是随机的，为什么</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%BA%8F%E5%88%97%E5%8F%B7%E7%9A%84%E4%BD%9C%E7%94%A8"><span class="toc-number">11.0.1.</span> <span class="toc-text">1. 序列号的作用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%BA%8F%E5%88%97%E5%8F%B7%E7%9A%84%E7%94%9F%E6%88%90%E8%A7%84%E5%88%99"><span class="toc-number">11.0.2.</span> <span class="toc-text">2. 序列号的生成规则</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E4%B8%BA%E4%BB%80%E4%B9%88%E5%BA%8F%E5%88%97%E5%8F%B7%E4%B8%8D%E8%83%BD%E5%AE%8C%E5%85%A8%E9%9A%8F%E6%9C%BA%EF%BC%9F"><span class="toc-number">11.0.3.</span> <span class="toc-text">3. 为什么序列号不能完全随机？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E5%BA%8F%E5%88%97%E5%8F%B7%E7%9A%84%E5%88%9D%E5%A7%8B%E5%8C%96%E8%BF%87%E7%A8%8B"><span class="toc-number">11.0.4.</span> <span class="toc-text">4. 序列号的初始化过程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-%E5%BA%8F%E5%88%97%E5%8F%B7%E7%9A%84%E5%A2%9E%E9%95%BF%E8%A7%84%E5%88%99"><span class="toc-number">11.0.5.</span> <span class="toc-text">5. 序列号的增长规则</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-%E5%AE%89%E5%85%A8%E6%80%A7%E8%80%83%E8%99%91"><span class="toc-number">11.0.6.</span> <span class="toc-text">6. 安全性考虑</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93-3"><span class="toc-number">11.0.7.</span> <span class="toc-text">总结</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E8%AE%A9udp%E5%8F%AF%E9%9D%A0"><span class="toc-number">12.</span> <span class="toc-text">如何让udp可靠</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E7%A1%AE%E8%AE%A4%E6%9C%BA%E5%88%B6%EF%BC%88Acknowledgment-ACK%EF%BC%89"><span class="toc-number">12.0.1.</span> <span class="toc-text">1. 确认机制（Acknowledgment, ACK）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E8%B6%85%E6%97%B6%E9%87%8D%E4%BC%A0%EF%BC%88Retransmission%EF%BC%89"><span class="toc-number">12.0.2.</span> <span class="toc-text">2. 超时重传（Retransmission）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E5%BA%8F%E5%88%97%E5%8F%B7%EF%BC%88Sequence-Number%EF%BC%89"><span class="toc-number">12.0.3.</span> <span class="toc-text">3. 序列号（Sequence Number）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%EF%BC%88Sliding-Window%EF%BC%89"><span class="toc-number">12.0.4.</span> <span class="toc-text">4. 滑动窗口（Sliding Window）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-%E6%95%B0%E6%8D%AE%E6%A0%A1%E9%AA%8C%EF%BC%88Checksum%EF%BC%89"><span class="toc-number">12.0.5.</span> <span class="toc-text">5. 数据校验（Checksum）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-%E6%B5%81%E9%87%8F%E6%8E%A7%E5%88%B6%EF%BC%88Flow-Control%EF%BC%89"><span class="toc-number">12.0.6.</span> <span class="toc-text">6. 流量控制（Flow Control）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-%E6%8B%A5%E5%A1%9E%E6%8E%A7%E5%88%B6%EF%BC%88Congestion-Control%EF%BC%89"><span class="toc-number">12.0.7.</span> <span class="toc-text">7. 拥塞控制（Congestion Control）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-%E5%AE%9E%E7%8E%B0%E7%A4%BA%E4%BE%8B"><span class="toc-number">12.0.8.</span> <span class="toc-text">8. 实现示例</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#9-%E7%8E%B0%E6%9C%89%E5%8F%AF%E9%9D%A0UDP%E5%8D%8F%E8%AE%AE"><span class="toc-number">12.0.9.</span> <span class="toc-text">9. 现有可靠UDP协议</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#10-%E6%80%BB%E7%BB%93"><span class="toc-number">12.0.10.</span> <span class="toc-text">10. 总结</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2099/02/19/watching/" title="watching(置顶)">watching(置顶)</a><time datetime="2099-02-19T03:57:22.000Z" title="发表于 2099-02-19 11:57:22">2099-02-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/03/02/%E7%AC%94%E8%AE%B04-2025-3-2/" title="笔记4 2025/3/2">笔记4 2025/3/2</a><time datetime="2025-03-02T08:53:18.000Z" title="发表于 2025-03-02 16:53:18">2025-03-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/03/02/%E7%AC%94%E8%AE%B03-2025-3-2/" title="笔记3 2025/3/2">笔记3 2025/3/2</a><time datetime="2025-03-02T07:24:15.000Z" title="发表于 2025-03-02 15:24:15">2025-03-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/03/02/%E7%AC%94%E8%AE%B0-2025-3-2/" title="笔记2 2025/3/2">笔记2 2025/3/2</a><time datetime="2025-03-02T06:19:39.000Z" title="发表于 2025-03-02 14:19:39">2025-03-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/02/27/%E7%AC%94%E8%AE%B02025-2-27/" title="笔记 2025/2/27">笔记 2025/2/27</a><time datetime="2025-02-27T12:17:59.000Z" title="发表于 2025-02-27 20:17:59">2025-02-27</time></div></div></div></div></div></div></main><footer id="footer" style="background: transparent;"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2025 By Star</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">青春有时会彷徨，和我想象不一样；属于青春的疯狂，才是最好的成长。</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script><div class="js-pjax"><script>(()=>{
+  const getGiscusTheme = theme => theme === 'dark' ? 'dark' : 'light'
+
+  const loadGiscus = () => {
+    const config = Object.assign({
+      src: 'https://giscus.app/client.js',
+      'data-repo': 'tongtonglove/comments',
+      'data-repo-id': 'R_kgDONSiMWA',
+      'data-category-id': 'DIC_kwDONSiMWM4Ckdz7',
+      'data-mapping': 'pathname',
+      'data-theme': getGiscusTheme(document.documentElement.getAttribute('data-theme')),
+      'data-reactions-enabled': '1',
+      crossorigin: 'anonymous',
+      async: true
+    },null)
+
+    const ele = document.createElement('script')
+    for (let key in config) {
+      ele.setAttribute(key, config[key])
+    }
+    document.getElementById('giscus-wrap').appendChild(ele)
+  }
+
+  const changeGiscusTheme = theme => {
+    const iframe = document.querySelector('#giscus-wrap iframe')
+    if (iframe) {
+      const message = {
+        giscus: {
+          setConfig: {
+            theme: getGiscusTheme(theme)
+          }
+        }
+      }
+      iframe.contentWindow.postMessage(message, 'https://giscus.app')
+    }
+  }
+
+  btf.addGlobalFn('themeChange', changeGiscusTheme, 'giscus')
+
+  if ('Giscus' === 'Giscus' || !false) {
+    if (false) btf.loadComment(document.getElementById('giscus-wrap'), loadGiscus)
+    else loadGiscus()
+  } else {
+    window.loadOtherComment= loadGiscus
+  }
+})()</script></div><script src="https://myhkw.cn/player/js/jquery.min.js" type="text/javascript"></script><script src="https://myhkw.cn/api/player/demo" id="myhk" key="demo" skin="pinkcat" lr="l" m="1" au="1"></script><script src="/js/title.js"></script><canvas class="fireworks" mobile="true"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>(() => {
+  const pjaxSelectors = ["link[rel=\"canonical\"]","meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+  window.pjax = new Pjax({
+    elements: 'a:not([target="_blank"])',
+    selectors: pjaxSelectors,
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+  })
+
+  const triggerPjaxFn = (val) => {
+    if (!val) return
+    Object.values(val).forEach(fn => fn())
+  }
+
+  document.addEventListener('pjax:send', () => {
+    // removeEventListener
+    btf.removeGlobalFnEvent('pjaxSendOnce')
+    btf.removeGlobalFnEvent('themeChange')
+
+    // reset readmode
+    const $bodyClassList = document.body.classList
+    if ($bodyClassList.contains('read-mode')) $bodyClassList.remove('read-mode')
+
+    triggerPjaxFn(window.globalFn.pjaxSend)
+  })
+
+  document.addEventListener('pjax:complete', () => {
+    btf.removeGlobalFnEvent('pjaxCompleteOnce')
+    document.querySelectorAll('script[data-pjax]').forEach(item => {
+      const newScript = document.createElement('script')
+      const content = item.text || item.textContent || item.innerHTML || ""
+      Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+      newScript.appendChild(document.createTextNode(content))
+      item.parentNode.replaceChild(newScript, item)
+    })
+
+    triggerPjaxFn(window.globalFn.pjaxComplete)
+  })
+
+  document.addEventListener('pjax:error', e => {
+    if (e.request.status === 404) {
+      pjax.loadUrl('/404.html')
+    }
+  })
+})()</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
