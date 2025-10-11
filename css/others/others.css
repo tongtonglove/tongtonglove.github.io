@@ -14,16 +14,19 @@ a:hover {
 	/*font-weight: bold;*/ /* 粗体字符 */
 }
 
-/* 主页所有文章卡片动态光效 */
+/* 主页所有文章卡片动态光效 - 糖果乐园 */
 @keyframes glow {
     0% {
-        box-shadow: 0 0 25px rgba(255, 0, 255, 0.9);
+        box-shadow: 0 0 25px rgba(255, 192, 203, 0.9); /* 粉色 */
     }
-    50% {
-        box-shadow: 0 0 25px rgba(51, 51, 255, 0.9);
+    33% {
+        box-shadow: 0 0 25px rgba(255, 222, 173, 0.9); /* 杏仁黄 */
+    }
+    66% {
+        box-shadow: 0 0 25px rgba(221, 160, 221, 0.9); /* 紫罗兰 */
     }
     100% {
-        box-shadow: 0 0 25px rgba(255, 0, 255, 0.9);
+        box-shadow: 0 0 25px rgba(255, 192, 203, 0.9); /* 粉色 */
     }
 }
 
