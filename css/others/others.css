@@ -82,9 +82,10 @@ a:hover {
 }
 
 /* 黑夜模式下*/
-[data-theme='dark'] #recent-posts > .recent-post-item{
+[data-theme='dark'] .recent-post-item{
     background:rgba(0, 0, 0, 0.6)!important;
 }
+
 [data-theme='dark'] .card-widget{
   background:rgba(0, 0, 0, 0.9)!important;
 }
