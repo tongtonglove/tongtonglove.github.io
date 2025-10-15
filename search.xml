@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>强制刷新浏览器</title>
+      <link href="/2025/10/15/%E5%BC%BA%E5%88%B6%E5%88%B7%E6%96%B0%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+      <url>/2025/10/15/%E5%BC%BA%E5%88%B6%E5%88%B7%E6%96%B0%E6%B5%8F%E8%A7%88%E5%99%A8/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Windows/Linux: Ctrl + Shift + R</span></span><br><span class="line"><span class="comment"># Mac: Cmd + Shift + R</span></span><br><span class="line"><span class="comment"># 或打开开发者工具，右键刷新按钮选择&quot;空缓存并硬性重新加载&quot;</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Just For Fun</title>
       <link href="/2025/10/15/just-for-fun/"/>
       <url>/2025/10/15/just-for-fun/</url>
