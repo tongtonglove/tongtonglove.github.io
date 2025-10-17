@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>linux 0.1</title>
-      <link href="/2025/10/16/linux-0-1/"/>
-      <url>/2025/10/16/linux-0-1/</url>
+      <title>linux 0.11</title>
+      <link href="/2025/10/16/linux-0-11/"/>
+      <url>/2025/10/16/linux-0-11/</url>
       
-        <content type="html"><![CDATA[<p>去找了《操作系统：设计与实现》，翻了一会，一点想看的欲望也没有。像我课本一样，密密麻麻的全是字儿。</p><p>想着在虚拟机装个早期的Linux，然后转头又点进B站了，给我推了一个讲解Linux0.1内核的视频，看了三集，感觉up老师讲的挺好，转载收藏一下。</p><p>可惜我上学期关于汇编语言和微机原理这俩门课没怎么认真听，不过也挺好，现在的我可不是上学期那个我了，当时听了的话未必有今天的恍然小悟。</p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=310669222&bvid=BV1GP411f7sR&cid=1046214301&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=908330830&bvid=BV1ZM4y167j8&cid=1049032222&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=225818527&bvid=BV1yb411f7o4&cid=1049104283&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe><p>特意找找不到，瞎转悠却能发现一些东西，怎么老是这样，说不定我真是天选之子。</p>]]></content>
+        <content type="html"><![CDATA[<p>去找了《操作系统：设计与实现》，翻了一会，一点想看的欲望也没有。像我课本一样，密密麻麻的全是字儿。</p><p>想着在虚拟机装个早期的Linux，然后转头又点进B站了，给我推了一个讲解Linux0.11内核的视频，看了三集，感觉up老师讲的挺好，转载收藏一下。</p><p>可惜我上学期关于汇编语言和微机原理这俩门课没怎么认真听，不过也挺好，现在的我可不是上学期那个我了，当时听了的话未必有今天的恍然小悟。</p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=310669222&bvid=BV1GP411f7sR&cid=1046214301&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=908330830&bvid=BV1ZM4y167j8&cid=1049032222&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=225818527&bvid=BV1yb411f7o4&cid=1049104283&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe><p>特意找找不到，瞎转悠却能发现一些东西，怎么老是这样，说不定我真是天选之子。</p>]]></content>
       
       
       
