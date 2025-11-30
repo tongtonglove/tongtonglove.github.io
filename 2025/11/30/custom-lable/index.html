@@ -1,0 +1,293 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>custom lable | 桐の小窝</title><meta name="author" content="Star"><meta name="copyright" content="Star"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="错误提示信息（ERROR 信息） 整理，再结合 自定义标签（Custom Label） ，做一个完整版本，部署到 Salesforce 开发 &#x2F; 测试 &#x2F; 生产环境中。👇 拆解关键概念：  Custom Label：Salesforce 里的 “多语言文案容器”，能存储错误提示、按钮文字等，支持多语言切换，方便统一管理和维护。 核心动作：先整理零散的错误提示，用 Custom">
+<meta property="og:type" content="article">
+<meta property="og:title" content="custom lable">
+<meta property="og:url" content="http://tongtonglove.github.io/2025/11/30/custom-lable/index.html">
+<meta property="og:site_name" content="桐の小窝">
+<meta property="og:description" content="错误提示信息（ERROR 信息） 整理，再结合 自定义标签（Custom Label） ，做一个完整版本，部署到 Salesforce 开发 &#x2F; 测试 &#x2F; 生产环境中。👇 拆解关键概念：  Custom Label：Salesforce 里的 “多语言文案容器”，能存储错误提示、按钮文字等，支持多语言切换，方便统一管理和维护。 核心动作：先整理零散的错误提示，用 Custom">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://img.tuxiangyan.com/zb_users/upload/2022/11/202211091667977103871579.jpg">
+<meta property="article:published_time" content="2025-11-30T14:59:06.000Z">
+<meta property="article:modified_time" content="2025-11-30T14:59:46.521Z">
+<meta property="article:author" content="Star">
+<meta property="article:tag" content="salesforce">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img.tuxiangyan.com/zb_users/upload/2022/11/202211091667977103871579.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://tongtonglove.github.io/2025/11/30/custom-lable/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!true && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        if (name && globalFn[key][name]) return
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'medium_zoom',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'custom lable',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2025-11-30 22:59:46'
+}</script><link rel="stylesheet" href="/css/fontSetting.css"><link rel="stylesheet" href="/css/others/others.css"><meta name="generator" content="Hexo 7.1.1"></head><body><div id="web_bg" style="background-image: url(https://ts1.tc.mm.bing.net/th/id/R-C.2538e3f7cca03de7ceee924cc8d424d5?rik=DCPPqPQLP%2bSNVg&amp;riu=http%3a%2f%2fwww.005.tv%2fuploads%2fcompress%2fallimg%2f170223%2f1S62W219-10.jpg&amp;ehk=1AxCXm66M7SnjwR%2b8Xs5bEtaGGFcpJ1uFbrBwJOfnKk%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://img.tuxiangyan.com/zb_users/upload/2022/11/202211091667977103871579.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">12</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-archive"></i><span> 小玩意</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/list/"><i class="fa-fw fas fa-list"></i><span> 桐の待办</span></a></li><li><a class="site-page child" href="/photos/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li><li><a class="site-page child" href="/collect/"><i class="fa-fw fas fa-video"></i><span> 藏宝阁</span></a></li><li><a class="site-page child" href="/toolbox/"><i class="fa-fw fas fa-archive"></i><span> 工具箱</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg fixed" id="page-header" style="background: transparent;"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">桐の小窝</span></a><a class="nav-page-title" href="/"><span class="site-name">custom lable</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-archive"></i><span> 小玩意</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/list/"><i class="fa-fw fas fa-list"></i><span> 桐の待办</span></a></li><li><a class="site-page child" href="/photos/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li><li><a class="site-page child" href="/collect/"><i class="fa-fw fas fa-video"></i><span> 藏宝阁</span></a></li><li><a class="site-page child" href="/toolbox/"><i class="fa-fw fas fa-archive"></i><span> 工具箱</span></a></li></ul></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">custom lable</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-11-30T14:59:06.000Z" title="发表于 2025-11-30 22:59:06">2025-11-30</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-11-30T14:59:46.521Z" title="更新于 2025-11-30 22:59:46">2025-11-30</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p><strong>错误提示信息（ERROR 信息）</strong> 整理，再结合 <strong>自定义标签（Custom Label）</strong> ，做一个完整版本，部署到 Salesforce 开发 &#x2F; 测试 &#x2F; 生产环境中。👇</p>
+<p>拆解关键概念：</p>
+<ul>
+<li>Custom Label：Salesforce 里的 “多语言文案容器”，能存储错误提示、按钮文字等，支持多语言切换，方便统一管理和维护。</li>
+<li>核心动作：先整理零散的错误提示，用 Custom Label 统一存储（替代硬编码的文案），最后把这版配置 &#x2F; 代码部署到指定环境，让系统能正常调用这些标准化的错误提示。</li>
+</ul>
+<p>梳理 Salesforce 中 Custom Label 的创建步骤，或者部署相关的 CLI 命令👇</p>
+<h3 id="Custom-Label-创建步骤"><a href="#Custom-Label-创建步骤" class="headerlink" title="Custom Label 创建步骤"></a>Custom Label 创建步骤</h3><ol>
+<li>登录 Salesforce 后，点击右上角齿轮图标进入<strong>Setup</strong>（设置）。</li>
+<li>在快速搜索框输入 “Custom Labels” 并点击进入该选项。</li>
+<li>点击<strong>New Custom Label</strong>按钮，填写关键信息：标签名称（自动生成唯一标识名）、显示文本（比如整理好的错误提示内容）、选择语言，还可填写分类方便管理。</li>
+<li>若需多语言适配，可在该标签页的 “Translations” 栏点击<strong>New</strong>，选择目标语言并填写对应文本，最后点击<strong>Save</strong>完成创建。</li>
+</ol>
+<h3 id="常用部署-CLI-命令"><a href="#常用部署-CLI-命令" class="headerlink" title="常用部署 CLI 命令"></a>常用部署 CLI 命令</h3><p>先通过<code>npm install --global @salesforce/cli</code>安装新版 CLI，后续核心命令如下：</p>
+<ol>
+<li><strong>登录对应环境</strong>：生产环境用<code>sf org login web --alias myOrg --instance-url https://login.salesforce.com</code>；沙箱环境用<code>sf org login web --alias mySandbox --instance-url https://test.salesforce.com</code>。</li>
+<li><strong>生成项目目录</strong>：执行<code>sf project generate --name my-salesforce-project</code>，再进入目录<code>cd my-salesforce-project</code>。</li>
+<li><strong>部署全部元数据</strong>：将整理好的 Custom Label 等配置部署到环境，命令为<code>sf deploy metadata --target-org 你的环境别名 --source-dir force-app</code>。</li>
+<li><strong>单独部署 Custom Label</strong>：若仅部署标签，可指定元数据类型，命令为<code>sf deploy metadata --target-org 你的环境别名 --metadata CustomLabel</code>。</li>
+<li><strong>验证部署</strong>：部署后可通过<code>sf org list</code>确认环境连接状态，确保配置成功同步。</li>
+</ol>
+<h3 id="举个具体例子（整理ERROR）👇"><a href="#举个具体例子（整理ERROR）👇" class="headerlink" title="举个具体例子（整理ERROR）👇"></a>举个具体例子（整理ERROR）👇</h3><h3 id="重新举个具体例子👇"><a href="#重新举个具体例子👇" class="headerlink" title="重新举个具体例子👇"></a>重新举个具体例子👇</h3><p>让我们换一个实际中经常遇到的场景：<strong>验证某个自定义字段</strong>。</p>
+<p>假设我们为“客户”对象添加了一个自定义字段 <code>重要等级__c</code>。业务规则是：<strong>当“客户”的“类型”被设置为“重要客户”时，“重要等级”字段必须填写。</strong></p>
+<p>这个验证是标准功能无法实现的，<em>完美</em>适用于我们的触发器。</p>
+<h4 id="第一步：创建新的自定义标签"><a href="#第一步：创建新的自定义标签" class="headerlink" title="第一步：创建新的自定义标签"></a><strong>第一步：创建新的自定义标签</strong></h4><ol>
+<li>进入 <strong>设置</strong> -&gt; <strong>自定义标签</strong>。</li>
+<li>点击 <strong>新建自定义标签</strong>。</li>
+<li>填写如下：<ul>
+<li><strong>名称</strong>: <code>Important_Rating_Required_Error</code></li>
+<li><strong>值</strong>: <code>错误：对于“重要客户”，必须填写“重要等级”。</code></li>
+</ul>
+</li>
+<li>点击 <strong>保存</strong>。</li>
+</ol>
+<h4 id="第二步：修改触发器代码"><a href="#第二步：修改触发器代码" class="headerlink" title="第二步：修改触发器代码"></a><strong>第二步：修改触发器代码</strong></h4><p>现在，我们将触发器逻辑更新为更实用的验证规则。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">trigger AccountValidationTrigger on Account (before insert, before update) &#123;</span><br><span class="line"></span><br><span class="line">    for(Account acc : Trigger.new) &#123;</span><br><span class="line">        // 新的逻辑：检查如果是&quot;重要客户&quot;，并且&quot;重要等级&quot;为空</span><br><span class="line">        if (acc.Type == &#x27;重要客户&#x27; &amp;&amp; String.isBlank(acc.Important_Rating__c)) &#123;</span><br><span class="line">            // 从自定义标签中获取错误信息</span><br><span class="line">            String errorMessage = System.Label.Important_Rating_Required_Error;</span><br><span class="line">            </span><br><span class="line">            // 将错误添加到当前记录中，阻止其保存</span><br><span class="line">            acc.addError(errorMessage);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="第三步：测试修正后的触发器"><a href="#第三步：测试修正后的触发器" class="headerlink" title="第三步：测试修正后的触发器"></a><strong>第三步：测试修正后的触发器</strong></h4><ol>
+<li><p>进入一个 <strong>客户</strong> 页面，点击 <strong>新建</strong>。</p>
+</li>
+<li><p>填写 <strong>客户名称</strong> (这个是系统强制的，必须填)。</p>
+</li>
+<li><p>在 <strong>类型</strong> 字段中，选择 <strong>重要客户</strong>。</p>
+</li>
+<li><p><strong>故意留空</strong> <strong>重要等级</strong> 字段。</p>
+</li>
+<li><p>点击 <strong>保存</strong>。</p>
+</li>
+</ol>
+<p><strong>预期结果</strong>：<br>这次，您将看到我们自定义的错误消息：<code>错误：对于“重要客户”，必须填写“重要等级”。</code>。记录将无法保存。</p>
+<p>当您从 <strong>类型</strong> 中取消选择“重要客户”，或者填写了 <strong>重要等级</strong> 字段后，记录就可以正常保存了。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://tongtonglove.github.io/">Star</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://tongtonglove.github.io/2025/11/30/custom-lable/">http://tongtonglove.github.io/2025/11/30/custom-lable/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="http://tongtonglove.github.io" target="_blank">桐の小窝</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/salesforce/">salesforce</a></div><div class="post-share"><div class="social-share" data-image="https://img.tuxiangyan.com/zb_users/upload/2022/11/202211091667977103871579.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="next-post pull-full" href="/2025/10/31/fight-or-flight/" title="fight or flight"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">fight or flight</div></div></a></nav><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="giscus-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info is-center"><div class="avatar-img"><img src="https://img.tuxiangyan.com/zb_users/upload/2022/11/202211091667977103871579.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Star</div><div class="author-info-description">我拥有的避风港 朋友在的地方</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">12</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/tongtonglove"><i class="fab fa-github"></i><span>欢迎来到我的主页</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">你未必光芒万丈 但始终温暖有光</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Custom-Label-%E5%88%9B%E5%BB%BA%E6%AD%A5%E9%AA%A4"><span class="toc-number">1.</span> <span class="toc-text">Custom Label 创建步骤</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E7%94%A8%E9%83%A8%E7%BD%B2-CLI-%E5%91%BD%E4%BB%A4"><span class="toc-number">2.</span> <span class="toc-text">常用部署 CLI 命令</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%BE%E4%B8%AA%E5%85%B7%E4%BD%93%E4%BE%8B%E5%AD%90%EF%BC%88%E6%95%B4%E7%90%86ERROR%EF%BC%89%F0%9F%91%87"><span class="toc-number">3.</span> <span class="toc-text">举个具体例子（整理ERROR）👇</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%87%8D%E6%96%B0%E4%B8%BE%E4%B8%AA%E5%85%B7%E4%BD%93%E4%BE%8B%E5%AD%90%F0%9F%91%87"><span class="toc-number">4.</span> <span class="toc-text">重新举个具体例子👇</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E6%AD%A5%EF%BC%9A%E5%88%9B%E5%BB%BA%E6%96%B0%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A0%87%E7%AD%BE"><span class="toc-number">4.1.</span> <span class="toc-text">第一步：创建新的自定义标签</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E6%AD%A5%EF%BC%9A%E4%BF%AE%E6%94%B9%E8%A7%A6%E5%8F%91%E5%99%A8%E4%BB%A3%E7%A0%81"><span class="toc-number">4.2.</span> <span class="toc-text">第二步：修改触发器代码</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E6%AD%A5%EF%BC%9A%E6%B5%8B%E8%AF%95%E4%BF%AE%E6%AD%A3%E5%90%8E%E7%9A%84%E8%A7%A6%E5%8F%91%E5%99%A8"><span class="toc-number">4.3.</span> <span class="toc-text">第三步：测试修正后的触发器</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/11/30/custom-lable/" title="custom lable">custom lable</a><time datetime="2025-11-30T14:59:06.000Z" title="发表于 2025-11-30 22:59:06">2025-11-30</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/10/31/fight-or-flight/" title="fight or flight">fight or flight</a><time datetime="2025-10-31T13:55:19.000Z" title="发表于 2025-10-31 21:55:19">2025-10-31</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/10/26/%E8%A7%86%E9%A2%91/" title="视频">视频</a><time datetime="2025-10-26T11:27:21.000Z" title="发表于 2025-10-26 19:27:21">2025-10-26</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/10/16/linux-0-11/" title="linux 0.11">linux 0.11</a><time datetime="2025-10-16T12:29:33.000Z" title="发表于 2025-10-16 20:29:33">2025-10-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/10/15/%E5%BC%BA%E5%88%B6%E5%88%B7%E6%96%B0%E6%B5%8F%E8%A7%88%E5%99%A8/" title="强制刷新浏览器">强制刷新浏览器</a><time datetime="2025-10-15T14:59:41.000Z" title="发表于 2025-10-15 22:59:41">2025-10-15</time></div></div></div></div></div></div></main><footer id="footer" style="background: transparent;"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2025 By Star</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">青春有时会彷徨，和我想象不一样；属于青春的疯狂，才是最好的成长。</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script><div class="js-pjax"><script>(()=>{
+  const getGiscusTheme = theme => theme === 'dark' ? 'dark' : 'light'
+
+  const loadGiscus = () => {
+    const config = Object.assign({
+      src: 'https://giscus.app/client.js',
+      'data-repo': 'tongtonglove/comments',
+      'data-repo-id': 'R_kgDONSiMWA',
+      'data-category-id': 'DIC_kwDONSiMWM4Ckdz7',
+      'data-mapping': 'pathname',
+      'data-theme': getGiscusTheme(document.documentElement.getAttribute('data-theme')),
+      'data-reactions-enabled': '1',
+      crossorigin: 'anonymous',
+      async: true
+    },null)
+
+    const ele = document.createElement('script')
+    for (let key in config) {
+      ele.setAttribute(key, config[key])
+    }
+    document.getElementById('giscus-wrap').appendChild(ele)
+  }
+
+  const changeGiscusTheme = theme => {
+    const iframe = document.querySelector('#giscus-wrap iframe')
+    if (iframe) {
+      const message = {
+        giscus: {
+          setConfig: {
+            theme: getGiscusTheme(theme)
+          }
+        }
+      }
+      iframe.contentWindow.postMessage(message, 'https://giscus.app')
+    }
+  }
+
+  btf.addGlobalFn('themeChange', changeGiscusTheme, 'giscus')
+
+  if ('Giscus' === 'Giscus' || !false) {
+    if (false) btf.loadComment(document.getElementById('giscus-wrap'), loadGiscus)
+    else loadGiscus()
+  } else {
+    window.loadOtherComment= loadGiscus
+  }
+})()</script></div><script src="https://myhkw.cn/player/js/jquery.min.js" type="text/javascript"></script><script src="https://myhkw.cn/api/player/demo" id="myhk" key="demo" skin="pinkcat" lr="l" m="1" au="1"></script><script src="/js/title.js"></script><canvas class="fireworks" mobile="true"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>(() => {
+  const pjaxSelectors = ["link[rel=\"canonical\"]","meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+  window.pjax = new Pjax({
+    elements: 'a:not([target="_blank"])',
+    selectors: pjaxSelectors,
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+  })
+
+  const triggerPjaxFn = (val) => {
+    if (!val) return
+    Object.values(val).forEach(fn => fn())
+  }
+
+  document.addEventListener('pjax:send', () => {
+    // removeEventListener
+    btf.removeGlobalFnEvent('pjaxSendOnce')
+    btf.removeGlobalFnEvent('themeChange')
+
+    // reset readmode
+    const $bodyClassList = document.body.classList
+    if ($bodyClassList.contains('read-mode')) $bodyClassList.remove('read-mode')
+
+    triggerPjaxFn(window.globalFn.pjaxSend)
+  })
+
+  document.addEventListener('pjax:complete', () => {
+    btf.removeGlobalFnEvent('pjaxCompleteOnce')
+    document.querySelectorAll('script[data-pjax]').forEach(item => {
+      const newScript = document.createElement('script')
+      const content = item.text || item.textContent || item.innerHTML || ""
+      Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+      newScript.appendChild(document.createTextNode(content))
+      item.parentNode.replaceChild(newScript, item)
+    })
+
+    triggerPjaxFn(window.globalFn.pjaxComplete)
+  })
+
+  document.addEventListener('pjax:error', e => {
+    if (e.request.status === 404) {
+      pjax.loadUrl('/404.html')
+    }
+  })
+})()</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
